@@ -1,4 +1,4 @@
-# DarkMessiah-Restoration-Mod-Files
+# Dark Messiah Restoration Mod Files
 The mod files for the DM Restoration Mod. This is the final set of files, not compliable code.
 
 # How to Install
