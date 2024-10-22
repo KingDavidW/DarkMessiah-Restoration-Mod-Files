@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Nature/RT_Webs/RT_Webs02"
+	"$surfaceprop" "grass"
+	"$translucent" 1
+	"$additive" "1"	
+}

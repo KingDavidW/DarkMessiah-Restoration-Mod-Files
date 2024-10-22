@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$model" 1
+	"$baseTexture"	"arkane/magic/arkane_detect_secret"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" .15
+			"texturescrollangle" 0.0
+		}
+	}
+}

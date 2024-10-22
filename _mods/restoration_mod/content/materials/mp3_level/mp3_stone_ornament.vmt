@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L08/L08_stone_ornament"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L08/L08_stone_ornament_normal"
+	"%keywords" "L08"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[0.1 0.1 0.1]"
+}

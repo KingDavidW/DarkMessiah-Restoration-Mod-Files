@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/l07_grasspatch_manu"
+			"$translucent" 1
+	"$decal" 1
+}

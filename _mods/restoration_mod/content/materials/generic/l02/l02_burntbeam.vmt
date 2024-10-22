@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L02/L02_burntbeam"
+	"$surfaceprop" "WoodBurn"
+	"$bumpmap" "Generic/L02/L02_burntbeam_normal"
+
+	"%keywords" "L02"
+}

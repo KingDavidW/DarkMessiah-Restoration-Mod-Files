@@ -1,0 +1,7 @@
+"Lightmappedgeneric"
+{
+	"$baseTexture"	"generic/l01/l01_door_notuseable"
+	"$surfaceprop" "Wood"
+	"$bumpmap" "generic/l01/l01_door_notuse_normal"
+	"%keywords" "L01"
+}

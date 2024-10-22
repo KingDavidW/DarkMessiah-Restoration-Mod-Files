@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/climb_plants_G_Lft"
+	"$translucent" 1
+	"$decal" 1
+}

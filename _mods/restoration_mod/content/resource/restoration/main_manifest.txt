@@ -1,0 +1,8 @@
+closecaption_manifest
+{
+	"load_file"		"resource/restoration/chapters_%language%.txt"
+	"load_file"		"resource/restoration/bonusmap_%language%.txt"
+	"load_file"		"resource/restoration/restored_%language%.txt"
+	"load_file"		"resource/restoration/coop_%language%.txt"
+	"load_file"		"resource/restoration/arena_%language%.txt"
+}

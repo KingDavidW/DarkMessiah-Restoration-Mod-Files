@@ -1,0 +1,20 @@
+"WorldVertexTransition"
+{
+
+	
+	"$basetexture" "generic/l02_z/l02_z_rock01_D"
+	"$basetexture2" "generic/l02_z/l02_z_rock03_D"
+
+	"%tooltexture" "generic/l11/blend_l11_grassearth"
+
+
+	"$bumpmap" "generic/l02_z/l02_z_rock01_N"
+	"$bumpmap2" "generic/l02_z/l02_z_rock01_N"
+	
+	
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "Rock"
+	"$surfaceprop2" "Grass"
+}

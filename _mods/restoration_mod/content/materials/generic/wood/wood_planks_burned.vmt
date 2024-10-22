@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Wood/Wood_planks_burned"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Generic/Wood/Wood_planks_burned_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

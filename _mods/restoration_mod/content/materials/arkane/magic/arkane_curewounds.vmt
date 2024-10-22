@@ -1,0 +1,30 @@
+"Refract"
+{
+	"$model" 1
+	"$refractamount" "30.0"
+//	"$refractamount" "0.0"
+	"$refracttint" "[1.0 1 1]"
+
+	"$dudvmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+
+	"$surfaceprop" "water"
+	"$bumpframe" "0"
+//	"$REFRACTTINTTEXTURE" "arkane/Magic/Arkane_detect_secret"
+	"Proxies"
+	{
+	//	"AnimatedTexture"
+	//	{
+	//		"animatedtexturevar" "$normalmap"
+	//		"animatedtextureframenumvar" "$bumpframe"
+	//		"animatedtextureframerate" 15.00
+	//	}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 90.0
+		}
+	}
+}

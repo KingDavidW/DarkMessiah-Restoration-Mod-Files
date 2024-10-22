@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L01/L01_Earth_01"
+	"$basetexture2" "Generic/L01/L01_cobstone"
+
+	"%tooltexture" "generic/L01/blend_L01_earthcobstone"
+	"%keywords" "L01"
+
+	"$bumpmap" "Generic/L01/L01_Earth_01_normal"
+	"$bumpmap2" "Generic/L01/L01_cobstone_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "stone"
+
+	//"worldvertextransition_HDR_dx9" ???
+	"worldvertextransition_HDR_dx9"
+		{
+       		"$envmaptint" "[.4 .4 .4]"
+		}
+}

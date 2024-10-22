@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/L01_Thatch_03"
+	"$decal" 1
+	"$decalscale" .20
+
+"$surfaceprop" "Dirt"
+
+}

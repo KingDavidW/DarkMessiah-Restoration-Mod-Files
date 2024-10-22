@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+
+{
+	
+	"$baseTexture"	"Generic/L01/L01_thatch_a"
+	"$surfaceprop" "Grass"
+	"$bumpmap" "Generic/L01/L01_thatch_a_normal"
+}

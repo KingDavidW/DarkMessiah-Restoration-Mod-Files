@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L01/L01_oldstone02"
+	"$basetexture2" "Generic/L01/L01_tidelands"
+	
+	"%tooltexture" "generic/L01/blend_L01_oldstonetidelands"
+
+	//"%detailtype" "Green_grass"
+	"%keywords" "L02_z"
+
+	"$bumpmap" "Generic/L01/L01_oldstone02_normal"
+	"$bumpmap2" "Generic/L01/L01_tidelands_normal"
+
+	"$surfaceprop" "Rock"
+	"$surfaceprop2" "Grass"
+}

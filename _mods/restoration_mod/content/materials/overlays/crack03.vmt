@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/crack03"
+	//"$bumpmap" "overlays/crack03_normal"
+	"$translucent" 1
+	"$decal" 1
+}

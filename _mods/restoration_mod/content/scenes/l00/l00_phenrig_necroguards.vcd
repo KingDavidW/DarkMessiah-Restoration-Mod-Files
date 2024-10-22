@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Speak"
+  {
+    event speak "l00_phenrig_necroguards1"
+    {
+      time 0.053333 14.683039
+      param "l00_phenrig_necroguards1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "20"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

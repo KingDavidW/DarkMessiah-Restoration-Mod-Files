@@ -1,0 +1,119 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "sound"
+  {
+    event speak "l00_phenrig_combine2c"
+    {
+      time 0.333333 2.560000
+      param "l00_phenrig_combine2c"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "flex"
+  {
+    event flexanimation "flex"
+    {
+      time 0.000000 3.000000
+      param ""
+      flexanimations samples_use_time
+      {
+        "outer_raiser"         combo        
+        {
+          0.0085 0.0000
+          0.1489 0.7300
+          0.1968 0.8100
+          1.1796 0.9400
+          2.4945 0.7300
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.426667
+      param ""
+    }
+    event gesture "gesture"
+    {
+      time 0.020000 1.983015
+      param "gesture_arms_3"
+      absolutetags playback_time
+      {
+        "in" 0.134372
+        "out" 0.820838
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "gesture_point"
+    {
+      time 1.253333 2.893333
+      param "gesture_point_1"
+      absolutetags playback_time
+      {
+        "in" 0.230478
+        "out" 0.833617
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "idle0"
+    {
+      time 0.000000 3.000000
+      param "idle_0"
+      event_ramp
+      {
+        0.0000 0.9927
+        0.2780 0.0000
+        2.4120 0.0000
+        2.7140 1.0000
+        3.0000 1.0000
+      }
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time 0.000000 3.000000
+      param "!player"
+    }
+  }
+  channel "Fait face"
+  {
+    event face "face moi"
+    {
+      time 0.000000 3.000000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "40"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

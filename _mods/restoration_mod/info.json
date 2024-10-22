@@ -1,0 +1,10 @@
+{
+	"name"				    :	"Restoration Mod",
+	"description"		    :	"Cut content, bug fixes, Elements, and more!",
+	"author"			    :	"wiltOS Technologies",
+	"website"			    : 	"www.wiltostech.com",
+	"launch_parameters"		:	[],
+    "modules"               :   ["dmmm_restoration.dll"],
+	"version"				: 	"R0-10.24",
+	"localization_manifests":	["resource/restoration/main_manifest.txt"]
+}

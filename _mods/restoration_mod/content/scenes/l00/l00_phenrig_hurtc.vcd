@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Speak"
+  {
+    event speak "phenrig_attackedbyplayer2"
+    {
+      time 0.086667 6.289343
+      param "phenrig_attackedbyplayer2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

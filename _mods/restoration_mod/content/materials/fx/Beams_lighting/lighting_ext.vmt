@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "fx/Beams_lighting/lighting_ext"
+	"$additive" 1
+	"$alphatest" 1
+}

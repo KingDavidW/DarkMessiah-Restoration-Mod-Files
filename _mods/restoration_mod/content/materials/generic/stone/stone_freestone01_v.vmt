@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/Stone_freestone01"
+	"$surfaceprop" "concrete"
+
+}

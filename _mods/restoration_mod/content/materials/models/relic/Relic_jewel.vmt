@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$bumpmap" "models/relic/Relic_jewel"
+	"$refracttexture" "models/relic/Relic_refract"
+}

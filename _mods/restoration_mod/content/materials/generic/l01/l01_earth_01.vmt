@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L01/L01_earth_01"
+	"$surfaceprop" "Dirt"
+	"$bumpmap" "Generic/L01/L01_earth_01_normal"
+	"%keywords" "L01"
+
+	// specular is only use in blend with cobstone
+}

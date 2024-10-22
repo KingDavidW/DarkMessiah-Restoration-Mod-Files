@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l02_z/decal_tree_03_shadow_hard"
+		"$decal" 1
+	"$translucent" 1
+}

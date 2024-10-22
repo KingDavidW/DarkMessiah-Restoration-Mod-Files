@@ -1,0 +1,12 @@
+"Refract"
+{
+ 	
+ 	"$refractamount" ".03"
+ 	"$bluramount" "1"
+	
+ 	"$dudvmap" "fx/Fire_Heat/heat_part"
+ 	"$normalmap" "fx/Fire_Heat/heat_part"
+	
+	"$translucent" "1"
+	
+}

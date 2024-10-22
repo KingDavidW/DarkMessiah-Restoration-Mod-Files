@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Wood/Wood_planks_gob05"
+	"$surfaceprop" "wood"
+
+}

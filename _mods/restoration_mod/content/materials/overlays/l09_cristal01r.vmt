@@ -1,0 +1,12 @@
+"unlitGeneric"
+{
+	
+	//"$selfillum" "1"
+	"$additive" 1
+//	"$translucent" 1
+	"$basetexture" "overlays/L09_cristal01R"
+//	"$basetexture" "Decals/EggsHalo"
+	"$decal" 1
+	"$decalscale" 1
+
+}

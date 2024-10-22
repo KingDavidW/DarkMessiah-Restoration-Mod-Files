@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/Stone_Wall01_down_window1"
+	"$surfaceprop" "Concrete"
+	"$bumpmap" "Generic/Stone/Stone_Wall01_down_window1_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.5 0.5 0.5]"
+}

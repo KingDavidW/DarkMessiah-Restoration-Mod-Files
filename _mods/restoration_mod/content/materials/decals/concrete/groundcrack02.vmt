@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "decals/concrete/groundcrack02"
+	"$decal" 1
+	"$decalscale" .10
+}

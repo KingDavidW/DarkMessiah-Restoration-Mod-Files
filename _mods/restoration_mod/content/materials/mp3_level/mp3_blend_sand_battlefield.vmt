@@ -1,0 +1,29 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L05/L05_sand_b"
+	"$basetexture2" "Generic/L10/l10_soil_b"
+	
+	"%tooltexture" "MP3_Level/MP3_blend_sand_battlefield_tooltexture"
+	"%keywords" "mp3,blend"
+	
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+	"%detailtype" "RT_sand_dirt"
+	      
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+      "$bumpmap" "Generic/L05/L05_sand_b_normal"
+			"$bumpmap2" "generic/l10/l10_soil_b_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

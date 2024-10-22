@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/Dirt/l12_dirt02"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" .50
+}

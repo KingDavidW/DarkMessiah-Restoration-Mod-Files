@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Speak"
+  {
+    event speak "l00_phenrig_climb_rope"
+    {
+      time 0.080000 5.290295
+      param "l00_phenrig_climb_rope"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

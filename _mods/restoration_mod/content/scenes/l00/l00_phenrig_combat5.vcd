@@ -1,0 +1,109 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "sound"
+  {
+    event speak "l00_phenrig_combat5"
+    {
+      time 0.085034 2.925034
+      param "l00_phenrig_combat5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.133334
+      param ""
+    }
+    event gesture "gesture_point"
+    {
+      time 0.014844 1.462651
+      param "gesture_point_1"
+      absolutetags playback_time
+      {
+        "in" 0.145773
+        "out" 0.745208
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "NULL"
+    {
+      time 0.827309 1.904418
+      param ""
+    }
+    event gesture "gesture"
+    {
+      time 1.530120 3.619277
+      param "gesture_arms_7"
+      absolutetags playback_time
+      {
+        "in" 0.120767
+        "out" 0.812033
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.109589
+        "out" 0.890411
+      }
+      sequenceduration 2.466667
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "idle_0"
+    {
+      time 0.000000 3.619277
+      param "idle_0"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.1200 1.0000
+        0.3745 0.0000
+        1.0120 0.0000
+        1.3880 1.0000
+        1.6675 1.0000
+        2.0525 0.0000
+        3.1560 0.0000
+        3.3920 1.0000
+        3.6193 1.0000
+      }
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look enemy"
+    {
+      time 0.000000 3.619277
+      param "!enemy"
+    }
+  }
+  channel "face to"
+  {
+    event face "face player"
+    {
+      time 0.000000 3.619277
+      param "!player"
+      lockbodyfacing
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "158"
+  "RampTool" "80"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off

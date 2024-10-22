@@ -1,0 +1,5 @@
+skillpoints_1280x960
+{
+	// 0 : MM_SKILLPOINTS_SLOT_NUMBER			
+	"0"		"21 43 40 20"
+}

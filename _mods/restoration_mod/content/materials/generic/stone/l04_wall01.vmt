@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/L04_wall01"
+	"$surfaceprop" "Concrete"
+	"$bumpmap" "Generic/Stone/L04_wall01_normal"
+
+	
+}

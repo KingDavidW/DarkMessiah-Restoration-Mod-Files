@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/wall_temple07"
+	"$surfaceprop" "stone"
+	//"$bumpmap" "Generic/stone/wall_temple07_normal"
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[0.6 0.6 0.6]"
+
+
+	"vertexlitgeneric_HDR_dx9"
+
+		{
+
+                        "$envmaptint" "[.2 .2 .2]"
+
+		}
+
+
+	
+}

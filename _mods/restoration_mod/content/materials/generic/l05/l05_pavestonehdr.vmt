@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l05/l05_pavestonehdr"
+	"$normalmap" "generic/l05/l05_pavestone_normal"
+}

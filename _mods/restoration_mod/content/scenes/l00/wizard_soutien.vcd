@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "wizzy"
+{
+  channel "action"
+  {
+  }
+  channel "gesture"
+  {
+  }
+  channel "talk"
+  {
+    event speak "00_Phenrig_tuto1"
+    {
+      time 0.066667 1.683356
+      param "L02z_wiz3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look_at"
+  {
+  }
+  channel "face to"
+  {
+  }
+  faceposermodel "models\npc\wizard\npc_wizard.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

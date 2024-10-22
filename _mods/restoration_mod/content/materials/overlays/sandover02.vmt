@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/sandover02"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "sand"
+}

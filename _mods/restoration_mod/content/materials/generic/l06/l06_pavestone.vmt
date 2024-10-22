@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{	
+	"$baseTexture" "Generic/L06/L06_pavestone"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L06/L06_pavestone_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	"lightmappedgeneric_HDR_dx9"
+		{
+                        "$envmaptint" "[.08 .08 .08]"
+		}
+}

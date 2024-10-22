@@ -1,0 +1,17 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L01/L01_Earth_01"
+	"$basetexture2" "Generic/L01/L01_Grass_01"
+
+	"%tooltexture" "generic/L01/blend_L01_grassearth"
+
+	//"%detailtype" "Green_grass"  change back to Green_grass in case of perf problems!!!
+	"%detailtype" "Thick_grass"
+	"%keywords" "L01"
+
+	"$bumpmap" "Generic/L01/L01_Earth_01_normal"
+	"$bumpmap2" "Generic/L01/L01_Grass_01_normal"
+
+	"$surfaceprop" "Dirt"
+	"$surfaceprop2" "Grass"
+}

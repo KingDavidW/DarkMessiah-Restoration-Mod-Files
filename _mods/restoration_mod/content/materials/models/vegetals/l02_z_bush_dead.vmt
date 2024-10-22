@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/vegetals/l02_z_bush_dead"
+	"$vertexalpha" 1
+}

@@ -1,0 +1,27 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/stone/cr_stone04c"
+	"$basetexture2" "generic/ground/cr_ground04c"
+	
+	"%tooltexture" "mp3_level/mp3_blend_stone01_tooltexture"
+	"%keywords" "mp3,blend"
+	
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "rock"
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+      "$bumpmap" "Generic/stone/cr_stone04c_normal"
+			"$bumpmap2" "Generic/ground/cr_ground04c_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

@@ -1,0 +1,236 @@
+$keyvalues
+{
+	"entity_data"
+	{
+		"strength"	  	"12"		// Npc' strength.
+		"dexterity"	  	"515"		// Npc's dexterity
+		"life_regen" 		"0.25"		// Life regeneration (points per seconds).
+		"stunned_duration" 	"2.0"		// Amount of time during which npc is stuned (Time in second).
+		"backstable"		"0"		// Is character backstable ?
+		"backstab_offset"	"10"		// Height offset for backstab. 
+		"backstab_dist"		"20"		// Distance between player and target for backstab
+		
+		"versus_click"		"15"		// Number of cliks needed to win a sword contest. No sword contest.
+
+		"life_toflee" 		"0"		// Life percentage needed for the npc start to flee.
+		"life_stopflee" 	"0.1"		// Life percentage needed for the npc stop to flee.
+		"life_tobeg" 		"0"		// Npc starts to beg if its life goes under this percentage.
+
+		"flies_spawn_time"	"0"		// Flies will be spawned after NPC is dead (time in seconds).
+		
+		"fielofviewheightangle"	"60"		// field of view height angle. 
+				
+		// What NPC cannot block.
+		"non_blockable2"		"arxspellmissileshot_2"		// What NPC cannot block.		
+
+		// What NPC cannot dodge.
+		"non_dodgeable2"		"Arrow_classic"			// What NPC cannot dodge.
+		"non_dodgeable1"		"arxspellmissileshot_2"			// What NPC cannot dodge.
+		"non_dodgeable3"		"arxspellmissileshot"			// What NPC cannot dodge.
+							
+		"Blood_ratio" 		"0.3" 		// Blood spawn size (percent).
+		"difficulty" 		"0.7"		// Max 1. When close to max, npc takes more offensive decisions.
+
+  		"Vulnerabilities_spells"
+  		{ 
+  			"fire"		"2"		// Immune to fire 0. Damage multiplier 2.     
+  			"earth_2" 	"2"		// Immune to poison 0. Damage multiplier 2.
+  		        "shock_water"   "2"             // Immune to electricity in water 0. Damage multiplier 2.  			   			  			
+   		}
+   		
+ 		"Blood_Color_Type"	"RED"		// default value is "RED"
+ 				
+//		"NWDmg" 		"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 		"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 		"4"		// Critical hit dealt by npc if no weapon used.
+		
+		"cowardice"		"2"		// If cowardice higher than fearfactor NPC will fell
+		"arrow_impal" 		"1"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 		"1" 		// Npc is charmable (1: yes, 0: no). 
+		"halo_scale"		"1.1"		// Hallow size for charmable NPCs.
+		
+		"maxsightdistancequiet" 	"1000"	// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1000"	// Maximum vision distance, in inches, when in alert mode.
+		
+		"fieldofviewquiet"  	"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 	"160"		// Maximum vision angle, in degres, when in alert mode.
+
+//		"life_tohurt"		"0.3"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
+
+                "dodge_on_kick_add_chance"	"0.2"   // Percentage chance added after every kick.
+                "dodge_on_kick_init_chance"     "0.1"   // Base chance percentage for npc to dodge player's kick.
+                		
+		"TimeKnockedDownByPhysics" 	"3"  		// Time npc stay knocked down after being hit by a physic.
+		
+                "max_jump_rise"         "60"  		// how high can a NPC jump.
+                "max_jump_drop"         "300"   	// how high can a NPC drop.
+                "max_jump_dist"         "600"   	// how long can a NPC jump (2D).
+
+		"chancetostun"		"0.2"		// Base chance for npc to get stuned (default 0.2).
+		"delaytostun"		"10"		// Amout of time (in secondes) the npc remains stuned (default 10).
+		"nbhittostun"		"6"		// Hits needed before applying the chancetostun factor (defaut 6).
+
+		"move_blocker_mass"		"100"	// mass of objects NPC can push 
+				
+		"visibilityratio"	"1.2"		// This will increase the blindness of npcs (default 1.2).
+
+		"Yellow_zone"		"60"		// Max close combat distance		
+
+		"RangeViewToStealthMaxInCombat"	"600"		// Distance where stealth is at his max value in combat
+		
+		"npc_health"		"130"		// NPC's life points.
+		
+          	"mana_drainable"  	"1"		// Can be mana drained.	
+
+		"ThrowPrecisionMinDist" 		"150.0" 	// Below this distance, NPC has max distance accuracy
+		"ThrowPrecisionMaxDist" 		"650.0" 	// Between this distance and ThrowPrecisionMinDist, distance accuracy increase
+		"ThrowPrecisionNbShootToIn"		"10.0"		// 1st shoot has very bad accuracy, ThrowPrecisionNbShootToIncrease'th shoot is the most accurate          		
+
+		"ChanceToFreeze"	"0.5"		// Chance to decide to freeze player in close combat
+
+		"CoverTime"		"4" 		// Time NPC stay in cover
+		"CoverDelay"		"10"		// Min Delay beetween 2 cover
+		"CoverDelayAimed"	"4."		// Min Delay beetween 2 cover when player aim to us with spell/arrow
+		"CoverChance"		"0.2"		// Chance to decide to cover in combat
+		"CoverChanceAimed"	"0.8"		// Chance to decide to cover in combat when player aim to us with spell/arrow
+
+		"min_dist_spell_defense" "100"		
+	}
+	
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+		"position_take_x" 	"-5"		// Position X.
+		"position_take_y" 	"-17"		// Position Y.
+		"position_take_z" 	"15"		// Position Z.
+
+		"angle_take_x" 		"0"		// Orientation X.
+		"angle_take_y" 		"0"		// Orientation Y.
+		"angle_take_z" 		"0"		// Orientation Z.
+	}
+	
+	"Telekinesis_Stasis"
+	{
+		"effect" 		"0"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"10"		// Mana cost for the player when using this spell on the npc.
+	}
+
+ 	"hitboxes_modifier"				// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 			"1.0" 		// HITGROUP_GENERIC
+		"1" 			"3.0" 		// HITGROUP_HEAD
+		"2" 			"0.5" 		// HITGROUP_CHEST
+		"3" 			"1" 		// HITGROUP_STOMACH
+		"4" 			"1.25" 		// HITGROUP_LEFTARM
+		"5" 			"1.25" 		// HITGROUP_RIGHTARM
+		"6" 			"1.25" 		// HITGROUP_LEFTLEG
+		"7" 			"1.25" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"				// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 			"0" 		 
+		"1" 			"0" 		 
+		"2" 			"0" 		 
+		"3" 			"0" 		
+		"4" 			"0" 		 
+		"5" 			"0" 		 
+		"6" 			"0" 		 
+		"7" 			"0" 
+	}
+	
+	"spelldatas"
+	{
+//		"air_2"						// Spell: Cure wounds.
+//		{		
+//			"effect"		"50"		// Life points healed or taken.
+//			"recovery"		"5"		// Time before casting is possible again (in seconds).
+//			"range_max"		"1000"		// Maximum effective range for the spell (in inches).
+//			"range_min"		"0"		// Minimum effective range for the spell (in inches).
+//			"trigger"		"0.6"		// Percentage of the target's life needed for the spell to be cast.
+//			"attachment"		"RightHand"	// Attachment point for the spell effect.	
+//		}
+		
+		"water_3"						// Freeze.
+		{		
+			"Stage1_Duration"	"10"
+			"effect"		"10"		// Life points healed or taken.
+			"recovery"		"1"		// Time before casting is possible again (in seconds).
+			"range_max"		"450"		// Maximum effective range for the spell (in inches).
+			"range_min"		"0"		// Minimum effective range for the spell (in inches).		
+			"attachment"		"RightHand"	// Attachment point for the spell effect.	
+		}
+		
+		"fire_1"					// Spell: Flame arrow.
+		{		
+			"effect"		"3"		
+			"recovery"		"1.5"
+			"range_max"		"1000"	
+			"range_min"		"200"	
+			"attachment"		"RightHand"		
+		}				
+	
+	//	"fire_3"					// Spell: Fireball.
+	//	{		
+	//		"effect"		"20"
+	//		"recovery"		"8"
+	//		"range_max"		"500"	
+	//		"range_min"		"100"	
+	//		"attachment"		"RightHand"		
+	//	}
+	
+//		"earth_1"				// Spell: Stone Skin for casters.
+//		{  
+//			"effect"	"0.5"		// Damage multiplier.
+//			"recovery"	"30"		// Time, in second, before NPC can cast the spell again.
+//			"range_max"	"450" 		// Maximum range for this spell.
+//			"range_min"	"0" 		// Minimum range for this spell.
+//			"attachment"	"RightHand"  	// Attachment point for this spell.
+//		}
+	}
+}
+
+"combatmovedatas"	
+{	
+	"layer_attack_staff_1"
+	{
+		"impactdirX"		"0"		// Base direction X for impact.
+		"impactdirY"		"1"		// Base direction Y for impact.
+		"impactdirZ"		"0"		// Base direction Z for impact.
+		"HitPow"		"1"		// Damage multiplier.
+		"forcebreakparade"	"1" 		// 1: trigger player's overextended state.
+		"alwayspush"		"1" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+	}
+	
+	"layer_attack_staff_2"
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"HitPow"		"1"
+		"forcebreakparade"	"1" 
+		"alwayspush"		"1" 
+		"noblood"		"1"		// 1: No blood and no gibs is spawned.	
+	}
+	"attack_L"
+	{
+		"impactdirX"		"0"		// Base direction X for impact.
+		"impactdirY"		"1"		// Base direction Y for impact.
+		"impactdirZ"		"0"		// Base direction Z for impact.
+		"HitPow"		"1"		// Damage multiplier.
+		"forcebreakparade"	"1" 		// 1: trigger player's overextended state.
+		"alwayspush"		"1" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+	}
+	
+	"attack_R"
+	{
+		"impactdirX"		"0"
+		"impactdirY"		"1"
+		"impactdirZ"		"0"
+		"HitPow"		"1"
+		"forcebreakparade"	"1" 
+		"alwayspush"		"1" 
+		"noblood"		"1"		// 1: No blood and no gibs is spawned.	
+	}
+}
+
+

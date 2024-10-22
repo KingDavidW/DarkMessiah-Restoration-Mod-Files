@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/vegetals/l02_z_grass_yellow"
+	
+	
+	"$surfaceprop" "grass"
+
+//	"$alphatest" 1
+	"$translucent" 1
+      "$nocull" 1
+}

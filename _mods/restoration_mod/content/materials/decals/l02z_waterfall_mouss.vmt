@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/L01_roofmoss"
+	"$decal" 1
+	"$decalscale" 0.3
+	"$surfaceprop" "Wood"
+}

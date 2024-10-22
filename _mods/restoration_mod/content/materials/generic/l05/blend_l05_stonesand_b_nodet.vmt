@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/l05/l05_stonesand"
+	"$basetexture2" "generic/l05/l05_sand_b"
+	
+	"%tooltexture" "generic/l05/blend_l05_stonesand_b_nodet"
+	"$surfaceprop" "sand"
+	"%keywords" "L05"
+	
+	"$bumpmap" "generic/l05/l05_stonesand_normal"
+	"$bumpmap2" "generic/l05/l05_sand_b_normal"
+	
+}

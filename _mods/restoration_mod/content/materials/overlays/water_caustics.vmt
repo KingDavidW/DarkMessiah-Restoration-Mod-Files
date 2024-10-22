@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+//"UnlitGeneric"
+//"VertexlitGeneric"
+{
+	"$baseTexture"	"arkane/magic/arkane_detect_secret"
+	//"$basetexture" "fx/caustics/caustics00"
+	//"$basetexture" "overlays/water_caustics"
+	
+	"$additive" 1
+	"$decal" 1
+	"$alpha" 1
+	//"$alphatest" 1
+	"$nocull" 1
+	"$translucent" 1
+	
+//	"$ignorez" 1
+
+	
+	"$vertexcolor" 1
+	
+	"$vertexalpha" 1
+	
+	"$ScrollRateResult"	1
+
+	"Proxies"
+	{
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 12
+		}
+
+
+
+}
+
+

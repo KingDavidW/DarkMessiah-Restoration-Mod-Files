@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L08/L08_soil"
+	"$basetexture2" "Generic/L08/L08_ground_darkmud"
+	
+	"%tooltexture" "Generic/L08/blend_l08_soildarkmud_b"
+	
+	"$surfaceprop" "Mud"
+	"%keywords" "L08"
+
+	"$bumpmap" "Generic/L08/L08_soil_normal"
+	"$bumpmap2""Generic/L08/L08_ground_mud_normal"
+}

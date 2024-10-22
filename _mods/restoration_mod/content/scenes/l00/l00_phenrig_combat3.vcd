@@ -1,0 +1,140 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "sound"
+  {
+    event speak "l00_phenrig_combat3"
+    {
+      time 0.085034 8.469070
+      param "l00_phenrig_combat3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.133334
+      param ""
+    }
+    event gesture "gesture7"
+    {
+      time 0.038095 2.247257
+      param "gesture_arms_7"
+      absolutetags playback_time
+      {
+        "in" 0.092240
+        "out" 0.726126
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.109589
+        "out" 0.890411
+      }
+      sequenceduration 2.466667
+    }
+    event gesture "gesture4"
+    {
+      time 0.997276 4.198572
+      param "gesture_arms_4"
+      absolutetags playback_time
+      {
+        "in" 0.201465
+        "out" 0.842820
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "gesture5"
+    {
+      time 3.185186 5.298911
+      param "gesture_arms_5"
+      absolutetags playback_time
+      {
+        "in" 0.241378
+        "out" 0.709342
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+    event gesture "NULL"
+    {
+      time 4.313725 7.559805
+      param ""
+    }
+    event gesture "gesture3"
+    {
+      time 4.783224 7.186165
+      param "gesture_arms_3"
+      absolutetags playback_time
+      {
+        "in" 0.281630
+        "out" 0.612244
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.139535
+        "out" 0.813953
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "idle_0"
+    {
+      time 0.000000 10.000000
+      param "idle_0"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.1340 1.0000
+        0.3520 0.0000
+        4.6760 0.0073
+        4.8700 0.7094
+        5.2000 0.7111
+        5.4580 0.0000
+        6.0040 0.0000
+        6.7460 1.0000
+        10.0000 1.0000
+      }
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look player"
+    {
+      time 0.000000 10.000000
+      param "!player"
+    }
+  }
+  channel "face to"
+  {
+    event face "face player"
+    {
+      time 0.000000 10.000000
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "68"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off

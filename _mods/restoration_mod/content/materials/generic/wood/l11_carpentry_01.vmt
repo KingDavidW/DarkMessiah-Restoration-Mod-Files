@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+
+//"VertexLitGeneric"
+
+{
+	
+	"$baseTexture"	"Generic/Wood/L11_Carpentry_01"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Generic/Wood/L11_Carpentry_01_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	"$envmapcontrast" 0.5
+	"$envmapsaturation" 0.1
+	//"$envmaptint" "[0.25 0.25 0.25]"
+}

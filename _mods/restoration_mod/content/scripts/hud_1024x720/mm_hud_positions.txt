@@ -1,0 +1,62 @@
+hud_1024x720
+{
+	// 0 : MM_HUD_SLOT_HUD_LIFE_ADRENALINE_EMPTY			
+	"0"		"-4 0 0 0"
+	
+	// 1 : MM_HUD_SLOT_HUD_MANA_EMPTY				
+	"1"		"4 0 0 0"
+	
+	// 2 : MM_HUD_SLOT_HEALTH_NUMBER				
+	"2"		"5 202 45 9"
+
+	// 3 : MM_HUD_SLOT_WEAPON_INDICATOR				
+	"3"		"4 216 59 51"
+
+	// 4 : MM_HUD_SLOT_ARROWS_NUMBERS				
+	"4"		"40 248 20 20"
+
+	// 5 : MM_HUD_SLOT_MANA_NUMBER					
+	"5"		"33 203 45 9"
+
+	// 6 : MM_HUD_SLOT_SPELL_INDICATOR				
+	"6"		"20 216 58 50"
+
+	// 7 : MM_HUD_SLOT_LIFE_BASE					
+	"7"		"1 0 0 0"
+
+	// 8 : MM_HUD_SLOT_MANA_BASE					
+	"8"		"51 0 0 0"
+
+	// 9 : MM_HUD_SLOT_ADRENALINE_BASE				
+	"9"		"28 41 0 0"
+
+	// 10 : MM_HUD_SLOT_ADRENALINE_ADD						
+	"10"		"28 41 0 0"
+
+	// 11 : MM_HUD_SLOT_LIFE_POISONED_BASE						
+	"11"		"1 0 0 0"
+
+	// 12 : MM_HUD_SLOT_LIFE_LEANNA_BASE				
+	"12"		"1 1 200 200 "
+
+	// 13 : MM_HUD_SLOT_LIFE_LEANNA_FULL				
+	"13"		"60 13 0 0"
+
+	// 14 : MM_HUD_SLOT_CRYSTAL_BASE					
+	"14"		"0 0 0 0"
+
+	// 15 : MM_HUD_SLOT_CRYSTAL_FULL					
+	"15"		"27 8 0 0"
+	
+	// 16 : MM_HUD_SLOT_ADRENALINE_EMPTY2				
+	"16"		"41 41 0 0"
+
+	// 17 : MM_HUD_SLOT_ADRENALINE_BASE2				
+	"17"		"42 41 0 0"
+
+	// 18 : MM_HUD_SLOT_ADRENALINE_ADD2					
+	"18"		"41 41 0 0"
+
+	// 19 : MM_HUD_SLOT_MANA_LOW					//NEW
+	"19"		"53 0 0 0"
+}

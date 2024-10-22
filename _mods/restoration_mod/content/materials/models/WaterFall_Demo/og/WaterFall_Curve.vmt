@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/waterfall_demo/WaterFall_Lines"
+    "$bumpmap" "models/waterfall_demo/WaterFall_Lines_normal"
+    //"$blendmodulatetexture" "models/waterfall_demo/WaterFall_Curve_mask"
+    //"$translucent" "1"
+	"$alpha" "1"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[0.5 0.5 0.5]"
+    "$envmapcontrast" "1"
+    "$envmapsaturation" "0.5"
+    "$surfaceprop" "water"
+    "$model" "1"
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$basetexturetransform"
+            "texturescrollrate" "0.7"
+            "texturescrollangle" "270"
+        }
+    }
+}

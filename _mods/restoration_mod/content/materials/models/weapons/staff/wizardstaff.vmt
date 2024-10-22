@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\Weapons\Staff\wizardStaff"
+	"$surfaceprop" "metal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.9
+	"$envmapsaturation" 1
+	//"$envmaptint" "[0.4 0.4 0.4]"
+
+	"$envmap" "env_cubemap"
+}

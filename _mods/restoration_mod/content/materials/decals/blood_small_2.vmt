@@ -1,0 +1,10 @@
+"DecalModulate"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Decals/Blood2"
+	"$decal" 1
+	"$decalscale" 0.2
+	"$modelmaterial" "decals/Blood2Model"
+	"$surfaceprop" "default_silent"
+}

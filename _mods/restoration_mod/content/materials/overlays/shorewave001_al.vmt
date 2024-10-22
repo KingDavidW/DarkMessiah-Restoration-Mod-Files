@@ -1,0 +1,28 @@
+//"UnlitGeneric"
+//"LightmappedGeneric"
+"UnlitTwoTexture"
+{
+	"$basetexture" "overlays/shorewave001a"
+	"$texture2"    "overlays/shorewave001a"
+	"$translucent" 1
+	"$additive" 1
+	"$decal" 1
+//	"$ignorez" 1
+
+
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "0.04"
+			"texturescrollangle" 0
+		}
+
+
+	}
+
+
+}
+

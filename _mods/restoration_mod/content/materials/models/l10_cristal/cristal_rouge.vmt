@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/l10_cristal/cristal_rouge"
+	"$translucent" 1
+}

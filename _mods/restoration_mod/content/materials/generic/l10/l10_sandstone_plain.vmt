@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"generic/l10/l10_sandstone_plain"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "generic/l10/l10_sandstone_pl_normal"
+	"%keywords" "L10"
+}

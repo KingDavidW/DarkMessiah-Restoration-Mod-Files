@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/aoc_weapon/w_doubleaxe"
+	"$bumpmap" "models/aoc_weapon/w_doubleaxe_nrm"
+	"$surfaceprop" "Metal"
+}

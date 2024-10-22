@@ -1,0 +1,58 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Speak"
+  {
+    event speak "l00_phenrig_fight1"
+    {
+      time 0.080000 1.613333
+      param "l00_phenrig_fight1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "l00_goblin_fight1"
+    {
+      time 1.934814 4.569508
+      param "l00_goblin_fight1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "l00_goblin_fight3"
+    {
+      time 6.249629 8.459879
+      param "l00_goblin_fight3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "l00_goblin_fight2"
+    {
+      time 4.490370 6.266379
+      param "l00_goblin_fight2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "l00_goblin_fight4"
+    {
+      time 8.582963 11.718972
+      param "l00_goblin_fight4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "36"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,94 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"1.0"
+		"position_take_y" 		"0.0"
+		"position_take_z" 		"7.0"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"130.0"
+		"angle_take_z" 			"0.0"
+
+		"position_take_x_zoomed" 	"-11.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"18.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"0.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"0.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"40.0"
+
+		"stunmultiplicator"		"1"		// Multiplyer factor for stuning npcs (default 1).
+		
+		"item_name" 			"sword_orcp_name"
+		"description" 			"sword_orcp_description"
+		"equip_sound"			"Weapon_Equip"
+		"unequip_sound"			"Weapon_UnEquip"
+
+		"light_inventory_pos_x" 	"-20.0"
+		"light_inventory_pos_y" 	"-90.0"
+		"light_inventory_pos_z" 	"-100.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"120.0"
+		"light_inventory_mediumspotintensityfactor" 	"0.8"
+
+		 "quest_item"	"3"	// item is removed on take if the player already has one				
+	}
+
+	"trail_data"
+	{
+		"Player_Trail_Fade_Time"	"0.2"        		// will decide the duration/length of the trail
+		"Player_Trail_Alpha_Mul"	".18"            		// Global Alpha Multiplicator
+		"Player_Trail_Color_R_Mul"	".5"        		// Global Red Multiplicator
+		"Player_Trail_Color_G_Mul"	".5"        		// Global Green Multiplicator
+		"Player_Trail_Color_B_Mul"	".5"        		// Global Blue Multiplicator
+		"Player_Trail_Material"  	"Models/Wp_Sword_Short/Sword_short_trail"    	// Texture Used (Read the texture from left to right)
+ 
+		"NPC_Trail_Fade_Time"  		"0.06"
+		"NPC_Trail_Alpha_Mul"  		"2"
+		"NPC_Trail_Color_R_Mul" 	"1"
+		"NPC_Trail_Color_G_Mul" 	"0"
+		"NPC_Trail_Color_B_Mul" 	"1"
+		"NPC_Trail_Material"  		"Models/Wp_Sword_Short/Sword_short_trail"
+	}
+
+	"entity_data"
+	{
+		"WDmg"			"2"		// To be added to damage done.
+
+		"rangeattack"		"50"			
+		"WCritHit"		"0"		// % crithit to be added to stats
+		"WPiercing"		"0.3"		// % piercing to be added to stats
+
+		"health"           	"150"
+		"damageothercoeff" 	"1"
+		"impactothercoeff" 	"100"
+       		"crushcoeff"       	"1"
+       		
+       		"speed_attack"		"1.10"			// Animation speed multiplier, in %.
+
+       		"parry_cos"		"0.5"			// 1 : always parry. 0 : never parry.
+       		
+//    		"npc_hit_newvelocity"		"1.5"	// initialized to 0.f (velocity of npc multiply by this)
+//    		"npc_hit_newvelocity_time"	"5"	// initialized to 5.f (new velocity during this time)
+	}
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/stone_rock_wall03"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "Generic/Stone/stone_rock_wall03_normal"
+	//"$envmaptint" "[0.5 0.5 0.5]"
+}

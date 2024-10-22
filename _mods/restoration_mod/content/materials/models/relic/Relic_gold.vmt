@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/relic/Relic_gold"
+	"$bumpmap" "models/relic/Relic_gold_normal"
+}

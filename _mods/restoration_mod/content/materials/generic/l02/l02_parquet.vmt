@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L02/L02_parquet"
+	"$surfaceprop" "Wood"
+	"$bumpmap" "Generic/L02/L02_parquet_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	
+	"lightmappedgeneric_HDR_dx9"
+		{
+                        "$envmaptint" "[.3 .3 .3]"
+		}
+}

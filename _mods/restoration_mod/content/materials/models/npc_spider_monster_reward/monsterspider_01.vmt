@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/npc_spider_monster_reward/monsterspider_01"
+	"$normalmap" "models/npc_spider_monster_reward/monsterspider_01_normal"
+	//"$translucent" 1
+}

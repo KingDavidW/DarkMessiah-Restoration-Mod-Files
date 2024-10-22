@@ -1,0 +1,34 @@
+"Refract"
+{
+	"$basetexture" "models/WaterFall_Demo/WaterFall_Impact"
+	//	"$bumpmap" "models/WaterFall_Demo/WaterFall_Impact_mask"
+	//"$normalmap" "models/WaterFall_Demo/WaterFall_Lines_normal"
+		 "$surfaceprop" "Water"
+	
+ "$normalmap" "models/WaterFall_Demo/WaterFall_Impact_mask"
+    "$refractamount" "0.2"
+    "$refracttint" "[0.8 0.9 1.0]"
+ //   "$dudvmap" "models/waterfall_demo/WaterFall_Lines_DUDV"
+    "$bluramount" "0.05"
+    "$translucent" "1"
+
+    "$model" "1"
+    "$nocull" "1"
+
+   // "$basetexture" "models/waterfall_demo/WaterFall_Curve_mask"
+   
+    "$alpha" "0.8"	
+	
+	
+		"Proxies"
+	{
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" ".7"
+			"texturescrollangle" "90.00"
+		}
+	}
+}

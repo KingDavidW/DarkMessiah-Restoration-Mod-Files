@@ -1,0 +1,61 @@
+"WorldVertexTransition"
+{
+	"$surfaceprop" "water"
+
+
+	"$basetexture" "water/mp3_water_lagoon01"
+ 	"$basetexture2" "water/mp3_water_sea"
+	"$basetranslate" "[0 0]"
+	
+	"%tooltexture" "water/mp3_water_sea"
+	
+	"$bumpmap" "dev/water_normal"
+	"$bumpmap2" "water/mp3_waterock_normal"
+
+	"$bumptransform" "center .5 .5 scale 10 10 rotate 0  translate 0 0"
+	"$normalmaptransform" "center .5 .5 scale 10 10 rotate 0  translate 0 0"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+
+	"%keywords" "MP3;water"
+
+	"$envmap" "env_cubemap"
+
+	"$normalmapalphaenvmapmask" 1
+
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[1 1 1]"
+
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 10.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .04
+			"texturescrollangle" 180.00
+		}
+
+		"LinearRamp"
+		{
+			"rate" -.025
+			"resultVar" "$basetranslate[0]"
+		}
+
+		"TextureTransform"
+		{
+		
+		"translateVar" "$basetranslate"
+		"resultVar" "$basetexturetransform"
+		
+		}
+	}
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/bouldercrapup01"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "default_silent"
+}

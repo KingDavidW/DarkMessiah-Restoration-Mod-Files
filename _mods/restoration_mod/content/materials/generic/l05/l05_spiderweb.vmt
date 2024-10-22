@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"generic/l05/l05_spiderweb"
+	"$surfaceprop" "clothes"
+	"$bumpmap" "generic/l05/l05_spiderweb_normal"
+
+	"%keywords" "l05"
+	"$translucent" 1
+}

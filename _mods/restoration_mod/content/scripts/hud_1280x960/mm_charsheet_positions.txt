@@ -1,0 +1,453 @@
+Inventory_1280x960
+{
+	NoSection
+	{
+		// Border offset for cs_select ( Inventory ) in x and y
+		// Border offset for cs_select_bg ( Inventory ) in w and h
+		"162"		"-7 -7 -16 -16"  
+
+//		// Upgrade Button 
+//		"81"		"-577 -90 177 118"
+
+		// Drop zone
+		"49"		"0 0 850 600"
+
+		// offset for number__________numero slot belt inventory
+		"188"		"-999 -999 0 0"
+
+		// Resultant value offset______________coordonnees du texte / coordonnee case
+		"156"	"0 45 55 14" 
+	}
+
+	Inventory
+	{
+		// Main Inventory : 0 to 40
+		// Line 1
+
+		"0"	"42 144 69 60"
+		"1"	"118 144 69 60"
+		"2"	"196 144 69 60"
+		"3"	"273 144 69 60"
+		"4"	"348 144 69 60"
+		"5"	"424 144 69 60"
+		"6"	"501 144 69 60"
+		"7"	"579 144 69 60"
+		"8"	"655 144 69 60"
+		"9"	"730 144 69 60"
+		"10"	"807 144 69 60"
+		"11"	"884 144 69 60"
+		"12"	"961 144 69 60"
+		
+		// Line 2
+
+		
+		"13"	"42 211 69 60"
+		"14"	"118 211 69 60"
+		"15"	"196 211 69 60"
+		"16"	"273 211 69 60"
+		"17"	"348 211 69 60"
+		"18"	"424 211 69 60"
+		"19"	"501 211 69 60"
+		"20"	"579 211 69 60"
+		"21"	"655 211 69 60"
+		"22"	"730 211 69 60"
+		"23"	"807 211 69 60"
+		"24"	"884 211 69 60"
+		"25"	"961 211 69 60"
+		
+
+		// Line 3
+
+		
+		"26"	"42 277 69 60"
+		"27"	"118 277 69 60"
+		"28"	"196 277 69 60"
+		"29"	"273 277 69 60"
+		"30"	"348 277 69 60"
+		"31"	"424 277 69 60"
+		"32"	"501 277 69 60"
+		"33"	"579 277 69 60"
+		"34"	"655 277 69 60"
+		"35"	"730 277 69 60"
+		"36"	"807 277 69 60"
+		"37"	"884 277 69 60"
+		"38"	"961 277 69 60"
+
+		// Belt 
+		
+		"39"	"42 46 69 60"
+		"40"	"118 46 69 60"
+		"41"	"196 46 69 60"
+		"42"	"273 46 69 60"
+		"43"	"348 46 69 60"
+		"44"	"424 46 69 60"
+		"45"	"501 46 69 60"
+		"46"	"579 46 69 60"
+		"47"	"655 46 69 60"
+
+		// Inventory Panel
+		"48"		"0 102 0 0"
+
+		// INFO Panel start
+
+		// Panel Position 	//OBSOLETE
+		"55"		"756 16 0 0"
+
+		// SelectedItem   //OBSOLETE
+		"50"		"807 40 236 105"
+
+		// SelectedItem Desc	//OBSOLETE
+		"51"		"807 155 236 145"
+
+		// Item Desc ScrollBar //OBSOLETE
+		"52"		"1070 83 8 196"
+
+		// Info Panel Title	//OBSOLETE
+		"53"		"855 22 134 12"
+
+		// Resultant Icon //OBSOLETE
+		"54"		"893 67 59 59"
+
+		// Skill Description Box_________________________UNUSED!!!!!!!!!
+		"91"		"807 134 236 162"
+		
+		// Skill Description Scrollbar //OBSOLETE
+		"92"		"1070 91 8 178"
+
+		// Upgrade Button Click Zone : NOT DISPLAYED, only for click //OBSOLETE
+		"157"		"895 70 59 59"
+
+		// Text Upgrade Button__________for gilles center text!!!! //OBSOLETE
+		"158"		"857 86 134 28"
+
+		// Upgrade Button Icon Mouse Over //OBSOLETE
+		"159"		"801 17 0 0"
+
+		// Upgrade Button Icon Base and Pressed //OBSOLETE
+		"160"		"801 70  40 40"
+	}
+
+//___________________________________________________________________________________//OBSOLETE
+	Altar
+	{
+		// Altar background //OBSOLETE
+		"100"		"0 0 0 0"
+		// Altar title //OBSOLETE
+		"101"		"292 10 248 17"
+
+		// Item 0 icon and text________________to center horiz and vertic //OBSOLETE
+		"102"		"64 104 60 69"
+		"103"		"154 102 194 60"
+
+		// Item 1 icon and text //OBSOLETE
+		"104"		"64 189 60 69"
+		"105"		"154 187 194 60"
+		
+		// Item 2 icon and text //OBSOLETE
+		"106"		"64 273 60 69"
+		"107"		"154 271 194 60"
+		
+		// Item 3 icon and text //OBSOLETE
+		"108"		"383 105 60 69"
+		"109"		"474 102 194 60"
+		
+		// Item 4 icon and text //OBSOLETE
+		"110"		"383 189 60 69"
+		"111"		"474 187 194 60"
+
+		// Item 5 icon and text //OBSOLETE
+		"112"		"383 273 60 69"
+		"113"		"474 271 194 60"
+		
+		// Item 6 icon and text // UNUSED
+		"114"		"238 119 60 69"
+		"115"		"293 122 194 60"
+		
+		// Item 7 icon and text // UNUSED
+		"116"		"238 170 60 69"
+		"117"		"293 175 194 60"
+		
+		// Offerings button text  ( "give offerings" ) //OBSOLETE
+		"130"		"264 478 220 27" 
+
+		// Offerings title ( "required offerings" ) //OBSOLETE
+		"131"		"63 358 201 30"
+
+		// Offering 0 //OBSOLETE
+		"132"		"69 397 60 69"
+		// Offering 1 //OBSOLETE
+		"133"		"148 397 60 69"
+		// Offering 2 //OBSOLETE
+		"134"		"227 397 60 69"
+		// Offering 3 //OBSOLETE
+		"135"		"307 397 60 69"
+		// Offering 4 //OBSOLETE
+		"136"		"385 397 60 69"
+		// Offering 5 //OBSOLETE
+		"137"		"464 397 60 69"
+		// Offering 6 //OBSOLETE
+		"138"		"543 397 60 69"
+		// Offering 7 //OBSOLETE
+		"139"		"622 397 60 69"
+		
+		// Offer Button___________________clicked_greyed_normal //OBSOLETE
+		"140"		"236 470 250 58"
+		 
+		// Offer Button Highlighted_______________________________NEW!!!!! //OBSOLETE
+		"141"		"236 418 250 170"
+		
+		// Next Page Button  //OBSOLETE
+		"142"		"608 64 40 20"
+		
+		// Next Page Button highlighted : can be clicked //OBSOLETE
+		"143"		"600 50 50 20"
+		
+		// Prev Page Button   //OBSOLETE
+		"144"		"522 64 40 20"
+		
+		// Prev Page Button highlighted : can be clicked //OBSOLETE
+		"145"		"505 50 50 20"
+		
+		// Page Number_________________________to center //OBSOLETE
+		"146"		"541 44 105 31"
+		
+	}
+
+//___________________________________________________________________________________
+//	InfoPanel
+//	{
+//	}
+//_______________________________________________________________________________________
+
+//___________________________________________________________________________________
+	Equipment
+	{
+		// Armor
+		"189" "33 17 69 60"
+		
+		// Weapon
+		"190" "104 17 69 60"
+		
+		// Shield
+		"191" "176 17 69 60 "
+		
+		// Ring
+		"192" "248 17 69 60"
+	}
+
+
+//_______________________________________________________________________________________
+	Skills
+	{
+		// paperdoll tab___________________________NOT USED ANYMORE!!!!!!!!!!
+//		"55"	"83 318 35 43"
+
+		// combat tab
+		"56"	"37 97 40 50"
+
+		// magic tab
+		"57"	"84 97 40 50"
+		
+		// misc tab
+		"58"	"131 97 40 50"
+		
+		// panel background_________________________Spells/combat/miscs panels
+		"59"	"1 92 348 278"
+
+		// resultants background
+		"193"	"4 -151 0 0"
+		
+		// clickable tabs background
+		"194"	"50 10 0 0"
+
+//Skills icons__________________________________________________________________
+
+//Combat_panel_skills_icons
+
+		
+		// Melee_attack
+		"60"	"82 170 63 63"
+		
+		// Projectile
+		"61"	"206 170 63 63"
+		
+		// Critical_Hit
+		"62"	"206 260 63 63"
+				
+		// Extra_Damage
+		"63"	"82 260 63 63"
+		
+		// Adrenaline_Feast
+		"64"	"145 325 63 63"
+		
+//Combat_panel_skills_numbers
+			
+		// Melee_attack_upgrade_number
+//		"93"	"69 109 30 18"
+		
+		// Projectile_upgrade_number
+//		"94"	"190 109 30 18"
+		
+		// Critical_hit_upgrade_number
+//		"95"	"190 224 30 18"
+		
+		// Extra_damage_upgrade_number
+//		"96"	"69 224 30 18"
+
+
+//Combat_panel_skillpoints
+
+		//Combat_panel_skillpoints_text___to be centered!
+		"97"	"120 78 99 12"
+
+		
+//________________________________________________________________________________
+//PAPER_DOLL_ICONS
+
+//RESULTANT_ICONS
+
+
+		// ARMOR
+		"150"	"249 -108  52 52"
+
+		// HP
+		"151"	"38 -108 52 52"
+		
+		// DAMAGE
+		"152"	"181 -108 52 52"
+		
+		// MANA
+		"153"	"108 -108 52 52"
+		
+		//RING_CASE		
+//		"154"	"33 36 44 38"
+
+		//Player Paperdoll
+//		"155"	"122 46 141 299"
+
+
+//Miscs_panel_skills_icons_______________________________________________________________________________		
+
+		// Stamina
+		"65"	"72 167 47 47"
+
+		// Focus
+		"66"	"200 167 47 47"
+
+		// Extra Health ( icon not declared )
+		"67"	"47 276 47 47"
+
+		// Extra Mana
+		"68"	"149 246 47 47"
+
+		// Stealth
+		"69"	"252 245 47 47"
+
+		// LockPick & detect
+		"70"	"262 167 47"
+
+		// Poison Recovery
+		"71"	"130 167 47 47"
+
+		// Fast Metabolism
+		"72"	"128 352 47 47"
+
+		// Mana Regen
+		"73"	"230 352 47 47"
+
+		// Backstab
+		"74"	"252 352 47 47"
+
+//Spells_panel_skills_icons
+
+		// Wizard_Eye
+		"75"	"154 210 39 39"
+
+		// Fire_trap
+		"76"	"60 210 39 39"
+
+		// Stone_Skin______________________________UNUSED!!!!!!!
+		"77"	"183 128 0 0"
+		
+		// Flame_arrow
+		"78"	"60 156 39 39"
+
+		// Cure_wounds
+		"79"	"255 290 39 39" 
+
+		// Summon_Spider______________________________UNUSED!!!!!!!
+		"80"	"206 196 0 0"
+
+		// Poison_spray______________________________UNUSED!!!!!!!
+		"81"	"34 244 0 0"
+
+		// Freeze
+		"82"	"154 156 39 39"
+		
+		// Telekynesis
+		"83"	"255 156 39 39"
+
+		// Charm
+		"84"	"255 210 39 39"
+
+		// Fireball_________________________NEW!!!!!!
+		"85"	"60 290 39 39"
+
+		// Lightning_bolt
+		"86"	"154 290 39 39"
+
+		// Magic_reflection_________________________NEW!!!!!!
+		"87"	"255 352 39 39"
+		
+		// Inferno
+		"88"	"60 352 39 39"		
+		
+		// Drain_______________________________________UNUSED!!!!!
+		"89"	"160 360 0 0"		
+		
+		// Shrink
+		"90"	"154 352 39 39"	
+
+		// Border offset for cs_select_skill
+		"163"		"-999 -999 -3 -3"
+
+		// Skills Panel Title
+		"165"		"120 53 99 12"
+		// Sareth Title
+		"166"		"120 -140 99 12"
+
+		// Melee bubbles
+		"195"	"82 158 21 21"
+		"196"	"103 152 21 21"
+		"197"	"125 158 21 21"
+		
+		// Projectile bubbles
+		"198"	"206 158 21 21"
+		"199"	"227 152 21 21"
+		"200"	"248 158 21 21"
+		
+		// Critical Hit bubbles
+		"201"	"206 248 21 21"
+		"202"	"248 248 21 21"
+		
+		// Extra Damage bubbles
+		"203"	"82 248 21 21"
+		"204"	"103 242 21 21"
+		"205"	"125 248 21 21"
+		
+		// Extra Health bubbles
+		"206" "38 267 21 21"
+		"207" "60 258 21 21"
+		"208" "83 267 21 21"
+		
+		// Extra mana bubbles
+		"209" "139 237 21 21"
+		"210" "162 228 21 21"
+		"211" "185 237 21 21"
+		
+		//Stealth Ladder
+		"212" "243 237 21 21"
+		"213" "265 228 21 21"
+		"214" "287 237 21 21"
+	}
+}

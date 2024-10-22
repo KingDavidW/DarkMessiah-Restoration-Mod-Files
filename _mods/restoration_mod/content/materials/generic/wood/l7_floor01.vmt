@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+
+{
+	
+	"$baseTexture"	"Generic/Wood/l7_floor01"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Generic/Wood/l7_floor01_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	//"$envmapcontrast" 0.5
+	//"$envmapsaturation" 0.25
+	//"$envmaptint" "[0.25 0.25 0.25]"
+}

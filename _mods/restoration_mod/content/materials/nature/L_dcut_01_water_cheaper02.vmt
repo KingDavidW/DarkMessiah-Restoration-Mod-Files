@@ -1,0 +1,100 @@
+"Water"
+{
+	// c'est de l'eau
+	"%compilewater" 1
+
+	// on calcule le refract ET le reflect si à 1
+//	"$forceexpensive" 1
+
+	// on calcule ni le refract ni le reflect si à 1
+	"$forcecheap" 0
+
+	// reflete les props, npc, etc si à 1
+	"$reflectentities" 0
+
+	// indique le cubemap à utiliser en cas de cheap water (pas de vrai reflect)
+	"$envmap" "env_cubemap"
+
+	// indique le vtf à afficher dans hammer
+	"%tooltexture" "dev/water_normal"
+
+///////// donne le nom du shader à appeler pour calculer la refraction
+	"$refracttexture" "_rt_WaterRefraction"
+	// taux de refraction (plus ou moins grande deformation de ce qu'on voit sous l'eau.
+	"$refractamount" "2"
+
+	// teinte les textures sous l'eau (on peut assombrir ou mettre une couleur pour avoir une transition dessus_dessous)
+	"$refracttint" "[.9 .9 .9]"
+	
+	// distance à laquelle on commence à changer de type de water : couteuse vers non-couteuse
+	"$CHEAPWATERSTARTDISTANCE" 2500.0
+
+	// distance à laquelle on passe defnitivement en water non-couteuse
+	"$CHEAPWATERENDDISTANCE" 2600.0
+
+
+////////// donne le nom du shader à appeler pour calculer la reflection
+	"$reflecttexture" "_rt_WaterReflection"
+	// taux de reflection de l'eau -- gere en fait le taux de bump affectant le reflet. 0 = lisse 1 = bumpé
+	"$reflectamount" "2"
+
+	// teinte du reflet de l'eau (on peut faire refleter le ciel un peu plus rouge par exemple pour donner un look coucher de soleil)
+	"$reflecttint" "[1 1 1]"
+	
+	// parametre obsolete
+	"$scale" "[1 1]"
+
+////////// texture appelée pour faire la deformation normal map des vaguelettes. peut etre animée ou non
+	"$normalmap" "dev/water_normal"
+
+	// texture appelée pour faire la deformation ajoutée au refrect par les vaguelettes. peut etre animée ou non
+	"$bumpmap" "dev/water_dudv"
+
+
+	// indique que ça fait du bruit d'eau et qu'on met des splash à la collision
+	"$surfaceprop" "water"
+
+	// donne le nom du material qui sera appelé quand on regarde depuis le dedans de l'eau.(y compris brouillard sous l'eau)
+	"$bottommaterial" "nature/water_L04_beneath"
+
+	// à quelle frame va-t-on chercher la premiere image du bump
+	"$bumpframe" "0"
+
+/////// indique si il y a du brouillard de profondeur dans l'eau (permet de cacher plus ou moins le fond)
+	"$fogenable" 1
+
+	// couleur du brouillard
+	"$fogcolor" "{37 31 28}"
+
+	// distance de depart 
+	"$fogstart" 30.00
+
+	//distance de fin
+	"$fogend" 300.00
+
+
+//////////  nouveau parametres : le premier fait scroller le "$normalmap" et le deuxieme le "$bumpmap" permet d'économiser une texture animée gourmande en VRAM
+	// plutot adapté pour les grandes étendues d'eau
+	"$scroll1" "[.02 .02 .1]"
+	"$scroll2" "[-.05 .05 .15]"
+
+	"Proxies"
+	{
+
+	// en cas de normal map animée : indique comment jouer l'anim
+//		"AnimatedTexture"
+//		{
+//			"animatedtexturevar" "$normalmap"
+//			"animatedtextureframenumvar" "$bumpframe"
+//			"animatedtextureframerate" 30.00
+//		}
+
+	// fait aussi (!) scroller le "$bumpmap"
+//		"TextureScroll"
+//		{
+//			"texturescrollvar" "$bumptransform"
+//			"texturescrollrate" .05
+//			"texturescrollangle" 45.00
+//		}
+	}
+}

@@ -1,0 +1,111 @@
+// Choreo version 1
+actor "wizzy"
+{
+  channel "action"
+  {
+    event moveto "move to barreaux"
+    {
+      time 0.020000 2.333334
+      param "!target1"
+      param2 "Run"
+      resumecondition
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "gesture_arms_11"
+    {
+      time 4.453334 5.420001
+      param "gesture_arms_11"
+      absolutetags playback_time
+      {
+        "in" 0.214286
+        "out" 0.857143
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.214286
+        "out" 0.857143
+      }
+      sequenceduration 0.966667
+    }
+    event gesture "gesture_arms_1"
+    {
+      time 0.793334 2.593333
+      param "gesture_arms_1"
+      absolutetags playback_time
+      {
+        "in" 0.113208
+        "out" 0.849057
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.113208
+        "out" 0.849057
+      }
+      sequenceduration 1.800000
+    }
+    event gesture "gesture_arms_2"
+    {
+      time 2.866667 4.400000
+      param "gesture_arms_2"
+      absolutetags playback_time
+      {
+        "in" 0.133333
+        "out" 0.844444
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.133333
+        "out" 0.844444
+      }
+      sequenceduration 1.533333
+    }
+  }
+  channel "talk"
+  {
+    event speak "l02"
+    {
+      time 0.640000 5.866666
+      param "L02z_wiz1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look_at"
+  {
+    event lookat "look player"
+    {
+      time 0.026666 6.233333
+      param "!player"
+      event_ramp
+      {
+        0.0980 0.0302
+        0.9980 1.0000
+        5.9433 1.0000
+        6.1833 0.0222
+      }
+    }
+  }
+  channel "face to"
+  {
+    event face "Face !player"
+    {
+      time 0.040000 6.240000
+      param "!player"
+    }
+  }
+  faceposermodel "models\npc\wizard\npc_wizard.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

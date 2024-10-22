@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/temple_ceiling_break"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "Generic/stone/temple_ceiling_break_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.6 0.6 0.6]"
+
+
+	"vertexlitgeneric_HDR_dx9"
+
+		{
+
+                        "$envmaptint" "[.2 .2 .2]"
+
+		}
+
+	
+
+}

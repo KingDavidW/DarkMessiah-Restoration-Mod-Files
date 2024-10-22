@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	// Original shader: AdditiveTextureAndVertexColor
+	"$basetexture" "fx/flames/fire_grey_diffuse"
+	"$additive" "0"
+	"$color" "[0.05 0.1 1]"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

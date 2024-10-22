@@ -1,0 +1,9 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$spriteRenderMode" 1
+	"$basetexture" "arkane/Magic/Magic_Visor"
+	"translucent" 1
+	"$ignorez" 1
+}

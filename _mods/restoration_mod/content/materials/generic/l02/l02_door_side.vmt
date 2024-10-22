@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L02/L02_door_side"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L02/L02_door_side_normal"
+}

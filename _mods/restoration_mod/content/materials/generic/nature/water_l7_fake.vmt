@@ -1,0 +1,59 @@
+"WorldVertexTransition"
+{
+	"$surfaceprop" "waterplouf"
+	"$basetexture" "nature/water_lagoon01"
+	"$basetexture2" "models/L7_sky/waterock"
+//	"$baseTexture2"	"Generic/Ground/Sand01_dirt"
+//	"$basetexturetranslate" "[0 0]"
+
+	"%tooltexture" "nature/water_lagoon01"
+	
+	"$bumpmap" "dev/water_normal" 
+	"$bumpmap2" "models/L7_sky/waterock_normal"
+//	"$bumpmap2" "Generic/Ground/sand01_dirt_normal"
+
+        
+	"$bumptransform" "center .5 .5 scale 10 10 rotate 0  translate 0 0"
+//      "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+//      "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0"
+
+	"%keywords" "L7;water"
+
+//	"%tooltexture" "dev/water_normal"
+
+
+
+	"$envmap" "env_cubemap"
+
+	"$normalmapalphaenvmapmask" 1
+//	"$bumpbasetexture2withbumpmap" "1"
+
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[1 1 1]"
+//	"$envmaptint" "[.7 .7 .7]"
+
+
+	"$bumpframe" "0"
+
+
+	"Proxies"
+	{
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 10.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .03
+			"texturescrollangle" 180.00
+
+		}
+		
+	}
+}

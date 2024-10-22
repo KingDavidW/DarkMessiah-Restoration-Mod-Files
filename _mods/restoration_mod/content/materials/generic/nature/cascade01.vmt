@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+ {
+  "$baseTexture" "nature/cascade01/cascade01_"
+  "$surfaceprop" "Water"
+
+  "$additive" 1
+  
+	"Proxies" 
+	{ 
+         	"AnimatedTexture" 
+         { 
+            "animatedTextureVar" "$basetexture" 
+            "animatedTextureFrameNumVar" "$frame" 
+            "animatedTextureFrameRate" "30" 
+         }
+	} 
+ }

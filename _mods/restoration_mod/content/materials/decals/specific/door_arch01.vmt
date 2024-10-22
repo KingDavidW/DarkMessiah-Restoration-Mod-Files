@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/specific/door_arch01"
+	"$decal" 1
+	"$decalscale" .33
+}

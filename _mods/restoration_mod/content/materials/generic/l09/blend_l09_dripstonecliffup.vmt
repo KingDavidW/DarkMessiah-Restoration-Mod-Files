@@ -1,0 +1,23 @@
+//"WorldVertexTransition"
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l07/l07_cliff_02"
+	"$basetexture2" "generic/l09/l09_dripstone_up"
+
+	"%tooltexture" "generic/l09/blend_L09_dripstonecliffup"
+	"%keywords" "l09"
+	"$surfaceprop" "Stone"
+
+	"$bumpmap" "generic/l09/l09_cliff_02_normal"
+	"$bumpmap2" "generic/l09/l09_dripstone_up_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+
+	"lightmappedgeneric_HDR_dx9"   
+	{
+	"$envmaptint" "[.4 .4 .4]"   
+	}	
+}
+
+

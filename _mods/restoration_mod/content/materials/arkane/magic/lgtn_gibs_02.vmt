@@ -1,0 +1,10 @@
+"Sprite"
+{
+	"$model" "1"
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$spriteRenderMode" "1"
+	"$basetexture" "arkane/Magic/lgtn_gibs_02"
+	"$translucent" "1"
+	"$additive" "1"
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$model" 1
+	"$basetexture" "models/gargoyle02/gargoyle02_v"
+	"$bumpmap" "models/gargoyle02/gargoyle02_v_normal"
+//	"$envmap" "env_cubemap"
+	"$surfaceprop" "stone"
+//	"$normalmapalphaenvmapmask" 1
+	
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+//	"$envmaptint" "[0.7 0.7 0.7]"
+//	"$selfillum" 1
+
+}

@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/Stone/Stone_rock02"
+	"$baseTexture2"	"Generic/Ground/ground02"
+	"%tooltexture" "Generic/Stone/Stone_rock02"
+	"%keywords" "trans"
+	"$bumpmap" "Generic/Stone/Stone_rock02_normal"
+	"$surfaceprop" "concrete"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+	//"$envmaptint" "[1 1 1]"
+	
+}

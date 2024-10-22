@@ -1,0 +1,46 @@
+// Choreo version 1
+event section "pause"
+{
+  time 12.019608 -1.000000
+  param "noaction"
+}
+actor "!target1"
+{
+  channel "sounds"
+  {
+    event speak "l00_phenrig_combine1"
+    {
+      time 2.181425 11.360155
+      param "l00_phenrig_combine1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+actor "!player"
+{
+  channel "Speak"
+  {
+    event speak "l00_player_combine"
+    {
+      time 0.044673 1.623222
+      param "l00_player_combine"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "34"
+  "RampTool" "82"
+  "ExpressionTool" "16"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

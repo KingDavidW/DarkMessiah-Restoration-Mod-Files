@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l10/blend_l10z_earthTree"
+	"$alphatest" 1
+	"$vertexalpha" 1
+}

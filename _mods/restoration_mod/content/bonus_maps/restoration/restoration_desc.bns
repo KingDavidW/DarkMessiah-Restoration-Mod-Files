@@ -1,0 +1,30 @@
+"Prologue"
+{
+    "map"        "l02_z_demo_Common"
+    "image"        "materials/vgui/restoration_thumbs/l02_z.tga"
+    "comment"    "Sareth embarks on his journey to obtain the shantiri crystal. This is the alternate prologue to the game in Dark Messiah: Elements."
+}
+"The Temple"
+{
+    "map"        "l07_z"
+    "image"        "materials/vgui/restoration_thumbs/l07_z.tga"
+    "comment"    "As Sareth progresses deeper into the island, he arrives at a sacred temple. This is a bonus level that existed in Dark Messiah: Elements."
+}
+"The Caves"
+{
+    "map"        "l09_c"
+    "image"        "materials/vgui/restoration_thumbs/l09_c.tga"
+    "comment"    "After being revived by the skull and powered by Xana, Sareth must figure out how to get off the island. This was a cut level from the original Dark Messiah, restored!"
+}
+"Rubby's Arena"
+{
+    "map"        "l09_z"
+    "image"        "materials/vgui/restoration_thumbs/l09_z.tga"
+    "comment"    "Deeper in the island, Sareth fights the goblin king Rubby to progress through the stronghold. This is a bonus level that existed in Dark Messiah: Elements."
+}
+"Arantir's Kingdom"
+{
+    "map"        "l10_z"
+    "image"        "materials/vgui/restoration_thumbs/l10_z.tga"
+    "comment"    "With a sacred code, and the power of the Relics, Sareth enters a secret portal by Arantir. This is a bonus level that existed in Dark Messiah: Elements, only obtainable with a specific code you would input from the box of specific versions of Dark Messiah, at a specific location in the Necropalace."
+}

@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/Stone/stone_rempart_dirty_pierre"
+	"$surfaceprop" "Concrete"
+	"$bumpmap" "mp3_level/mp3_stone_rempart_dirty_pierre_normal"
+	"$envmap" "env_cubemap" 
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"%keywords" "MP3,neutral,stone"
+}

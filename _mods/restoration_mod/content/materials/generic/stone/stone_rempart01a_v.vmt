@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Stone/Stone_rempart01a"
+	"$surfaceprop" "Concrete"
+	//"$bumpmap" "Generic/Stone/Stone_rempart01a"
+
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+}

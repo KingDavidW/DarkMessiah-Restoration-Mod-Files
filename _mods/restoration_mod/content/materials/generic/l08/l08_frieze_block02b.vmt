@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L08/L08_frieze_block02b"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L08/L08_frieze_block02b_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	"lightmappedgeneric_HDR_dx9"   
+	{
+		"$envmaptint" "[.4 .4 .4]"   
+	}
+}

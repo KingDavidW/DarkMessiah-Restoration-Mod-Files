@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/l05/l05_wall_06"
+	//"$basetexture2" 	"Generic/L01/L01_grass_01"
+	
+	//"$basetexture" "generic/L05/L05_spiderrock"
+	"$basetexture2" "generic/L05/L05_spiderweb"
+	
+	"%tooltexture" "generic/L05/blend_L05_webrock"
+
+	//"%detailtype" "Green_grass"
+	"%keywords" "L02_z"
+
+	"$bumpmap" "generic/l02_z/l02_z_rockDark_Normal"
+	"$bumpmap2" "generic/l05/l05_grass_normal"
+
+	"$surfaceprop" "Rock"
+	"$surfaceprop2" "chitin"
+}

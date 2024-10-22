@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/l02_z/l02_z_spider_stone"
+	"$normalmap" "models/l02_z/l02_z_spider_stone_N"
+	"$surfaceprop" "Rock"
+}

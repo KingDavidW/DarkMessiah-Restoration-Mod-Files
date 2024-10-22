@@ -1,0 +1,9 @@
+"DecalModulate"
+//"LightmappedGeneric"
+
+{
+	//"$translucent" 1
+	"$basetexture" "Decals/motifs/cr_dec_spid02"
+	"$decal" 1
+	"$decalscale" 1
+}

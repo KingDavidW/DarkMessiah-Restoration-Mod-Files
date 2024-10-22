@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "MP3_Level/MP3_blend_human_stone1"
+	"$basetexture2" "MP3_Level/MP3_blend_human_stone1d"
+	"$surfaceprop" "Stone"
+	"%tooltexture" "MP3_Level/MP3_blend_human_stone1_tooltexture"
+	"%keywords" "MP3,blend"
+
+	
+	
+
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+			"$bumpmap" "MP3_Level/MP3_blend_human_stone1_normal"
+			"$bumpmap2" "MP3_Level/MP3_blend_human_stone1d_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

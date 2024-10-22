@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L01/L01_oldarch_front"
+	"$surfaceprop" "stone"
+	"$bumpmap" "Generic/L01/L01_oldarch_front_normal"
+}

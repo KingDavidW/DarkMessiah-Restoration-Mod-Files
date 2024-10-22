@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "Decals/Dirt/dirt01"
+	"$decalscale" .2
+}

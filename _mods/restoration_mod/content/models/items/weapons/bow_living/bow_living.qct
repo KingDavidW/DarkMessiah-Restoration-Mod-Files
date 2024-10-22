@@ -1,0 +1,82 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"-1.0"
+		"position_take_y" 		"-3.0"
+		"position_take_z" 		"22.0"
+
+		"angle_take_x" 			"0.0"
+		"angle_take_y" 			"-130.0"
+		"angle_take_z" 			"-90.0"
+
+		"position_take_x_zoomed" 	"0.0"
+		"position_take_y_zoomed" 	"2.0"
+		"position_take_z_zoomed" 	"34.0"
+
+		"angle_take_x_zoomed" 		"90.0"
+		"angle_take_y_zoomed" 		"0.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"90.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"40.0"
+
+		"item_name" 			"bow_power_name"
+		"description" 			"bow_power_description"
+		"equip_sound"			"Bow_Polar_Equip"
+		"unequip_sound"		"Bow_UnEquip"
+
+		"light_inventory_pos_x" 	"-20.0"
+		"light_inventory_pos_y" 	"-90.0"
+		"light_inventory_pos_z" 	"-100.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"120.0"
+		"light_inventory_mediumspotintensityfactor"	"0.8"
+		
+		 "quest_item"	"3"	// item is removed on take if the player already has one				
+	}
+
+	"entity_data"
+	{
+		"ammo" 			"50"  		// Used by bows
+        
+        	"magic_power" 			"1"
+	        "magic_power_regeneration" 	"1"
+	        
+		"WDmg"			"8"
+		"rangeattack"		"90"
+		"WCritHit"		"0"
+		"WPiercing"		"0.3"
+
+		"health"           	"150"
+		"damageothercoeff" 	"1"
+		"impactothercoeff" 	"100"
+	       	"crushcoeff"       	"1"
+
+//		"stealth_modifier"	"0.75"		// stealth multiplyer
+		
+		"alwayspush"		"2"		// this attack always push npc whatever his state is
+        	//"freeze_duration" 	"5"
+        	
+ 		skills_required
+ 	 	{
+ 			"projectile"	"3"
+ 		}
+	}
+}

@@ -1,0 +1,25 @@
+"Refract"
+{
+    "$normalmap" "fo20_casc/waterfall_demo/WaterFall_Lines_DUDV"
+    "$refractamount" "0.2"
+    "$refracttint" "[0.8 0.9 1.0]"
+    "$dudvmap" "fo20_casc/waterfall_demo/WaterFall_Lines_DUDV"
+    "$bluramount" "0.05"
+    "$translucent" "1"
+
+    "$model" "1"
+    "$nocull" "1"
+
+    "$basetexture" "fo20_casc/waterfall_demo/WaterFall_Curve_mask"
+    "$alpha" "0.8"
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "texturescrollvar" "$bumptransform"
+            "texturescrollrate" "0.7"
+            "texturescrollangle" "270"
+        }
+    }
+}

@@ -1,0 +1,142 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "sound"
+  {
+    event speak "l00_phenrig_combine2a"
+    {
+      time 0.206429 1.787790
+      param "l00_phenrig_combine2a"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "flex anim"
+  {
+    event flexanimation "flex animation"
+    {
+      time 0.000000 2.009762
+      param ""
+      flexanimations samples_use_time
+      {
+        "blink"        
+        {
+          0.2448 0.0200
+          0.2998 0.9900
+          0.4099 0.0200
+          1.6983 0.0000
+          1.7967 0.9900
+          1.8761 0.0000
+        }
+        "outer_raiser"         combo        
+        {
+          0.2778 0.0200
+          0.4099 0.6100
+          0.5979 0.9200
+          1.6142 0.7200
+          1.7497 0.1800
+          1.8700 0.4000
+        }
+        {
+        }
+        "lowerer"         combo        
+        {
+          0.2521 0.0400
+          0.3145 0.4800
+          0.4471 0.1800
+          1.6029 0.1900
+          1.7497 0.5300
+          1.8597 0.2300
+        }
+        {
+        }
+        "wrinkler"        
+        {
+          0.1761 0.0000
+          0.3303 0.6700
+          0.4145 0.7700
+          1.5112 0.8200
+          1.7166 0.7500
+        }
+        "corner_depressor"         combo        
+        {
+          0.0110 0.0000
+          0.3047 0.4300
+          0.3595 0.4500
+          1.6176 0.4900
+          1.6836 0.4700
+        }
+        {
+        }
+      }
+    }
+  }
+  channel "gesture"
+  {
+    event gesture "NULL"
+    {
+      time 0.000000 0.068452
+      param ""
+    }
+    event gesture "gesture10"
+    {
+      time 0.011905 1.880357
+      param "gesture_arms_10"
+      absolutetags playback_time
+      {
+        "in" 0.109270
+        "out" 0.728470
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.125000
+        "out" 0.833333
+      }
+      sequenceduration 1.633333
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "posture0"
+    {
+      time 0.000000 2.009762
+      param "posture_discuss_0"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.2020 1.0000
+        0.6060 0.0000
+        1.7540 1.0000
+        2.0098 1.0000
+      }
+    }
+  }
+  channel "look at"
+  {
+    event lookat "look at player"
+    {
+      time -0.220238 2.009762
+      param "!player"
+    }
+  }
+  channel "face to"
+  {
+    event face "face to player"
+    {
+      time 0.000000 2.009762
+      param "!player"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "206"
+  "RampTool" "100"
+  "ExpressionTool" "58"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

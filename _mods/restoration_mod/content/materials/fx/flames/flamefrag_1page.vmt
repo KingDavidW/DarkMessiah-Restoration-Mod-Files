@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$spriteorigin" "[ 0.50 1.0 ]"
+	"$color" "[1 0.3 0.05]"
+	"$model" "1"
+	// Original shader: AdditiveTextureAndVertexColor
+	"$basetexture" "fx/flames/FlameFrag_1page"
+	"$additive" "1"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$pageframe_x" 4
+	"$pageframe_y" 4
+	
+
+}

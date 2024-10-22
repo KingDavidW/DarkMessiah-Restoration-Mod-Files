@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/L03_dirtyfloor"
+	"$decal" 1
+	"$decalscale" .20
+	"$surfaceprop" "Dirt"
+}

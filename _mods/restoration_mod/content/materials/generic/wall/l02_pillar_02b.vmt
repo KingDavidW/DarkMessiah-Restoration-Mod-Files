@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+
+{
+	"$baseTexture"	"Generic/Wall/L02_Pillar_02b"
+	"$surfaceprop" "Concrete"
+	"$bumpmap" "Generic/Wall/L02_Pillar_02b_normal"
+
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+
+	//"$envmapcontrast" 0.5
+	//"$envmapsaturation" 0.5
+	//"$envmaptint" "[0.25 0.25 0.25]"
+}

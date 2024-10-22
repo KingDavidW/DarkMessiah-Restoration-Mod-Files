@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+
+{
+	
+	"$baseTexture"	"Generic/Wood/l7_woodmos01"
+	"$surfaceprop" "wood"
+	"%detailtype" "RT_rock_garden"
+	//"$bumpmap" "Generic/Wood/l7_woodmos01_normal"
+
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+
+	//"$envmapcontrast" 0.5
+	//"$envmapsaturation" 0.25
+	//"$envmaptint" "[0.25 0.25 0.25]"
+}

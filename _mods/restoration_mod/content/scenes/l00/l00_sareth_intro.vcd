@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!player"
+{
+  channel "Speak"
+  {
+    event speak "l00_player_start"
+    {
+      time 0.080000 3.506032
+      param "l00_player_start"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l10/l10z_e_tree01"
+	"$normalmap" "generic/l10/l10z_e_tree01_normal"
+	"$surfaceprop" "Wood_Furniture"
+}

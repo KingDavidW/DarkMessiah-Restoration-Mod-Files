@@ -1,0 +1,7 @@
+"Lightmappedgeneric"
+{
+	"$baseTexture"	"generic/l12/l12_darkmarble"
+	//"$bumpmap" "generic/l12/l12_darkmarble_normal"
+	"$surfaceprop" "stone"
+	"%keywords" "L12"
+}

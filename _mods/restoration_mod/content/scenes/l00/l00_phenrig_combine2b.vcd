@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "sound"
+  {
+    event speak "l00_phenrig_combine2b"
+    {
+      time 0.273333 3.442766
+      param "l00_phenrig_combine2b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "218"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "38"
+  "GestureTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/l7_e_tree01_br01"
+	"$translucent" 1
+}

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$decal" 1
+	"$model" 1
+	"$basetexture" "Decals/OilStain"
+
+	"$translucent" 1
+	"$decalscale" .15
+	
+	"$vertexcolor" 1 		
+	"$vertexalpha" 1
+
+	"$modelmaterial" "decals/OilStainModel"
+
+	"$decalfadeduration" -0.2
+	"$decalfadetime" 0.00
+}

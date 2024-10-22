@@ -1,0 +1,8 @@
+// Info describing the folder must be in folderinfo.txt!
+// The image shown for the folder is assumed to be foldericon.tga if none is specified!
+
+"Restoration Mod"
+{
+	"comment"	"Play through bonus additions from Dark Messiah: Elements, and cut levels!"
+	"image"		"materials/vgui/restoration_thumbs/elements.tga"
+}

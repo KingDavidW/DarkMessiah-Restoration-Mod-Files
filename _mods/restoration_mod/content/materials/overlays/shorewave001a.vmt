@@ -1,0 +1,59 @@
+//"UnlitGeneric"
+//"LightmappedGeneric"
+"UnlitTwoTexture"
+{
+	"$basetexture" "overlays/shorewave001a"
+	"$texture2"    "overlays/shorewave001a"
+	"$translucent" 1
+//	"$additive" 1
+	"$decal" 1
+//	"$ignorez" 1
+
+//  VARS
+
+	"$ScrollRateResult"	1
+	"$ScrollRateResult2"	1
+
+	"Proxies"
+	{		
+	
+		"Sine"
+		{
+			
+			"sineperiod"	13
+			"sinemin"	-0.003
+			"sinemax"	0.003
+			"resultVar"	"$ScrollRateResult"
+		}
+		
+		"Sine"
+		{
+			
+			"sineperiod"	13
+			"sinemin"	-0.001
+			"sinemax"	0.001
+			"resultVar"	"$ScrollRateResult2"
+		}
+		
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "$ScrollRateResult"
+			"texturescrollangle" 90
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" "$ScrollRateResult2"
+			"texturescrollangle" 90
+		}
+		
+
+
+	}
+
+
+}
+

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "overlays/L7_shadow01"
+	"$decal" 1
+//	"$decalscale" 0.3
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Wood/Wood_beam_gob08_v"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Generic/Wood/Wood_beam_gob08_v_normal"
+}

@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L07/L07_groundgravel"
+	"$basetexture2" "Generic/L07/L07_pavestone"
+	"%tooltexture" "Generic/L07/blend_L07_pavegravel"
+
+	"%keywords" "L07"
+	"$surfaceprop" "Dirt"	
+	"$surfaceprop2" "Stone"	
+	
+	"$bumpmap" "Generic/L07/L07_groundgravel_normal"
+	"$bumpmap2" "Generic/L07/L07_pavestone_normal"
+}

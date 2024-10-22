@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "Decals/lightning_bolt_hit"
+	"$decalscale" 0.2500
+}

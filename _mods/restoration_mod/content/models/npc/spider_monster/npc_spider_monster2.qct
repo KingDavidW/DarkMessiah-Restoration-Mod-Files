@@ -1,0 +1,296 @@
+$keyvalues
+{
+ 	"entity_data"
+	{
+		"strength"	  		"7"		// Npc' strenght.
+		"dexterity"	  		"1"		// Npc's dexterity.
+		"life_regen" 			"0"		// Life regeneration (points per seconds).
+		"stunned_duration" 		"4.0"		// Amount of time during which npc is stuned (Time in second).
+		
+		"AttackCoolMinTime"			"3.2"			// Min time to beetween attacks when NPC is "cool"
+		"AttackCoolMaxTime"			"5.5"			// Max time to beetween attacks when NPC is "cool"
+		"AttackBersekerMinTime"		"3.2"			// Min time to beetween attacks when NPC is in berseker mode
+		"AttackBersekerMaxTime"		"5.5"			// Max time to beetween attacks when NPC is in berseker mode
+		"AttackRythmMinTime"		"10.0"			// Min time to change beetween cool<->berseker mode
+		"AttackRythmMaxTime"		"15.0"			// Max time to change beetween cool<->berseker mode
+		"PlayerNoAttackDelayToGoBersekerMode"		"2.0"  // after no attack from player during this delay, npc goes in berseker mode
+
+		"Poison_Damages"		"1.5"
+		"Poison_Duration"		"20"
+
+//		"versus_click"			"8"		// Number of cliks needed to win a sword contest. No sword contest with spider.
+
+		"life_toflee" 			"0.0"		// Life percentage needed for the npc start to flee.
+//		"life_stopflee" 		"0.8"		// Life percentage needed for the npc stop to flee.
+//		"life_tobeg" 			"0"		// Npc starts to beg if its life goes under this percentage. No beg for spider.
+				
+		"Blood_ratio" 			"0.3" 		// Blood spawn size (percent).
+		"difficulty" 			"0.9"		// Max 1. When close to max, npc takes more offensive decisions.
+
+ 		"Blood_Color_Type"		"RED"		// default value is "RED"
+// 		"Blood_Color_Type"		"SPIDER"	// default value is "RED"
+
+          	"mana_drainable"  		"1"		// Can be mana drained.
+          	 		
+		"RangeViewToStealthMaxInCombat"	"400"	// Radius inside which the player is detected, even if invisible.
+		"visibilityratio"	"1"		// This will increase the blindness of npcs (default 1.2).
+		
+		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+				
+		"fielofviewheightangle"	"180"		// field of view height angle. 
+		
+//		"NWDmg" 			"5"		// Damage dealt by npc if no weapon used.
+//		"NWPiercing" 			"0.1"		// Piercing coeff dealt by npc if no weapon used.
+//		"NWCritHit" 			"4"		// Critical hit dealt by npc if no weapon used.
+
+		"ShouldRagdollCollideWithNPCWhenInert" "1" // Set it to 0 if you don't want death ragdoll to collide with NPCs when inerts
+		
+		"MinMassObjectDamages"	"100"    	// Npc does not take damages by physics object which mass is smaller than this value.
+		"MinMassDamages"		"200"    	// Npc take damages this damages if physics object have a mass greater than MinMassObjectDamages.
+		
+		"cowardice"			"100"		// If cowardice higher than fearfactor NPC will flee.
+		"arrow_impal" 			"0"		// Npc can be impaled by arrows (1: yes, 0: no).
+		"charmable" 			"0"		// Npc is charmable (1: yes, 0: no). 
+		
+		"maxsightdistancequiet" 	"1500"		// Maximum vision distance, in inches, when in idle mode.
+		"maxsightdistancealerted" 	"1500"		// Maximum vision distance, in inches, when in alert mode.
+		
+		"fieldofviewquiet"  		"90"		// Maximum vision angle, in degres, when in idle mode.
+		"fieldofviewalerted" 		"160"		// Maximum vision angle, in degres, when in alert mode.
+
+		"TimeKnockedDownByPhysics" 	"3"  		// Time npc stay knocked down after being hit by a physic.
+		
+		"max_jump_rise"			"40"		// how high can a NPC jump. No jump for spider.
+		"max_jump_drop"			"300"		// how high can a NPC drop. No jump for spider.
+		"max_jump_dist"			"200"		// how long can a NPC jump (2D). No jump for spider.
+
+		"chancetostun"			"0.2"		// Base chance for npc to get stuned (default 0.2).
+		"delaytostun"			"4"		// Amout of time (in secondes) the npc remains stuned (default 10).
+		"nbhittostun"			"10"		// Hits needed before applying the chancetostun factor (defaut 6).
+
+//		"life_tohurt"			"0.3"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
+				
+		"Yellow_zone"			"290"		// Max close combat distance
+		"Green_zone"			"130"		// Ideal close combat distance
+		"Red_zone"				"0"		// min close combat distance		
+		"PercGrunt"				"0.5"		//Percentage to grunt after an attack
+		
+		"npc_health"			"1500"		// NPC's life points.
+
+  		"Vulnerabilities_spells"
+  		{ 
+   			"fire"		"2"		// Immune to fire 0. Damage multiplier 2.     
+   			"earth_2"	"0"		// Immune to poison 0. Damage multiplier 2.
+  			"water_3"	"0"		// Immune to freeze 0. Damage multiplier 2.   			
+  		        "shock_water"   "2"             // Immune to electricity in water 0. Damage multiplier 2.  			   			  			
+   		}
+   	
+		"weak_All"				// Spell: Stone Skin for receivers.
+		{  
+			//"Value"		"0"		// Damage multiplier.
+			//"NoHit"		"1"
+			"Value"		"1"		// Damage multiplier.
+		}
+		
+		"weak_Spine"				// Spell: Stone Skin for receivers.
+		{  
+			"Value"		"4"		// Damage multiplier.
+		}
+		
+		"poisoned"			"0.6"		// Base chance of inflicting a poisonous hit.		
+	}
+
+	"prop_data"					// Position and orientation when the corpse is grabed by player.Only when npc is dead.
+	{
+//		"position_take_x" 	"-5"		// Position X. Paokai cannot be grabed.
+//		"position_take_y" 	"-17"		// Position Y. Paokai cannot be grabed.
+//		"position_take_z" 	"15"		// Position Z. Paokai cannot be grabed.
+
+//		"angle_take_x"		"0"		// Orientation X. Paokai cannot be grabed.
+//		"angle_take_y"		"0"		// Orientation Y. Paokai cannot be grabed.
+//		"angle_take_z"		"0"		// Orientation Z. Paokai cannot be grabed.
+	}
+
+	"Telekinesis_Stasis"
+	{
+		"effect" 		"0"		// 1: can be taken with telekinesis spell.
+		"caster_cost" 		"0"		// Mana cost for the player when using this spell on the npc.
+	}
+
+ 	"hitboxes_modifier"			// Multipliyer applied to damages when the npc is hit on a specific hitbox.
+	{
+		"0" 		"1.0" 		// HITGROUP_GENERIC
+		"1" 		"1.5" 		// HITGROUP_HEAD
+		"2" 		"0.5" 		// HITGROUP_CHEST
+		"3" 		"1" 		// HITGROUP_STOMACH
+		"4" 		"1.25" 		// HITGROUP_LEFTARM
+		"5" 		"1.25" 		// HITGROUP_RIGHTARM
+		"6" 		"1.25" 		// HITGROUP_LEFTLEG
+		"7" 		"1.25" 		// HITGROUP_RIGHTLEG
+	}
+	
+	"hitboxes_armor"	// Type of armor applied on a specific hitbox. <0.3 = skin, <0.4 = leather, <0.7 = wood,  >=0.7 = metal.
+	{
+		"0" 		"0" 		
+		"1" 		"0" 		
+		"2" 		"0" 		
+		"3" 		"0" 		
+		"4" 		"0" 
+		"5" 		"0" 
+		"6" 		"0" 
+		"7" 		"0" 
+	}
+
+}
+
+"combatmovedatas"	
+{
+	
+	"attack_1"//"attack_right" 
+	{
+		"impactdirX"	"0"		// Base direction X for impact.
+		"impactdirY"	"-1"		// Base direction Y for impact.
+		"impactdirZ"	"0"		// Base direction Z for impact.
+		"HitPow"	"1"		// Damage multiplier
+		"breakparade"	"0"		// 1: Breaks oponent's parry
+		"alwayspush"	"150" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"attack_2"//"attack_left" 
+	{
+		"impactdirX"	"1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"attack_3"//"attack_rightlong" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0"
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"attack_4"//"attack_leftlong" 
+	{
+		"impactdirX"	"-1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+//	"attack_Dual"
+//	{
+//	 "event0"				// When event, attack is separated in two, or more, parts.
+//		{
+//		"impactdirX"	"0"
+//		"impactdirY"	"-1"
+//		"impactdirZ"	"0"
+//		"HitPow"	"0.4"
+//		"breakparade"	"0" 
+//		"alwayspush"	"150" 
+//		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+//		}
+//	 "event1"
+//		{
+//		"impactdirX"	"0"
+//		"impactdirY"	"-1"
+//		"impactdirZ"	"0"
+//		"HitPow"	"0.8"
+//		"breakparade"	"0" 
+//		"alwayspush"	"150"
+//		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+//		} 
+//	}
+	
+	"attack_belly" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"0"
+		"impactdirZ"	"1"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"high_attack_1" 
+	{
+		"impactdirX"	"-1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"high_attack_2" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"low_attack_1" 
+	{
+		"impactdirX"	"-1"
+		"impactdirY"	"0"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"low_attack_2" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+	
+	"Attack_outofrange_idle" 
+	{
+		"impactdirX"	"0"
+		"impactdirY"	"-1"
+		"impactdirZ"	"0"
+		"HitPow"	"1"
+		"breakparade"	"0" 
+		"alwayspush"	"150" 
+		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+	}
+}
+
+"spelldatas"
+{
+	"water_2"					// Spell: Poison spray.
+	{
+	  	"Poison_Duration" "10" 
+	         "Damage_Factor"  	"3.0"		// Damage delt per second.
+        	 "Radius"  		"50.0"		// Damage radius (in inches).
+       	 	 "Visual_Scale"  	"1.0"		// Scale of the visual effects.
+     	  	 "Movement_Speed" 	"1.0"		// Particule speed.	
+			 "attachment"		"MM_Mouth"	// Attachment point for the spell effect.	
+	
+	}
+}

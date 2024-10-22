@@ -1,0 +1,6 @@
+"DecalModulate"
+{
+	"$decal" 1
+	"$basetexture" "Decals/decomp_puddle1"
+	"$decalscale" 0.5
+}

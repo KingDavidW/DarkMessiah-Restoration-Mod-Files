@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/WaterFall_Demo/WaterFall_Impact"
+		"$bumpmap" "models/WaterFall_Demo/WaterFall_Impact_mask"
+	//"$normalmap" "models/WaterFall_Demo/WaterFall_Lines_normal"
+		 "$surfaceprop" "Water"
+	
+	
+	
+	
+		"Proxies"
+	{
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" ".7"
+			"texturescrollangle" "90.00"
+		}
+	}
+}

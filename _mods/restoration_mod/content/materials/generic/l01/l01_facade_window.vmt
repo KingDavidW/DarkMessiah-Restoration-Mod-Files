@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L01/L01_facade_win"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L01/L01_facade_win_normal"
+	"%keywords" "L01"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+	"lightmappedgeneric_HDR_dx9"
+		{
+                        "$envmaptint" "[.4 .4 .4]"
+		}
+}

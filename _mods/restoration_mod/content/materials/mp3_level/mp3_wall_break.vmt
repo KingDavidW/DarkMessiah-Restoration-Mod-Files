@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	
+	"$baseTexture"	"MP3_Level/mp3_wall_break"
+	"$bumpmap" "MP3_Level/mp3_wall_break_normal"
+	"$surfaceprop" "stone"
+
+	
+	"%keywords" "MP3,wall,rubble"
+
+	//"$normalmapalphaenvmapmask" 1
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[0.6 0.6 0.6]"
+
+}

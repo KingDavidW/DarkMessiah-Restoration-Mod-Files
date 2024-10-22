@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/temp/stonetmp03"
+	"$basetexture2" "generic/ground/Sand01"
+	
+	"%tooltexture" "generic/ground/Blend_Sandrock02_mp4_tooltexture"
+	"%keywords" "Ruined"
+	
+	"$surfaceprop2" "dirt"
+	
+	
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+			"$bumpmap" "Generic/Ground/Sandrock01_normal"
+			"$bumpmap2" "Generic/Ground/Sand01_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"Generic/L02/L02_greystoneline"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "Generic/L02/L02_greystoneline_normal"
+
+	"%keywords" "L02"
+}

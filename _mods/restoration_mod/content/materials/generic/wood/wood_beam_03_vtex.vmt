@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	
+	"$baseTexture"	"Generic/Wood/Wood_Beam_03"
+	"$surfaceprop" "wood"
+
+}

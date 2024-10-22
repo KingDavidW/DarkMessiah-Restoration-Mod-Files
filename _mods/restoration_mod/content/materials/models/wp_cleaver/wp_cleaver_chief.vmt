@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/wp_cleaver/wp_cleaver_chief"
+	"$bumpmap" "models/wp_cleaver/wp_cleaver_chief_normal"
+	"$surfaceprop" "Metal"
+}

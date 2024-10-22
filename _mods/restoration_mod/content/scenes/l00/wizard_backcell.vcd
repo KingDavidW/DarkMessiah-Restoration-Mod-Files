@@ -1,0 +1,45 @@
+// Choreo version 1
+actor "wizzy"
+{
+  channel "action"
+  {
+    event moveto "move to backcell"
+    {
+      time 0.020000 1.346667
+      param "!target1"
+      param2 "Walk"
+      resumecondition
+    }
+    event moveto "move 2"
+    {
+      time 1.660000 2.160000
+      param "!target2"
+      param2 "Walk"
+      resumecondition
+    }
+  }
+  channel "gesture"
+  {
+  }
+  channel "talk"
+  {
+  }
+  channel "look_at"
+  {
+  }
+  channel "face to"
+  {
+  }
+  faceposermodel "models\npc\wizard\npc_wizard.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

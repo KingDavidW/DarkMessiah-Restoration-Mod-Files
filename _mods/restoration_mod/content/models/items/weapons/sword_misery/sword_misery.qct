@@ -1,0 +1,107 @@
+$keyvalues
+{
+	"prop_data"
+	{	
+//		Generated QCT section for Inventory Item
+
+		"position_take_x" 		"0.0"
+		"position_take_y" 		"0.0"
+		"position_take_z" 		"8.0"
+
+		"angle_take_x" 			"175.0"
+		"angle_take_y" 			"-60.0"
+		"angle_take_z" 			"-80.0"
+
+		"position_take_x_zoomed" 	"-15.0"
+		"position_take_y_zoomed" 	"0.0"
+		"position_take_z_zoomed" 	"25.0"
+
+		"angle_take_x_zoomed" 		"0.0"
+		"angle_take_y_zoomed" 		"-360.0"
+		"angle_take_z_zoomed" 		"0.0"
+
+		"rotation_axis_x_zoomed" 	"0.0"
+		"rotation_axis_y_zoomed" 	"0.0"
+		"rotation_axis_z_zoomed" 	"0.0"
+
+		"rotation_speed" 		"70.0"
+
+		"stunmultiplicator"		"1"		// Multiplyer factor for stuning npcs (default 1).
+		
+		"item_name" 			"sword_guard_name"
+		"description" 			"sword_guard_description"
+		"equip_sound"			"Weapon_Equip"
+		"unequip_sound"			"Weapon_UnEquip"
+
+		"light_inventory_pos_x" 	"-20.0"
+		"light_inventory_pos_y" 	"-90.0"
+		"light_inventory_pos_z" 	"-100.0"
+
+		"light_inventory_dir_x" 	"1.0"
+		"light_inventory_dir_y" 	"0.0"
+		"light_inventory_dir_z" 	"0.0"
+
+		"light_inventory_color_r" 	"1.0"
+		"light_inventory_color_g" 	"1.0"
+		"light_inventory_color_b" 	"1.0"
+
+		"light_inventory_color_a" 	"1.0"
+
+		"light_inventory_radius" 			"500.0"
+		"light_inventory_hotspotradius" 		"120.0"
+		"light_inventory_mediumspotintensityfactor"	"0.8"
+
+		"position_take_x_big" 		"-2.0"
+		"position_take_y_big" 		"2.0"
+		"position_take_z_big" 		"9.0"
+
+		"angle_take_x_big" 		"40.0"
+		"angle_take_y_big" 		"55.0"
+		"angle_take_z_big" 		"15.0"
+
+		 "quest_item"	"3"	// item is removed on take if the player already has one				
+	}
+
+	"trail_data"
+	{
+		"Player_Trail_Fade_Time"	"0.25"        		// will decide the duration/length of the trail
+		"Player_Trail_Alpha_Mul"	".2"            		// Global Alpha Multiplicator
+		"Player_Trail_Color_R_Mul"	".6"        		// Global Red Multiplicator
+		"Player_Trail_Color_G_Mul"	".6"        		// Global Green Multiplicator
+		"Player_Trail_Color_B_Mul"	".6"        		// Global Blue Multiplicator
+		"Player_Trail_Material"  	"Models/Wp_Sword_Short/Sword_short_trail"    	// Texture Used (Read the texture from left to right)
+ 
+		"NPC_Trail_Fade_Time"  		"0.06"
+		"NPC_Trail_Alpha_Mul"  		"2"
+		"NPC_Trail_Color_R_Mul" 	"1"
+		"NPC_Trail_Color_G_Mul" 	"0"
+		"NPC_Trail_Color_B_Mul" 	"1"
+		"NPC_Trail_Material"  		"Models/Wp_Sword_Short/Sword_short_trail"
+	}
+
+
+	"entity_data"
+	{
+		"WDmg"			"8"
+		
+		"rangeattack"		"90"
+		"WCritHit"		"5"
+		"WPiercing"		"0.2"
+
+		"health"           	"150"
+		"damageothercoeff" 	"1"
+		"impactothercoeff" 	"100"
+       		"crushcoeff"       	"1"
+		"fearfactor"		"300"
+		"material_type"		"metal"
+		
+		"speed_attack"		"1.1"			// Animation speed multiplier, in %.
+
+       		"parry_cos"		"0.5"			// 1 : always parry. 0 : never parry.
+       		
+ 		skills_required
+ 	 	{
+ 			"combat"	"2"
+ 		}
+	}
+}

@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/L05/L05_sand_b"
+	"$basetexture2" "MP3_Level/MP3_cliffedge1"
+
+	"%tooltexture" "MP3_Level/MP3_blend_cliff_sand_tt"
+	"%keywords" "mp3,blend, cliffblend"
+
+	"$surfaceprop" "dirt"
+
+	
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+			"$bumpmap" "Generic/L05/L05_sand_b_normal"
+			"$bumpmap2" "MP3_Level/MP3_cliffedge1_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

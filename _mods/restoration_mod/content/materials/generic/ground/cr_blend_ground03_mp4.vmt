@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/ground/cr_ground08a"
+	"$basetexture2" "generic/ground/sand01"
+	
+	"%tooltexture" "generic/ground/cr_Blend_ground03"
+	
+
+  "$surfaceprop" "stone"
+	"$surfaceprop2" "dirt"
+	
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+			"$bumpmap" "Generic/Ground/cr_ground08a_normal"
+			"$bumpmap2" "Generic/Ground/sand01_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .5 .5 .5]"
+			"$envmap" "env_cubemap"
+		}
+}

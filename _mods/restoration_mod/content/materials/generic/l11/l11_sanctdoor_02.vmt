@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"generic/l11/l11_sanctdoor_02"
+	"$surfaceprop" "wood"
+	"$bumpmap" "generic/l11/l11_sanctdoor_02_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+
+ 	"lightmappedgeneric_HDR_dx9"   
+		{
+	        "$envmaptint" "[.25 .25 .25]"    
+		}	
+}

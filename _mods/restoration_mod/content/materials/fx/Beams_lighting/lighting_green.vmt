@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "fx/Beams_lighting/lighting_green"
+		"$additive" 1
+	"$alphatest" 1
+	"$translucent" 1
+}

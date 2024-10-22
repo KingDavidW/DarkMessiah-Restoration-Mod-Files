@@ -1,0 +1,85 @@
+//"UnlitGeneric"
+//"LightmappedGeneric"
+"UnlitTwoTexture"
+{
+	"$basetexture" "overlays/shorewave001a"
+	"$texture2"    "overlays/shorewave001a"
+	
+	"$translucent" 1
+	"$additive" 1
+	"$decal" 1
+//	"$ignorez" 1
+
+//  VARS
+
+	"$texoffset" "[0 0]"
+	"$tex2offset" "[0 0]"
+	
+	"Proxies"
+	{		
+	
+
+		"Sine"
+		{
+			
+			"sineperiod"	13
+			"sinemin"	0
+			"sinemax"	0.3
+			"resultVar"	"$texoffset[1]"
+		}
+
+		"Sine"
+		{
+			
+			"sineperiod"	13
+			"sinemin"	0
+			"sinemax"	0
+			"resultVar"	"$texoffset[0]"
+		}
+		
+		"TextureTransform"
+		{
+			"translateVar" "$texoffset"
+			"resultVar" "$basetexturetransform"
+		}
+		
+		
+
+
+		"Sine"
+		{
+			"timeoffset"    .3
+			"sineperiod"	13
+			"sinemin"	-0.3
+			"sinemax"	0.2
+			"resultVar"	"$tex2offset[1]"
+		}
+		
+		"Sine"
+		{
+			
+			"sineperiod"	8
+			"sinemin"	-0.7
+			"sinemax"	-0.68
+			"resultVar"	"$tex2offset[0]"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$tex2offset"
+			"resultVar" "$texture2transform"
+		}
+
+		"Sine"
+		{	
+			"timeoffset"    -.5
+			"sineperiod"	6.5
+			"sinemin"	.5
+			"sinemax"	1
+			"resultVar"	"$alpha"
+		}
+
+
+	}
+
+
+}

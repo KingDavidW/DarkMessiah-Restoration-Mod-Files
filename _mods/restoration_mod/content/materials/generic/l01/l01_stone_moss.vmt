@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture"	"generic/l01/l01_stone_moss"
+	"$surfaceprop" "stone"
+	"$bumpmap" "generic/l01/l01_stone_moss_normal"
+	"%keywords" "L01"
+}

@@ -1,0 +1,120 @@
+"lang" 
+{ 
+    "Language" "English" 
+    "Tokens" 
+    { 
+  	//     
+	//   ITEMS STRINGS
+	//
+
+        //# money02_desc
+        //~ money02_desc
+        "money02_desc" "Arena Coin"
+
+        //# money02_text
+        //~ money02_text
+        "money02_text" "A coin that can be put in chests to unlock weapons.
+		@GDOUBLE CLICK or RIGHT CLICK in inventory to drop!@
+
+		@RDO NOT LOOK DOWN WHILE DROPPING!!@"
+
+
+        //# money02_name
+        //~ money02_name
+        "money02_name" "Arena Coin"
+
+        //# money02_description
+        //~ money02_description
+        "money02_description" "A coin that can be put in chests to unlock weapons.
+			@GDOUBLE CLICK or RIGHT CLICK in inventory to drop!@
+
+			@RDO NOT LOOK DOWN OR UP WHILE DROPPING!!@"
+
+        //# pan_name
+        //~ pan_name
+        "name" "Pan"
+
+	//# pan_desc
+        //~ pan_desc
+        "pan_desc" "Pan"
+
+        //# pan_description
+        //~ pan_description
+        "pan_description" "Pan this you filthy casual! Danno +$wdmg$ +$crithit$% +$Piercing$ +"
+
+        //# pan_text
+        //~ pan_text
+        "pan_text" "Pan this you filthy casual! Danno +$wdmg$ +$crithit$% +$Piercing$ +"
+
+        //# axe_name
+        //~ axe_name
+        "axe_name" "Axe"
+
+        //# axe_description
+        //~ axe_description
+        "axe_description" "Damage +$wdmg$. Requires +$skill$."	
+
+
+	//
+	// HINTS
+	//
+
+
+	//# templatehint_hint1
+        //~ templatehint_hint1
+         "templatehint_hint1" "hint"
+
+
+	//QUEST STRINGS
+
+
+	//
+	// OTHER STRINGS
+	//
+	//
+							
+	//
+	//MAIN MENU TESTS
+	//							
+
+	//# GameUI_PlayArena
+        //~ GameUI_PlayArena
+        "GameUI_PlayArena" "PLAY ARENA"
+
+	//# GameUI_PlayAdventure
+        //~ GameUI_PlayAdventure
+        "GameUI_PlayAdventure" "PLAY ADVENTURE"
+
+	//# skillname_magic_4
+        //~ skillname_magic_4
+        "skillname_magic_4" "Poison Spray"
+
+        //# skilldesc_magic_4
+        //~ skilldesc_magic_4
+        "skilldesc_magic_4" "boh"
+
+	//# skillname_magic_2
+        //~ skillname_magic_2
+        "skillname_magic_2" "StoneSkin"
+
+        //# skilldesc_magic_2
+        //~ skilldesc_magic_2
+        "skilldesc_magic_2" "boh"
+
+	//# skillname_magic_10
+        //~ skillname_magic_10
+        "skillname_magic_10" "Summon Spider"
+
+        //# skilldesc_magic_10
+        //~ skilldesc_magic_10
+        "skilldesc_magic_10" "boh"
+
+	//# skillname_magic_14
+        //~ skillname_magic_14
+        "skillname_magic_14" "Drain"
+
+        //# skilldesc_magic_14
+        //~ skilldesc_magic_14
+        "skilldesc_magic_14" "drain"
+    } 
+}

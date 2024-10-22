@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	// Original shader: AdditiveTextureAndVertexColor
+	"$basetexture" "fx/flames/fire_green_glow_1page"
+	"$additive" "0"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$pageframe_x" 4
+	"$pageframe_y" 4
+	
+
+}

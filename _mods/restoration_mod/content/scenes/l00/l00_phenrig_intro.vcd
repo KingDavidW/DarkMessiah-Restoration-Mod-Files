@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "!player"
+{
+  channel "Speak"
+  {
+    event speak "00_Phenrig_tuto_cine1c"
+    {
+      time 0.080000 19.506032
+      param "00_Phenrig_tuto_cine1c"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

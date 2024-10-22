@@ -1,0 +1,437 @@
+Inventory_800x600
+{
+	NoSection
+	{
+		// Border offset for cs_select ( Inventory ) in x and y
+		// Border offset for cs_select_bg ( Inventory ) in w and h
+		"162"		"-3 -3 -9 -9"  
+
+//		// Upgrade Button 
+//		"81"		"-577 -90 177 118"
+
+		// Drop zone
+		"49"		"0 0 526 284"
+
+		// offset for number__________numero slot belt inventory
+		"188"		"-999 -999 0 0"
+
+		// Resultant value offset______________coordonnees du texte / coordonnee case
+		"156"	"12 27 20 8" 
+	}
+
+	Inventory
+	{
+		// Main Inventory : 0 to 40
+		// Line 1
+
+		
+		"0"	"26 90 44 38"
+		"1"	"74 90 44 38"
+		"2"	"122 90 44 38"
+		"3"	"170 90 44 38"
+		"4"	"217 90 44 38"
+		"5"	"265 90 44 38"
+		"6"	"313 90 44 38"
+		"7"	"361 90 44 38"
+		"8"	"409 90 44 38"
+		"9"	"456 90 44 38"
+		"10"	"504 90 44 38"
+		"11"	"553 90 44 38"
+		"12"	"601 90 44 38"
+		
+		
+		// Line 2
+
+		
+		"13"	"26 131 44 38"
+		"14"	"74 131 44 38"
+		"15"	"122 131 44 38"
+		"16"	"170 131 44 38"
+		"17"	"217 131 44 38"
+		"18"	"265 131 44 38"
+		"19"	"313 131 44 38"
+		"20"	"361 131 44 38"
+		"21"	"409 131 44 38"
+		"22"	"456 131 44 38"
+		"23"	"504 131 44 38"
+		"24"	"553 131 44 38"
+		"25"	"601 131 44 38"
+		
+
+		// Line 3
+
+		
+		"26"	"26 173 44 38"
+		"27"	"74 173 44 38"
+		"28"	"122 173 44 38"
+		"29"	"170 173 44 38"
+		"30"	"217 173 44 38"
+		"31"	"265 173 44 38"
+		"32"	"313 173 44 38"
+		"33"	"361 173 44 38"
+		"34"	"409 173 44 38"
+		"35"	"456 173 44 38"
+		"36"	"504 173 44 38"
+		"37"	"553 173 44 38"
+		"38"	"601 173 44 38"
+
+		// BELT
+		
+		"39"	"26 28 44 38"
+		"40"	"74 28 44 38"
+		"41"	"122 28 44 38"
+		"42"	"170 28 44 38"
+		"43"	"217 28 44 38"
+		"44"	"265 28 44 38"
+		"45"	"313 28 44 38"
+		"46"	"361 28 44 38"
+		"47"	"409 28 44 38"
+
+		// Inventory Panel
+		"48"		"-1 64 0 0"
+
+		// Skill Description Box OBSOLETE
+		"91"		"630 49 0 0"
+		
+		// Skill Description Scrollbar OBSOLETE
+		"92"		"663 51 0 0"
+
+		// Upgrade Button Click Zone : NOT DISPLAYED, only for click OBSOLETE
+		"157"		"549 43 0 0"
+
+		// Text Upgrade Button__________for gilles center text!!!! OBSOLETE
+		"158"		"519 60 0 0"
+
+		// Upgrade Button Icon Mouse Over OBSOLETE
+		"159"		"490 12 0 0"
+
+		// Upgrade Button Icon Base and Pressed OBSOLETE
+		"160"		"490 43  0 0"
+	}
+
+//___________________________________________________________________________________OBSOLETE
+	Altar 
+	{
+		// Altar background
+		"100"		"0 0 0 0"
+		// Altar title
+		"101"		"6 4 461 14"
+
+		// Item 0 icon and text________________to center horiz and vertic
+		"102"		"39 65 44 38"
+		"103"		"93 69 133 36"
+
+		// Item 1 icon and text
+		"104"		"39 117 44 38"
+		"105"		"93 122 133 36"
+		
+		// Item 2 icon and text
+		"106"		"39 170 44 38"
+		"107"		"93 175 133 36"
+		
+		// Item 3 icon and text
+		"108"		"238 65 44 38"
+		"109"		"293 69 171 42"
+		
+		// Item 4 icon and text
+		"110"		"238 117 44 38"
+		"111"		"293 122 171 42"
+
+		// Item 5 icon and text
+		"112"		"238 170 44 38"
+		"113"		"293 175 171 42"
+		
+		// Item 6 icon and text
+		"114"		"238 117 44 38"
+		"115"		"293 122 171 42"
+		
+		// Item 7 icon and text
+		"116"		"238 170 44 38"
+		"117"		"293 175 171 42"
+		
+		// Offerings button text  ( "give offerings" )
+		"130"		"80 300 309 13" 
+
+		// Offerings title ( "required offerings" )
+		"131"		"61 231 346 13"
+
+		// Offering 0
+		"132"		"43 248 44 38"
+		// Offering 1
+		"133"		"92 248 44 38"
+		// Offering 2
+		"134"		"141 248 44 38"
+		// Offering 3
+		"135"		"191 248 44 38"
+		// Offering 4
+		"136"		"240 248 44 38"
+		// Offering 5
+		"137"		"290 248 44 38"
+		// Offering 6
+		"138"		"339 248 44 38"
+		// Offering 7
+		"139"		"388 248 44 38"
+		
+		// Offer Button___________________clicked_greyed_normal
+		"140"		"159 289 156 36"
+		 
+		// Offer Button Highlighted
+		"141"		"159 256 156 36"
+		
+		// Next Page Button 
+		"142"		"377 44 40 10"
+		
+		// Next Page Button highlighted : can be clicked
+		"143"		"378 37 0 0"
+		
+		// Prev Page Button  
+		"144"		"338 44 40 10"
+		
+		// Prev Page Button highlighted : can be clicked
+		"145"		"328 37 0 0"
+		
+		// Page Number_________________________to center
+		"146"		"334 26 78 10"
+		
+	}
+
+//___________________________________________________________________________________
+//	InfoPanel
+//	{
+//	}
+//___________________________________________________________________________________
+
+//___________________________________________________________________________________
+	Equipment
+	{
+		// Armor
+		"189" "21 10 39 39"
+		
+		// Weapon
+		"190" "65 10 39 39"
+		
+		// Shield
+		"191" "111 10 39 39"
+		
+		// Ring
+		"192" "156 10 39 39"
+		
+		
+	}
+
+
+//_______________________________________________________________________________________
+	Skills
+	{
+		// paperdoll tab___________________________NOT USED ANYMORE!!!!!!!!!!
+//		"55"	"83 318 35 43"
+
+		// combat tab
+		"56"	"26 60 28 34"
+
+		// magic tab
+		"57"	"56 60 28 34"
+		
+		// misc tab
+		"58"	"85 60 28 34"
+		
+		// panel background_________________________Spells/combat/miscs panels
+		"59"	"1 58 213 308"
+		
+		// clickable tabs background
+		"194"	"0 0 0 0"
+		
+		// resultants background
+		"193"	"1 -94 0 0"
+
+//Skills icons__________________________________________________________________
+
+//Combat_panel_skills_icons
+
+		
+		// Melee_attack
+		"60"	"53 109 39 39"
+		
+		// Projectile
+		"61"	"131 109 39 39"
+		
+		// Critical_Hit
+		"62"	"131 167 39 39"
+				
+		// Extra_Damage
+		"63"	"53 167 39 39"
+		
+		// Adrenaline_Feast
+		"64"	"92 205 39 39"
+		
+//Combat_panel_skills_numbers
+			
+		// Melee_attack_upgrade_number
+//		"93"	"69 109 30 18"
+		
+		// Projectile_upgrade_number
+//		"94"	"190 109 30 18"
+		
+		// Critical_hit_upgrade_number
+//		"95"	"190 224 30 18"
+		
+		// Extra_damage_upgrade_number
+//		"96"	"69 224 30 18"
+
+
+//Combat_panel_skillpoints
+
+		//Combat_panel_skillpoints_text___to be centered!!!!
+		"97"	"20 23 180 35"
+
+		
+//________________________________________________________________________________
+//PAPER_DOLL_ICONS
+
+//RESULTANT_ICONS
+
+
+		// ARMOR
+		"150"	"153  -65 30 40"
+
+		// HP
+		"151"	"20 -65 30 40"
+		
+		// DAMAGE
+		"152"	"110 -65 30 40"
+		
+		// MANA
+		"153"	"64 -65 30 40"
+		
+		//RING_CASE		
+//		"154"	"33 33 44 38"
+
+		//Player Paperdoll
+//		"155"	"122 46 141 299"
+
+
+//Miscs_panel_skills_icons_______________________________________________________________________________		
+
+		// Stamina
+		"65"	"46 107 31 31"
+
+		// Focus
+		"66"	"126 107 31 31"
+
+		// Extra Health ( icon not declared )
+		"67"	"27 167 31 31"
+
+		// Extra Mana
+		"68"	"90 151 31 31"
+
+		// Stealth
+		"69"	"158 151 31 31"
+
+		// LockPick & detect
+		"70"	"159 109 31 31"
+
+		// Poison Recovery
+		"71"	"86 109 31 31"
+
+		// Fast Metabolism
+		"72"	"79 212  31 31"
+
+		// Mana Regen
+		"73"	"144 212 31 31"
+
+		// Backstab -------------------OBSOLETE-------------------
+		"74"	"158 189 31 31"
+
+//Spells_panel_skills_icons
+
+		// Wizard_Eye
+		"75"	"98 136 25 25"
+
+		// Fire_trap
+		"76"	"38 136 25 25"
+
+		// Stone_Skin______________________________UNUSED!!!!!!!
+		"77"	"183 120 0 0"
+		
+		// Flame_arrow
+		"78"	"38 101 25 25"
+
+		// Cure_wounds
+		"79"	"155 182 25 25" 
+
+		// Summon_Spider______________________________UNUSED!!!!!!!
+		"80"	"206 178 0 0"
+
+		// Poison_spray______________________________UNUSED!!!!!!!
+		"81"	"34 236 0 0"
+
+		// Freeze
+		"82"	"98 101 25 25"
+		
+		// Telekynesis
+		"83"	"155 101 25 25"
+
+		// Charm
+		"84"	"155 136 25 25"
+
+		// Fireball
+		"85"	"38 182 25 25"
+
+		// Lightning_bolt
+		"86"	"98 182 25 25"
+
+		// Magic_reflection
+		"87"	"155 219 25 25"
+		
+		// Inferno
+		"88"	"38 219 25 25"		
+		
+		// Drain_______________________________________UNUSED!!!!!
+		"89"	"160 320 0 0"		
+		
+		// Shrink
+		"90"	"98 219 25 25"	
+
+		// Border offset for cs_select_skill
+		"163"		"-999 -999 -3 -3"
+
+		// Skills Panel Title
+		"165"		"20 35 180 35"
+		// Sareth Title
+		"166"		"17 -85 179 11"
+
+		// Melee bubbles
+		"195"	"53 102 13 13"
+		"196"	"67 98 13 13"
+		"197"	"81 102 13 13"
+		
+		// Projectile bubbles
+		"198"	"132 102 13 13"
+		"199"	"145 98 13 13"
+		"200"	"158 102 13 13"
+		
+		// Critical Hit bubbles
+		"201"	"132 160 13 13"
+		"202"	"158  160 13 13"
+		
+		// Extra Damage bubbles
+		"203"	"53 162 13 13"
+		"204"	"67 156 13 13"
+		"205"	"81 162 13 13"
+		
+		// Extra Health bubbles
+		"206" "25 161 13 13"
+		"207" "40 156 13 13"
+		"208" "54 161 13 13"
+		
+		// Extra mana bubbles
+		"209" "88 146 13 13"
+		"210" "103 140 13 13"
+		"211" "117 146 13 13"
+		
+		// Stealth Ladder
+		"212" "152 146 13 13"
+		"213" "167 140 13 13"
+		"214" "181 146 13 13"
+	}
+}

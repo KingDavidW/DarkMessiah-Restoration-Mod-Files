@@ -1,0 +1,14 @@
+
+"LightmappedGeneric"
+{
+	
+	"$baseTexture"	"MP3_Level/MP3_rock1"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "MP3_Level/MP3_rock1_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"%keywords" "Test,MP3,rockprop,prop,model,stone"
+}

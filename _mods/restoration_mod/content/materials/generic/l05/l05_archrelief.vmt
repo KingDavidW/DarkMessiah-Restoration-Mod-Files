@@ -1,0 +1,7 @@
+"Lightmappedgeneric"
+{
+	"$baseTexture"	"generic/l05/l05_archrelief"
+	"$surfaceprop" "Stone"
+	"$bumpmap" "generic/l05/l05_archrelief_normal"
+	"%keywords" "L05"
+}

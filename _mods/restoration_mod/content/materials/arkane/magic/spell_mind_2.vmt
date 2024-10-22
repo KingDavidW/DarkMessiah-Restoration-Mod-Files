@@ -1,0 +1,8 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$spriteRenderMode" 1
+	"$basetexture" "arkane/Magic/spell_mind_2"
+	"$ignorez" 1
+}

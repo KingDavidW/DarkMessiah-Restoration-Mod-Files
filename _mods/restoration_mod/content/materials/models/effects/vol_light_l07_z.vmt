@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "Models/Effects/vol_light_l07_z"
+	"$SEPARATEALPHATEXTURE" "Models/Effects/vl_gradiant4"
+	
+	"$nocull" "1"	
+	"$additive" "1"
+	"$translucent" "1"
+
+	"$model" "1"
+	"$no_fullbright" 1
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .01
+			"texturescrollangle" -90
+		}
+
+
+	}
+
+}
+

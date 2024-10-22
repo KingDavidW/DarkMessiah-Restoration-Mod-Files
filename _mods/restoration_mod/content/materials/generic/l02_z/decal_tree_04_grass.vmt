@@ -1,0 +1,6 @@
+"Decal"
+{
+	"$basetexture" "generic/l02_z/decal_tree_04_grass"
+	"$alphatest" 1
+	"$vertexalpha" 1
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "fx/SheildFX"
+	"$additive" 1
+	"$alphatest" 1
+	"$translucent" 1
+}

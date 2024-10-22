@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "generic/l02_z/l02_z_rock01_D"
+	"$normalmap" "generic/l02_z/l02_z_rock01_N"
+	"$surfaceprop" "Stone"
+}

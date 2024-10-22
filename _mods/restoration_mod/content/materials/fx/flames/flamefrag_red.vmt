@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$spriteorigin" "[ 0.50 1.0 ]"
+	"$color" "[1 0.3 0.05]"
+	"$model" "1"
+	"$basetexture" "FX/Flames/FlameFrag_"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0"
+	"$additive" "1"
+	"$vertexcolor" 1
+	"$vertexalpha" "1"
+	"$spriteorientation"	"4"
+	"animatedtextureframenumvar" "$frame"
+}

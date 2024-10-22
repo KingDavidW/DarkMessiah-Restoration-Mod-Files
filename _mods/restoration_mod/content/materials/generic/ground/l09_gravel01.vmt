@@ -1,0 +1,10 @@
+//"LightmappedGeneric"
+"WorldVertexTransition"
+{
+	"$basetexture" "Generic/Ground/L09_gravel01"
+	"$baseTexture2"	"Generic/Ground/L09_gravel01"
+	"$surfaceprop" "dirt"
+	"%detailtype" "RT_rock_garden"
+	"$bumpmap" "Generic/Ground/L7_gravel01_normal"
+	"%keywords" "l09"
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$model" 1
+	"$basetexture" "models/L7_tree/L7_e_tree01bis"
+	//"$bumpmap" "models/L7_tree/L7_e_tree01_normal"
+	//"$envmap" "env_cubemap"
+	"$surfaceprop" "wood"
+	//"$normalmapalphaenvmapmask" 1
+	
+	//"$envmapcontrast" 0.9
+	//"$envmapsaturation" 0.8
+	//"$envmaptint" "[1 1 1]"
+
+}

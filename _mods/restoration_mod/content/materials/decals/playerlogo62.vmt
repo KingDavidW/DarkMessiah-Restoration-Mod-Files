@@ -1,0 +1,21 @@
+"LightmappedGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "decals/SprayLogo"
+	"$decal" 1
+
+	"Proxies"
+	{
+		"PlayerLogo"
+		{
+		}
+
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"			"$basetexture"
+			"animatedtextureframenumvar"	"$frame"
+			"animatedtextureframerate"		5
+		}
+	}
+}

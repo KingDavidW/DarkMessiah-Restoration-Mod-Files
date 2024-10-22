@@ -1,0 +1,8 @@
+"Decalmodulate"
+{
+	//"$translucent" 1
+	"$basetexture" "Decals/flesh/bloodbig"
+	"$decal" 1
+	"$decalscale" 0.0525
+	//"$modelmaterial" "decals/flesh/bloodtinyModel"
+}

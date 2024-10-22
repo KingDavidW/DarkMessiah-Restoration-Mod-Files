@@ -1,0 +1,28 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "generic/l01/l01_grass_01"
+	"$basetexture2" "MP3_Level/MP3_human_dry_grass2"
+	
+	"%tooltexture" "MP3_Level/MP3_blend_human_grass5_tt"
+	"%keywords" "MP3,blend"
+	
+	"$surfaceprop" "grass"
+	"%detailtype" "Green_grass_Kuju_cheap"
+	
+	"worldvertextransition_HDR_dx9"
+		{
+    	"$envmaptint"						"[.4 .4 .4]"
+		}
+	
+	"LightmappedGeneric_DX9"
+		{
+			"$bumpmap" "generic/l01/l01_grass_01_normal"
+			"$bumpmap2" "MP3_Level/MP3_human_dry_grass2_normal"
+			"$normalmapalphaenvmapmask" 1
+			"$normalmapalphaenvmapmask2" 1
+			"$envmapsaturation" 1
+			"$envmapcontrast" 1
+			"$envmaptint" "[ .65 .65 .65]"
+			"$envmap" "env_cubemap"
+		}
+}

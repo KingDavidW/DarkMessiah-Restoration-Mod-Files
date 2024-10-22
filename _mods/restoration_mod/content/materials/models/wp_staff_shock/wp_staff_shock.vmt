@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/wp_staff_shock/wp_staff_shock"
+	"$bumpmap" "models/wp_staff_shock/wp_staff_shock_normal"
+	"$surfaceprop" "Rock"
+	
+		"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.8
+	"$envmapsaturation" 1
+	//"$envmaptint" "[1 1 1]"
+
+	"$envmap" "env_cubemap"
+
+	"vertexlitgeneric_HDR_dx9"
+
+	{
+
+               "$envmaptint" "[.5 .5 .5]"
+
+	}
+	
+	
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/l07_CAGE/cage"
+	"$bumpmap" "models/l07_CAGE/cage_normal"
+	"$surfaceprop" "Metal"
+}
