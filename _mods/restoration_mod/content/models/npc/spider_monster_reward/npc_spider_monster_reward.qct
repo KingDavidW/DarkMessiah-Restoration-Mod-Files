@@ -35,7 +35,7 @@ $keyvalues
 		"RangeViewToStealthMaxInCombat"	"400"	// Radius inside which the player is detected, even if invisible.
 		"visibilityratio"	"1"		// This will increase the blindness of npcs (default 1.2).
 		
-		"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
+		//"flies_spawn_time"	"10"		// Flies will be spawned after NPC is dead (time in seconds).
 				
 		"fielofviewheightangle"	"180"		// field of view height angle. 
 		
@@ -75,7 +75,7 @@ $keyvalues
 		"Red_zone"				"0"		// min close combat distance		
 		"PercGrunt"				"0.5"		//Percentage to grunt after an attack
 		
-		"npc_health"			"100"		// NPC's life points.
+		"npc_health"			"300"		// NPC's life points.
 
   		"Vulnerabilities_spells"
   		{ 

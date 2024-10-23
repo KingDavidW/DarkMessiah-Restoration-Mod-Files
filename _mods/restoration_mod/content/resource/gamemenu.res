@@ -53,8 +53,13 @@
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-
 	"14"
+	{
+		"label" "#GameUI_GameMenu_ReturnToMainMenu"
+		"command" "BackToMainMenu"
+		"OnlyInGame" "1"
+	}
+	"15"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
