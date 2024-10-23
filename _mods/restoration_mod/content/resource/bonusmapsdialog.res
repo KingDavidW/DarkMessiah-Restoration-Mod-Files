@@ -93,30 +93,7 @@
 		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
-	}
-	"ImportBonusMaps"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"ImportBonusMaps"
-		"xpos"		"20"
-		"ypos"		"410"
-		"wide"		"160"
-		"tall"		"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"4"
-		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Command"		"ImportBonusMaps"
-		"Default"		"0"
-		"selected"		"0"
-	}
-	
+	}	
 	"PercentageBarBackground" //light grey overall percentage
 	{
 		"ControlName"		"ImagePanel"
@@ -226,8 +203,8 @@
 		"fieldName"		"CommentLabel"
 		"xpos"		"20"
 		"ypos"		"358"
-		"wide"		"360"
-		"tall"		"40"
+		"wide"		"610"
+		"tall"		"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
