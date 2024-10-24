@@ -11,8 +11,8 @@
 	//"%detailtype" "Green_grass"
 	"%keywords" "L02_z"
 
-	"$bumpmap" "generic/l02_z/l02_z_rockDark_Normal"
-	"$bumpmap2" "generic/l05/l05_grass_normal"
+	"$bumpmap" "Generic/L02/L02_pavestone_normal"
+	//"$bumpmap2" "generic/l05/l05_grass_normal"
 
 	"$surfaceprop" "Rock"
 	"$surfaceprop2" "chitin"
