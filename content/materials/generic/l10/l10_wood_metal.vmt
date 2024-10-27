@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"generic/l10/l10_wood_metal"
-	"$surfaceprop" "wood"
-	"$bumpmap" "generic/l10/l10_wood_metal_normal"
-	"%keywords" "L10"
-}

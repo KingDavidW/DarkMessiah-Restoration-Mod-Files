@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"generic/l11/l11_flstone_d"
-	"$surfaceprop" "stone"
-	"$bumpmap" "generic/l11/l11_flstone_d_normal"
-	"%keywords" "L11"
-}

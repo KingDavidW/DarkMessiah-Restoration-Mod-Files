@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{	
-	"$baseTexture" "Generic/L05/L05_border"
-	"$surfaceprop" "Concrete"
-	"$bumpmap" "Generic/L05/L05_border_normal"
-	"%keywords" "L05"
-}

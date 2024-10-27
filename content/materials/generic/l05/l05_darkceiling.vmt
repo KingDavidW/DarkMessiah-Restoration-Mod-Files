@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L05/L05_darkceiling"
-	"$surfaceprop" "Stone"
-	"$bumpmap" "Generic/L05/L05_templeceiling_normal"
-	"%keywords" "L05"
-}

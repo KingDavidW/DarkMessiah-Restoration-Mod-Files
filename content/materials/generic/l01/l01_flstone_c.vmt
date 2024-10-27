@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L01/L01_flstone_b"
-	"$surfaceprop" "Stone"
-	"$bumpmap" "Generic/L01/L01_flstone_b_normal"
-	"%keywords" "L01"
-	//version of flstone_b without specular
-}

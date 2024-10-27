@@ -75,7 +75,7 @@ $keyvalues
 		"Red_zone"				"0"		// min close combat distance		
 		"PercGrunt"				"0.5"		//Percentage to grunt after an attack
 		
-		"npc_health"			"300"		// NPC's life points.
+		"npc_health"			"150"		// NPC's life points.
 
   		"Vulnerabilities_spells"
   		{ 

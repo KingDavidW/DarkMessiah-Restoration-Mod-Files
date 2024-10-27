@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
-	"$translucent" 1
-	"$basetexture" "Decals/bigshot2"
-	"$decal" 1
-	"$modelmaterial" "decals/bigshot1model"
-	"$surfaceprop" "default"
-}

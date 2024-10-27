@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"generic/l12/l12_stoneblocks"
-	"$surfaceprop" "stone"
-	"$bumpmap" "generic/l08/l08_stoneblocks_normal"
-	"%keywords" "L12"
-}

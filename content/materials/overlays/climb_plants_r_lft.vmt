@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "overlays/climb_plants_R_Lft"
-	"$surfaceprop" "dirt"
-	"$translucent" 1
-	"$decal" 1
-}

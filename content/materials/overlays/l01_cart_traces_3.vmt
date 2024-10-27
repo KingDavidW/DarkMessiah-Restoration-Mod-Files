@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "overlays/L01_cart_traces_3"
-	"$translucent" 1
-	"$decal" 1
-	"$surfaceprop" "dirt"
-}

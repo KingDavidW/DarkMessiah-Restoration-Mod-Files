@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L02/L02_door_bigtriangle"
-	"$surfaceprop" "Stone"
-	"$bumpmap" "Generic/L02/L02_door_bigtriangle_normal"
-
-	"%keywords" "L02"
-}

@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	//version without specular for ceiling
-	"$baseTexture"	"generic/l12/l12_pavestone"
-	"$surfaceprop" "stone"
-	"$bumpmap" "generic/l12/l12_pavestone_normal"
-	"%keywords" "L12"
-}

@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "overlays/L01_dirt_extwalls"
-	"$surfaceprop" "dirt"
-	"$translucent" 1
-	"$decal" 1
-}

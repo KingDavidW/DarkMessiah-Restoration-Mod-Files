@@ -1,8 +1,0 @@
-"DecalModulate"
-{
-	//"$translucent" 1
-	"$basetexture" "Decals/flesh/bloodtiny"
-	"$decal" 1
-	"$decalscale" 0.0525
-	//"$modelmaterial" "decals/flesh/bloodsmallModel"
-}

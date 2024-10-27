@@ -1,8 +1,0 @@
-"DecalModulate"
-
-{
-	"$translucent" 1
-	"$basetexture" "decals/orc_paint/orc_paint05"
-	"$decal" 1
-	"$decalscale" .20
-}

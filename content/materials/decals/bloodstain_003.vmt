@@ -1,6 +1,0 @@
-"DecalModulate"
-{
-	"$basetexture" "Decals/bloodstain_003"
-	"$decalscale" 0.25
-	"$surfaceprop" flesh
-}

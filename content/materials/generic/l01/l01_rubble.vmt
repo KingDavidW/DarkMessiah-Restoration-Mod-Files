@@ -1,7 +1,0 @@
-"Lightmappedgeneric"
-{
-	"$baseTexture"	"generic/l01/l01_rubble"
-	"$surfaceprop" "dirt"
-	"$bumpmap" "generic/l01/l01_rubble_normal"
-	"%keywords" "L01"
-}

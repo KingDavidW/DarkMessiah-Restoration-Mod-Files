@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
-	"$translucent" 1
-	"$basetexture" "Decals/debris_concrete001a"
-	"$decal" 1
-	"$decalscale" 0.25
-	"%keywords" "debris"
-}

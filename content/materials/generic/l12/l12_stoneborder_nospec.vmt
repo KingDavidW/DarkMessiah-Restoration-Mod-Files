@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	// no specular for skybox
-	"$baseTexture"	"generic/l12/l12_stoneborder"
-	"$surfaceprop" "stone"
-	"$bumpmap" "generic/l12/l12_stoneborder_normal"
-	"%keywords" "l12"
-}

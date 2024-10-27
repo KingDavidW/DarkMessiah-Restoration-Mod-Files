@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L08/L08_stone_base"
-	"$surfaceprop" "Stone"
-	"$bumpmap" "Generic/L08/L08_stone_normal"
-
-	"%keywords" "L08"
-}

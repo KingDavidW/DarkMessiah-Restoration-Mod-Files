@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"generic/l12/l12_pavestairborder"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "generic/l12/l12_pavestairborder_normal"
-	"%keywords" "L12"
-}

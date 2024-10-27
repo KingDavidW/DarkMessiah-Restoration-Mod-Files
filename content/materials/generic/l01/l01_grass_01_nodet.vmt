@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L01/L01_grass_01"
-	"$surfaceprop" "Grass"
-	"$bumpmap" "Generic/L01/L01_grass_01_normal"
-	"%keywords" "L01"
-}

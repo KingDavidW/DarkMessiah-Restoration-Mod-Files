@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic/L01/L01_stonewall01"
-	"$surfaceprop" "Stone"
-	"%compilenonsolid" 1
-	"$bumpmap" "Generic/L01/L01_stonewall01_normal"
-}

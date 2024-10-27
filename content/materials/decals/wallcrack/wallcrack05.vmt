@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$translucent" 1
-	"$basetexture" "Decals/wallcrack/wallcrack05"
-	"$decal" 1
-	"$decalscale" .20
-	"$surfaceprop" "default"
-}

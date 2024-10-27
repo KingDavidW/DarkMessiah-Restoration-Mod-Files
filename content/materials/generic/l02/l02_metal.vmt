@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "generic/l02/l02_metal"
-	"$surfaceprop" "metal"	
-	"$bumpmap" "generic/l02/l02_metal_normal"
-	"%keywords" "L02"
-}

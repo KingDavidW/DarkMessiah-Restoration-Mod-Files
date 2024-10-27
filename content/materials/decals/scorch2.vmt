@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
-	"$translucent" 1
-	"$basetexture" "Decals/scorch2"
-	"$decal" 1
-	"$modelmaterial" "decals/scorch2model"
-}

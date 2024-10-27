@@ -1,6 +1,0 @@
-"DecalModulate"
-{
-	"$basetexture" "Decals/metal/metal_tiny_1"
-	"$decal" 1
-	"$decalscale" 0.05
-}

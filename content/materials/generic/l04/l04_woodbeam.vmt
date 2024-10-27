@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"Generic\L04\L04_woodbeam"
-	"$surfaceprop" "Wood"
-	"$bumpmap" "Generic\L04\L04_woodbeam_normal"
-	"%keywords" "L04"
-}

@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{	
-	"$baseTexture" "generic/l05/l05_watergravel"
-	"$bumpmap" "generic/l09/l09_watergravel_normal"
-	"$surfaceprop" "dirt"
-	"%keywords" "L05"
-}

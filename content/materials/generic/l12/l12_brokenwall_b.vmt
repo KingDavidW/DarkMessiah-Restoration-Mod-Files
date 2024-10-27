@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture"	"generic/l12/l12_brokenwall_b"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "generic/l05/l05_brokenwall_b_normal"
-	"%keywords" "L12"
-}

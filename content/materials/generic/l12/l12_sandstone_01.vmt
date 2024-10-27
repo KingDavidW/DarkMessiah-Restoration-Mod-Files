@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-//specular for blend with dripstone
-{
-	"$baseTexture"	"generic/l12/l12_sandstone_01"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "generic/l12/l12_sandstone_01_normal"
-	"%keywords" "L12"
-}

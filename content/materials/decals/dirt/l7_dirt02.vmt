@@ -1,9 +1,0 @@
-//"DecalModulate"
-"LightmappedGeneric"
-{
-	"$translucent" 1
-	"$basetexture" "Decals/dirt/l7_dirt02"
-	"$decal" 1
-	"$decalscale" .5
-	"$surfaceprop" "default"
-}
