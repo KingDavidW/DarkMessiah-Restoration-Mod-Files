@@ -1,5 +1,0 @@
-skillpoints_800x600
-{
-	// 0 : MM_SKILLPOINTS_SLOT_NUMBER			
-	"0"		"10 16 40 20"
-}

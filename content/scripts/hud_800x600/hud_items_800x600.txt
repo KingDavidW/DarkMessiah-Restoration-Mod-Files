@@ -1,0 +1,1822 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+		bow_explosive					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"  
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		bow_freeze					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		bow_poison					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_ash					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_kryss					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_kryss_lk				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"756"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_light					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_polar					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"772"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers_shadow					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		daggers						// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		specter_knife					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_combat					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		staff_fire					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_mana					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_shadow					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"734"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_wood					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"734"
+			"width"		"44"
+			"height"	"38"
+		}
+		sword_of_fire					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"734"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		sword_silver					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		gold_bar					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		silver_bar					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+	
+		bracegold					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"658"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bracesilver					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"658"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		CR_Ruby						// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		CR_Ruby_d					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"668"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		CR_sapphire					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"756" 
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		cr_shadowskull					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"756"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		gobletgold					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		gobletsilver					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"668"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel01a					// MDL Name Saphir med
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		ham_dry //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"886"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		Jewel01b					// MDL Name saphir big
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel01c					// MDL Name Saphir Small
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"658"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel02a					// MDL Name Emerald M
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel02b					// MDL Name Emeral L
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel02c					// MDL Name Emerald S
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel03a					// MDL Name	ruby M
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel03b					// MDL Name	ruby L
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Jewel03c					// MDL Name	ruby S
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"658"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		necklace01a					// MDL Name	red simple
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME 
+			"x"		"844"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		necklace01b					// MDL Name	violet simple
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}		
+
+		necklace02a					// MDL Name	blue
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		necklace02b					// MDL Name	green
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}		
+		
+		scroll_rolled					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}		
+		
+		quiver_infinity					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}		
+		
+		Ring_gold					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}	
+		
+		Ring_copper					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}	
+		banana01 //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"924"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		ring_dexterity					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Ring_ProtectFire					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Ring_SecondChance					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Ring_Strength					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Ring_regeneration				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		cure_poison_potion				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"962"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		full_life_potion				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"962"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		stone_potion					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Life_potion					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"962" 
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		potion_empty					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"962"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+				
+		shield_guard					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"848"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		l08_momified_heart				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"962"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Hook						// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"772"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		banana_smashed //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"924"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+						
+		staff_spell					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"734"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+						
+		player_armor_chainmail				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"696"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		player_armor_plate_magic
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"696"
+			"width"		"44"
+			"height"	"38"
+		}
+		player_armor_plate
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"696"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		banana_regime
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		red_apple
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+			
+		ribs_cooked
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+		ribs
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		Bread01_cooked
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		garlic //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"468"
+			"y"		"228"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		
+		
+		leek01
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		leek02 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		leek03 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		leek04 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		fish01
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		fish02 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		fish03 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		hanged_fishes //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		Mana_potion
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Bow_Ropearrow
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Bow_classic
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Sword_wakizashi
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		sword_short
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		sword_souldrinker
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+			
+		sword_orc
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"316"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Daggers
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+	
+				
+		Shield_Orc
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Shield_Orc_small
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"756"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+				
+		Shield_gob
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"848"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		player_armor_thief
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		player_armor_thief_adv
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"623"
+			"y"		"198"
+			"width"		"44"
+			"height"	"38"
+		}
+				
+		Player_Armor_wizard
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"671"
+			"y"		"859"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		Player_Armor_wizard_adv
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		little_purse
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		big_purse
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		pie //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"886"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		l02_crystalquest01
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		key_standard
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+		mushroom 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		Magic_book01 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"668"
+			"y"		"468"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook01 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook02 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook03 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook04 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook01_big 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook02_big 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook03_big 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bigbook04_big 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		book01 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		book02 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		book03 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		book04 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		book_skull 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		rottenbook01 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		rottenbook02 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		rottenbook03 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		rottenbook04 
+		{
+			"file"		"hud/GUI_BOOK_800_600"
+			"x"		"381"
+			"y"		"304"
+			"width"		"44"
+			"height"	"38"
+		}
+				
+		
+		staff_holy
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		
+		axe
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"932"
+			"y"		"772"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		club
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"888"
+			"y"		"772"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		pickaxe01
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"354"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		sword_long
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"734"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		
+		
+		roasted_chicken
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"976"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		food_ratio02 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}          
+		
+		bow_sniper
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"800"
+			"y"		"810"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		bow_long
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+					
+		scroll_air_1					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_air_2					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_air_3					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_air_4					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_earth_1					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_earth_2					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_earth_3					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_earth_4					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_fire_1
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_fire_2
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_fire_3
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_fire_4
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_water_1
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_water_2
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_water_3
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		scroll_water_4
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		cr_cristal_white
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"620"
+			"width"		"44"
+			"height"	"38"
+		}
+		cr_cristal_purple
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"668"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		cr_cristal_orange
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		cr_cristal_yellow
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"668"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}
+		candlestick_02
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}
+				
+		cr_wickerdoll
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"696"
+			"width"		"44"
+			"height"	"38"
+		}				
+		spiderkey
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"696"
+			"width"		"44"
+			"height"	"38"
+		}		
+		cuisse_G
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"932"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		fishpiece01
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"968"
+			"width"		"44"
+			"height"	"38"
+		}			
+		shield_deathknight
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"848"
+			"width"		"44"
+			"height"	"38"
+		}				
+		shield_lava
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"848"
+			"width"		"44"
+			"height"	"38"
+		}
+		shield_magic
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"848"
+			"width"		"44"
+			"height"	"38"
+		}				
+		shield_necroguard
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+		bow_holy
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"392"
+			"width"		"44"
+			"height"	"38"
+		}
+		bl_hammer
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"772"
+			"width"		"44"
+			"height"	"38"
+		}				
+		bread01_raw
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		magic_toad
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"867"
+			"y"		"178"
+			"width"		"44"
+			"height"	"38"
+		}	
+		Ring_silver
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"888"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}		
+		ring_mana
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"800"
+			"y"		"582"
+			"width"		"44"
+			"height"	"38"
+		}
+		bottel_01 //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"425"
+			"y"		"304"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		bottel_01 //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"425"
+			"y"		"304"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		bottel_01 //OBSOLETE
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"425"
+			"y"		"304"
+			"width"		"0"
+			"height"	"0"
+		}
+		scroll_open 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"712"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		lockpick_01 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"668"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		sword_bladeonly 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"756"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}
+		sword_wakizashi_ex 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"756"
+			"y"		"544"
+			"width"		"44"
+			"height"	"38"
+		}
+		sword_collector 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"255"
+			"y"		"0"
+			"width"		"44"
+			"height"	"38"
+		}
+		staff_collector 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"299"
+			"y"		"0"
+			"width"		"44"
+			"height"	"38"
+		}
+		bow_collector 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"343"
+			"y"		"0"
+			"width"		"44"
+			"height"	"38"
+		}
+		daggers_collector 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"211"
+			"y"		"0"
+			"width"		"44"
+			"height"	"38"
+		}
+		jareofmud
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"387"
+			"y"		"0"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		womb_door_orb
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"844"
+			"y"		"506"
+			"width"		"44"
+			"height"	"38"
+		}		
+		
+		money02		
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"933"
+			"y"		"467"
+			"width"		"44"
+			"height"	"38"
+		}
+
+
+
+
+		mn_pan		
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"838"
+			"y"		"888"
+			"width"		"44"
+			"height"	"38"
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		saucisson01 // UNUSED 
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		sword_orc_chief	 // UNUSED				// MDL Name
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		banana02 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		banana03 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		banana04 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"976"
+			"y"		"924"
+			"width"		"44"
+			"height"	"38"
+		}
+		green_apple //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		
+		bread02_cooked //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		garlic_b1 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		garlic_b2 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		garlic_b3 //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		leeks //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		
+		mushroom_medium //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		mushroom_small //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"844"
+			"y"		"886"
+			"width"		"44"
+			"height"	"38"
+		}	
+		
+		
+		
+		
+		
+		egg //UNUSED
+		{
+			"file"		"hud/GUI_800_600"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}	
+
+
+		//_______________________________________________________________________________
+		//____________________________________RESTORED_____________________________________
+		//_______________________________________________________________________________
+
+		naga_bar					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"430"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		Relic
+		{
+			"file"		"hud/guicustom"
+			"x"		"194"
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+
+		sword_guard					// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"2" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+		
+		sword_misery				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"2" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		sword_orc_chief					// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"44" 
+			"y"		"211"
+			"width"		"43"
+			"height"	"38"
+		}
+
+		daggers_dest				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"83" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		axe_orc				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"124" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_shock				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"220" 
+			"y"		"158"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		specter_knife				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"285" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_necromancer 				// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"319" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		staff_wizard			// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"160" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		bow_living			// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"256" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}
+
+		sword_orc_p		// MDL Name
+		{
+			"file"		"hud/guicustom"	
+			"x"		"195" 
+			"y"		"211"
+			"width"		"44"
+			"height"	"38"
+		}		
+	}	
+}

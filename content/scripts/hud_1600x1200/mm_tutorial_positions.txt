@@ -1,0 +1,5 @@
+
+Tutorial_1600x1200
+{
+	"0"		"6 6 0 0"				//border line ;)
+}

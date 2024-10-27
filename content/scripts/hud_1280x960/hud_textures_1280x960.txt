@@ -1,0 +1,2757 @@
+        "sprites/640_hud"
+{
+	TextureData
+	{
+
+// Equipment panel
+		cs_equipment_panel		//rappel
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1073"
+			"y"		"888"
+			"width"		"348"
+			"height"	"137"
+		}
+		cs_ghost_armor
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"482"
+			"y"		"300"
+			"width"		"69"
+			"height"	"60"
+		}
+		cs_ghost_weapon
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"276"
+			"y"		"0"
+			"width"		"69"
+			"height"	"60"
+		}
+		cs_ghost_shield
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"482"
+			"y"		"360"
+			"width"		"69"
+			"height"	"60"
+		}
+		cs_ghost_ring
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"207"
+			"y"		"0"
+			"width"		"69"
+			"height"	"60"
+		}
+	
+	
+// ALTAR Mode ---------------------------------------- OBSOLETE
+		
+		cs_altar_background	// altar and offering panel background OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"355"
+			"y"		"1147"
+			"width"		"759"
+			"height"	"544"
+		}
+		
+		
+		
+		
+		cs_offerings_offer_button_normal	// offerings panel offer button : OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"-999"
+			"y"		"-999"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		cs_offerings_offer_button_greyed	// offerings panel offer button : OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"-999"
+			"y"		"-999"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		cs_offerings_offer_button_highlighted	// offerings panel offer button : OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"-999"
+			"y"		"-999"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		cs_offerings_offer_button_clicked	// offerings panel offer button : OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"-999"
+			"y"		"-999"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		cs_next_page_arrow_normal 	 //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1169"
+			"y"		"1317"
+			"width"		"53"
+			"height"	"11"
+		} 
+		
+		cs_previous_page_arrow_normal		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1115"
+			"y"		"1316"
+			"width"		"52"
+			"height"	"11"
+		}
+		cs_next_page_arrow_highlighted		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1193"
+			"y"		"1237"
+			"width"		"76"
+			"height"	"40"
+		}
+		cs_previous_page_arrow_highlighted 	//OBSOLETE	
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1116"
+			"y"		"1237"
+			"width"		"76"
+			"height"	"40"
+		}
+		cs_previous_page_arrow_clicked	 	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1132"
+			"y"		"1291"
+			"width"		"52"
+			"height"	"10"
+		}
+		cs_next_page_arrow_clicked	//OBSOLETE
+		{   
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1202"
+			"y"		"1291"
+			"width"		"52"
+			"height"	"10"
+		}
+		
+		
+//__________________________________________________________________________________________________		
+//PANEL_TABS____________________________________________________________________		
+	
+		
+		cs_skills_tab_combat	//onglet combat icone
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1433"
+			"y"		"261"
+			"width"		"40"
+			"height"	"50"
+		}
+		
+		cs_skills_tab_magic	//onglet magie icone
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1433"
+			"y"		"211"
+			"width"		"40"
+			"height"	"50"
+		}
+		
+		cs_skills_tab_miscs	//onglet miscs icone
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"976"
+			"y"		"387"
+			"width"		"40"
+			"height"	"50"
+		}
+
+
+//PANEL_TABS_ADD___________________________________________________________________		
+	
+		
+		cs_skills_tab_combat_ADD	//onglet combat icone
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1433"
+			"y"		"261"
+			"width"		"40"
+			"height"	"50"
+		}
+		
+		cs_skills_tab_magic_ADD	//onglet magie icone
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1433"
+			"y"		"211"
+			"width"		"40"
+			"height"	"50"
+		}
+		
+		cs_skills_tab_miscs_ADD	//onglet miscs icone
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"976"
+			"y"		"387"
+			"width"		"40"
+			"height"	"50"
+		}
+
+//__________________________________________________________________________________________________		
+// PANELS_______________________________________________________________________
+		
+		cs_resultant_panel
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1076"
+			"y"		"780"
+			"width"		"341"
+			"height"	"108"
+		}
+		
+				
+		cs_tabs_background //OBSOLETE		
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"1815"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+								
+		cs_spells_panel		//panel spells
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1"
+			"y"		"437"
+			"width"		"348"
+			"height"	"311"
+		}
+		
+		cs_miscs_panel		//panel miscs
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"697"
+			"y"		"437"
+			"width"		"348"
+			"height"	"311"
+		}
+		
+		cs_combat_panel		//panel combat
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"349"
+			"y"		"437"
+			"width"		"348"
+			"height"	"311"
+		}
+
+		
+		inventory_panel		//ratelier
+		{ 
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1"
+			"y"		"749"
+			"width"		"1072"
+			"height"	"275"
+		}
+		cs_equip 	// OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960" 
+			"x"		"1249"
+			"y"		"1519"
+			"width"		"29"
+			"height"	"29"
+		}
+		
+		cs_select_bg 	//degrade selection
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"747"
+			"y"		"216"
+			"width"		"99"
+			"height"	"94"
+		}
+		
+				
+		cs_select 		//selection cadre
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"738"
+			"y"		"82"
+			"width"		"82"
+			"height"	"74"
+		}
+
+
+		info_panel 		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1342"
+			"y"		"14"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		cs_skill_upgrade_button_normal	// OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1029"
+			"y"		"1691"
+			"width"		"250"
+			"height"	"58"
+		}
+		
+				
+		cs_skill_upgrade_button_highlighted	// OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1029"
+			"y"		"1748"
+			"width"		"250"
+			"height"	"170"
+		}
+		
+		cs_skill_upgrade_button_clicked	// OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1029"
+			"y"		"1918"
+			"width"		"250"
+			"height"	"58"
+		}
+//_____________________________________________________________________________________
+//PANELS_PAPERDOLL_ICONS_________________________________________________________________
+
+
+//RESULTANT_ICONS_________________________________________________________________
+
+
+		cs_Resico_Armor_ON	//Resultant armor icon 
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"512"
+			"width"		"64"
+			"height"	"64"
+		}
+			
+		cs_Resico_HP_ON		//Resultant HP icon
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1664"
+			"y"		"512"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Resico_Mana_ON	//Resultant Mana icon_________________New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1792"
+			"y"		"512"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Resico_Damage_ON	//Resultant Damage icon_________________New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1728"
+			"y"		"512"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+
+//_____________________________________________________________________________________
+//PANELS_SPELLS_ICONS_ON_________________________________________________________________
+		
+		cs_Spico_Wizard_E_ON	//spell icon Wizard_Eye acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1566"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fire_Trap_ON	//spell icon Fire_Trap acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1726"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Stone_skin_ON	//spell icon Stone_skin acquired________UNUSED!!!!!
+		{
+			"file"		"hud/GUI_1600"
+			"x"		"1058"
+			"y"		"1013"
+			"width"		"50"
+			"height"	"50"
+		}
+		
+		cs_Spico_Flame_A_ON	//spell icon Flame_Arrow acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1766"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Cure_W_ON	//spell icon Cure_Wounds acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1646"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+	
+		cs_Spico_Summon_S_ON	//spell icon Summon_Spider acquired_____UNUSED!!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"574"
+			"y"		"508"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Poison_S_ON	//spell icon Poison_Spray acquired___UNUSED!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"574"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Freeze_ON	//spell icon Freeze acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1606"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Telekynesis_ON	//spell icon Telekynesis acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1686"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Charm_ON	//spell icon Charm acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1726"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fireball_ON	//spell icon Fireball acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1686"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Lightning_B_ON	//spell icon Lightning_Bolt acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1766"
+			"y"		"186" 
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Magic_R_ON	//spell icon Magic_reflection acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1566"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Inferno_ON	//spell icon Inferno acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1646"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+	
+		cs_Spico_Drain_ON	//spell icon Drain acquired__________UNUSED!!!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"619"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Shrink_ON	//spell icon Shrink acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1606"
+			"y"		"186" 
+			"width"		"41"
+			"height"	"41"
+		}
+		
+//_____________________________________________________________________________________
+//PANELS_SPELLS_ICONS_OFF______________________________________________________________
+		
+		cs_Spico_Wizard_E_OFF	//spell icon Wizard_Eye unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1806"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fire_Trap_OFF	//spell icon Fire_Trap unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1966"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Stone_skin_OFF	//spell icon Stone_skin unavailable_____________UNUSED!!!!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"664"
+			"y"		"373"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Flame_A_OFF	//spell icon Flame_Arrow unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"2007"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Cure_W_OFF	//spell icon Cure_Wounds unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1886"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Summon_S_OFF	//spell icon Summon_Spider unavailable_________UNUSED!!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"664"
+			"y"		"508"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Poison_S_OFF	//spell icon Poison_Spray unavailable_______UNUSED!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"664"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Freeze_OFF	//spell icon Freeze unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1846"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Telekynesis_OFF		//spell icon Telekynesis unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1925"
+			"y"		"185"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Charm_OFF	//spell icon Charm unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1966"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fireball_OFF	//spell icon Fireball unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1926" 
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Lightning_B_OFF //spell icon Lightning_Bolt unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"2007" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Magic_R_OFF	//spell icon Magic_reflection unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1806" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Inferno_OFF	//spell icon Inferno unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"   
+			"x"		"1886"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Drain_OFF	//spell icon Drain unavailable______UNUSED!!!!!!
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"709"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Shrink_OFF	//spell icon Shrink unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1846" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+//PANELS_SPELLS_ICONS_ADD_________________________________________________________________
+		
+		cs_Spico_Wizard_E_ADD	//spell icon Wizard_Eye acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1566"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fire_Trap_ADD	//spell icon Fire_Trap acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1726"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Stone_skin_ADD	//spell icon Stone_skin acquired________UNUSED!!!!!
+		{
+			"file"		"hud/GUI_1600_ADD"
+			"x"		"1058"
+			"y"		"1013"
+			"width"		"50"
+			"height"	"50"
+		}
+		
+		cs_Spico_Flame_A_ADD	//spell icon Flame_Arrow acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1766"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Cure_W_ADD	//spell icon Cure_Wounds acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1646"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+	
+		cs_Spico_Summon_S_ADD	//spell icon Summon_Spider acquired_____UNUSED!!!!
+		{
+			"file"		"hud/GUI_001_1024_720_ADD"
+			"x"		"574"
+			"y"		"508"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Poison_S_ADD	//spell icon Poison_Spray acquired___UNUSED!!!
+		{
+			"file"		"hud/GUI_001_1024_720_ADD"
+			"x"		"574"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Freeze_ADD	//spell icon Freeze acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1606"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Telekynesis_ADD	//spell icon Telekynesis acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1686"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Charm_ADD	//spell icon Charm acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1726"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fireball_ADD	//spell icon Fireball acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1686"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Lightning_B_ADD	//spell icon Lightning_Bolt acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1766"
+			"y"		"186" 
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Magic_R_ADD	//spell icon Magic_reflection acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1566"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Inferno_ADD	//spell icon Inferno acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1646"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+	
+		cs_Spico_Drain_ADD	//spell icon Drain acquired__________UNUSED!!!!!
+		{
+			"file"		"hud/GUI_001_1024_720_ADD"
+			"x"		"619"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Shrink_ADD	//spell icon Shrink acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1606"
+			"y"		"186" 
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		//_________________________				
+				
+//PANELS_SPELLS_ICONS_OFF_ADD_________________________________________________________________
+		
+		cs_Spico_Wizard_E_OFF_ADD	//spell icon Wizard_Eye unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1806"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fire_Trap_OFF_ADD	//spell icon Fire_Trap unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1966"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Stone_skin_OFF_ADD	//spell icon Stone_skin unavailable_____________UNUSED!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"664"
+			"y"		"373"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Flame_A_OFF_ADD	//spell icon Flame_Arrow unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"2007"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Cure_W_OFF_ADD	//spell icon Cure_Wounds unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1886"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Summon_S_OFF_ADD	//spell icon Summon_Spider unavailable_________UNUSED!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"664"
+			"y"		"508"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Poison_S_OFF_ADD	//spell icon Poison_Spray unavailable_______UNUSED!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"664"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Freeze_OFF_ADD	//spell icon Freeze unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1846"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Telekynesis_OFF_ADD		//spell icon Telekynesis unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1926"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Charm_OFF_ADD	//spell icon Charm unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1966"
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Fireball_OFF_ADD	//spell icon Fireball unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1926" 
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Lightning_B_OFF_ADD //spell icon Lightning_Bolt unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"2007" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Magic_R_OFF_ADD	//spell icon Magic_reflection unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1806" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Inferno_OFF_ADD	//spell icon Inferno unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"   
+			"x"		"1886"
+			"y"		"146"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Drain_OFF_ADD	//spell icon Drain unavailable______UNUSED!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"709"
+			"y"		"553"
+			"width"		"41"
+			"height"	"41"
+		}
+		
+		cs_Spico_Shrink_OFF_ADD	//spell icon Shrink unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1846" 
+			"y"		"186"
+			"width"		"41"
+			"height"	"41"
+		}				
+				
+				
+				
+				
+				
+				
+				
+//COMBAT_PANEL_ICONS_ON___________________________________________________________________New!!!!!!!		
+		
+		cs_combat_skill_level_ON 	//bille on
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"276"
+			"y"		"289"
+			"width"		"21"
+			"height"	"21"
+		}
+		
+		
+		cs_Skico_Melee_ON	//skill icon Melee_combat acquired_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1014"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Proj_ON	//skill icon Projectile_combat acquired_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1078"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Extra_Damage_ON		//skill icon Extra_Damage acquired_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"617"
+			"y"		"203" 
+			"width"		"64"
+			"height"	"64"
+		}
+								
+		cs_Skico_Critic_ON	//skill icon Critical_hit acquired_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"553"
+			"y"		"203"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Adrenaline_F_ON		//skill icon Adrenaline_feast acquired_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1142"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+	
+
+//COMBAT_PANEL_ICONS_OFF___________________________________________________________________New!!!!!!!		
+		
+		cs_combat_skill_level_OFF 	//bille off
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"276"
+			"y"		"266"
+			"width"		"21"
+			"height"	"21"
+		}
+				
+		
+		cs_Skico_Melee_OFF	//skill icon Melee_combat unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"932"
+			"y"		"244"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Proj_OFF	//skill icon Projectile_combat unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"244"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Critic_OFF	//skill icon Critical_hit unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"617"
+			"y"		"266"
+			"width"		"64"
+			"height"	"64"
+		}
+								
+		cs_Skico_Extra_Damage_OFF		//skill icon Extra_Damage unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"553"
+			"y"		"266"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Adrenaline_F_OFF		//skill icon Adrenaline_feast unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1206"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+//COMBAT_PANEL_ICONS_OFF_ADD___________________________________________________________________New!!!!!!!		
+		
+		cs_combat_skill_level_OFF_ADD	//bille off
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"276"
+			"y"		"266"
+			"width"		"21"
+			"height"	"21"
+		}
+				
+		
+		cs_Skico_Melee_OFF_ADD	//skill icon Melee_combat unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"932"
+			"y"		"244"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Proj_OFF_ADD	//skill icon Projectile_combat unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"868"
+			"y"		"244"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Critic_OFF_ADD	//skill icon Critical_hit unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960_OFF_ADD"
+			"x"		"617"
+			"y"		"266"
+			"width"		"64"
+			"height"	"64"
+		}
+								
+		cs_Skico_Extra_Damage_OFF_ADD		//skill icon Extra_Damage unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_002_1280_960_OFF_ADD"
+			"x"		"553"
+			"y"		"266"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Adrenaline_F_OFF_ADD		//skill icon Adrenaline_feast unavailable_______New!!!!!!!
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1206"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+//COMBAT_PANEL_ICONS_ADD
+		
+		cs_combat_skill_level_ADD 	//bille on
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"276"
+			"y"		"289"
+			"width"		"21"
+			"height"	"21"
+		}
+		
+		
+		cs_Skico_Melee_ADD	
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1014"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Proj_ADD	
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1078"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Extra_Damage_ADD
+		{
+			"file"		"hud/GUI_002_1280_960_SOFT_ADD"
+			"x"		"617"
+			"y"		"203" 
+			"width"		"64"
+			"height"	"64"
+		}
+								
+		cs_Skico_Critic_ADD	
+		{
+			"file"		"hud/GUI_002_1280_960_SOFT_ADD"
+			"x"		"553"
+			"y"		"203"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		cs_Skico_Adrenaline_F_ADD		
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1142"
+			"y"		"64"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+//MISCS_PANEL_ICONS_ON____________________________________________________________________________________		
+		
+		
+		cs_Skico_Extra_Mana_ON	//skill icon Extra Mana acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"917"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+
+		cs_Skico_BackStab_ON	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1787"
+			"y"		"197"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+		cs_Skico_Stamina_ON	//skill icon Stamina acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Fast_M_ON	//skill Fast_Metabolism acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"966"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Poison_R_ON	//skill icon Poison_Recovery acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"917"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Mana_R_ON	//skill icon Mana_regeneration acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Stealth_ON	//skill icon Stealth
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"966"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_LockPick_ON	//skill icon LockPick acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"917"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Focus_ON	//skill icon Focus acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Extra_Health_ON	//skill icon Extra Health acquired
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		
+		
+//MISCS_PANEL_ICONS_OFF____________________________________________________
+		
+		
+		cs_Skico_Extra_Mana_OFF	//skill icon Extra Mana unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"966"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}
+
+		cs_Skico_BackStab_OFF	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1787"
+			"y"		"50"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+		cs_Skico_Stamina_OFF	//skill icon Stamina unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"966"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Fast_M_OFF	//skill Fast_Metabolism unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"820"
+			"y"		"1"
+			"width"		"49 "
+			"height"	"49"
+		}
+		
+		cs_Skico_Poison_R_OFF	//skill icon Poison_Recovery unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"966"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Mana_R_OFF	//skill icon Mana_regeneration unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"820"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Stealth_OFF	//skill icon Stealth unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"917"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_LockPick_OFF	//skill icon LockPick unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"868"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Focus_OFF	//skill icon Focus unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"820"
+			"y"		"97"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Extra_Health_OFF	//skill icon Extra Health unavailable
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"917"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}		
+	
+//MISCS_PANEL_ICONS_OFF_ADD____________________________________________________		
+		
+		
+		cs_Skico_Extra_Mana_OFF_ADD	//skill icon Extra Mana unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"966"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}
+
+		cs_Skico_BackStab_OFF_ADD	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"1787"
+			"y"		"50"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+		cs_Skico_Stamina_OFF_ADD	//skill icon Stamina unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"966"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Fast_M_OFF_ADD	//skill Fast_Metabolism unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"820"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Poison_R_OFF_ADD	//skill icon Poison_Recovery unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"966"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Mana_R_OFF_ADD	//skill icon Mana_regeneration unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"820"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Stealth_OFF_ADD	//skill icon Stealth unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"917"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_LockPick_OFF_ADD	//skill icon LockPick unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"868"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Focus_OFF_ADD	//skill icon Focus unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"820"
+			"y"		"97"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Extra_Health_OFF_ADD	//skill icon Extra Health unavailable
+		{
+			"file"		"hud/GUI_001_1280_960_OFF_ADD"
+			"x"		"917"
+			"y"		"0"
+			"width"		"49"
+			"height"	"49"
+		}		
+	
+		
+//MISCS_PANEL_ICONS_ADD____________________________________________________________________________________		
+		
+		
+		cs_Skico_Extra_Mana_ADD	//skill icon Extra Mana acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"917"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+
+		cs_Skico_BackStab_ADD	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1787"
+			"y"		"197"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+		cs_Skico_Stamina_ADD	//skill icon Stamina acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"868"
+			"y"		"196"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Fast_M_ADD	//skill Fast_Metabolism acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"966"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Poison_R_ADD	//skill icon Poison_Recovery acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"917"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Mana_R_ADD	//skill icon Mana_regeneration acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"868"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Stealth_ADD	//skill icon Stealth
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"966"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_LockPick_ADD	//skill icon LockPick acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"917"
+			"y"		"146"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Focus_ADD	//skill icon Focus acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"868"
+			"y"		"98"
+			"width"		"49"
+			"height"	"49"
+		}
+		
+		cs_Skico_Extra_Health_ADD	//skill icon Extra Health acquired
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"868"
+			"y"		"49"
+			"width"		"49"
+			"height"	"49"
+		}	
+		
+		
+		
+//PANELS_SPELLS_ICONS_INFO_________________________________________________________________OBSOLETE
+		
+		cs_Spico_Wizard_E_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"512"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Fire_Trap_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"448"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Stone_skin_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"664"
+			"y"		"373"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Flame_A_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"256"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Cure_W_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"320"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Summon_S_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"664"
+			"y"		"508"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Poison_S_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"664"
+			"y"		"553"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Freeze_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"384"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Telekynesis_INFO		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"320"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Charm_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"384"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Fireball_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856" 
+			"y"		"384"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Lightning_B_INFO //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920" 
+			"y"		"448"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Magic_R_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985" 
+			"y"		"512"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Inferno_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856" 
+			"y"		"320"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Drain_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"709"
+			"y"		"553"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Spico_Shrink_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856" 
+			"y"		"448"
+			"width"		"0"
+			"height"	"0"
+		}
+//COMBAT_PANEL_ICONS_INFO___________________________________________________________________OBSOLETE		
+		
+		
+		
+		cs_Skico_Melee_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"192"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Proj_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"192"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Extra_Damage_INFO		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"256"
+			"width"		"0"
+			"height"	"0"
+		}
+								
+		cs_Skico_Critic_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"256"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Adrenaline_F_INFO		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"192"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+//MISCS_PANEL_ICONS_INFO_____________________________________________________________________OBSOLETE		
+		
+		
+		cs_Skico_Extra_Mana_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"127"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		cs_Skico_BackStab_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1787"
+			"y"		"197"
+			"width"		"0"
+			"height"	"0"
+		}
+			
+		cs_Skico_Stamina_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"0"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Fast_M_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"0"
+			"width"		"0"
+			"height"	"64"
+		}
+		
+		cs_Skico_Poison_R_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"0"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Mana_R_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1856"
+			"y"		"128"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Stealth_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"64"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_LockPick_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"128"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Focus_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1985"
+			"y"		"0"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		cs_Skico_Extra_Health_INFO	//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1920"
+			"y"		"64"
+			"width"		"0"
+			"height"	"0"
+		}	
+
+//__________________________________________________________________________________________________		
+//BOOK_________________________________________________________________________________________________		
+		
+		book
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1478"
+			"y"		"232"
+			"width"		"570"
+			"height"	"792"
+		}
+
+		book_leftarrow
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"416"
+			"y"		"13"
+			"width"		"103"
+			"height"	"54"
+		}
+
+		book_rightarrow
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"519"
+			"y"		"13"
+			"width"		"103"
+			"height"	"54"
+		}
+
+
+
+//__________________________________________________________________________________________________
+//BELTS______________________________________________________________________________
+
+		belt
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1282"
+			"y"		"0"
+			"width"		"767"
+			"height"	"137"
+			
+		
+		}
+
+		magicbelt //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"576"
+			"y"		"355"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		combine_belt_left
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1073"
+			"y"		"653"
+			"width"		"114"
+			"height"	"126"
+		}
+		combine_belt_middle
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1187"
+			"y"		"653"
+			"width"		"71"
+			"height"	"126"
+		}
+		combine_belt_right
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1258"
+			"y"		"653"
+			"width"		"114"
+			"height"	"126"
+		}
+		
+		
+//__________________________________________________________________________________________________
+//SPELLS ICONS FOR MAGIC BELT ENABLED___________________________________________________NEW!!!!!!!!!
+
+
+		Spell_icons_highlighted 		//OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960_SOFT_ADD"
+			"x"		"1116"
+			"y"		"1327"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		air_1 		// Telekynesis
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"490"
+			"y"		"372"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		air_2 		// Cure
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"280"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		air_3 		//Bolt
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"70"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		air_4 		//Shrink
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"560"
+			"y"		"311"
+			"width"		"69"
+			"height"	"60"
+		}
+		earth_1
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"683"
+			"y"		"1573"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		earth_2 	//Protection
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"420"
+			"y"		"372"
+			"width"		"69"
+			"height"	"60"
+		}
+		earth_3
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"965"
+			"y"		"1069"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		earth_4
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"965"
+			"y"		"1118"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		fire_1 		//Arrow
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		fire_2 		//Trap
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"560"
+			"y"		"372"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		fire_3  	//Ball
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"140"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		fire_4 		//Inferno
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"490"
+			"y"		"311"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		water_1		//Eye
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"350"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		water_2
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"54"
+			"y"		"144"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		water_3		//Freeze
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"420"
+			"y"		"311"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		water_4		//Charm
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"210"
+			"y"		"342"
+			"width"		"69"
+			"height"	"60"
+		}
+
+
+//__________________________________________________________________________________________
+//SPELLS ICONS FOR MAGIC BELT UNAVAILABLE___________________________________OBSOLETE--------
+
+		air_1_greyed		//Telekynesis
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"699"
+			"y"		"1835"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		air_2_greyed		//Cure
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"699"
+			"y"		"1897"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		air_3_greyed		//BolT
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"761"
+			"y"		"1773"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		air_4_greyed		//Shrink
+		{
+			"file"		"hud/GUI_1600"
+			"x"		"761"
+			"y"		"1835"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		earth_1_greyed
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"0"
+			"y"		"49"
+			"width"		"57"
+			"height"	"49"
+		}
+
+		earth_2_greyed		//Protection 
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"761"
+			"y"		"1897"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		earth_3_greyed
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"114"
+			"y"		"49"
+			"width"		"57"
+			"height"	"49"
+		}
+
+		earth_4_greyed
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"171"
+			"y"		"49"
+			"width"		"57"
+			"height"	"49"
+		}
+
+		fire_1_greyed		//Arrow
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"823"
+			"y"		"1773"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		fire_2_greyed		//Trap
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"823"
+			"y"		"1835"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		fire_3_greyed		//Ball
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"823"
+			"y"		"1897"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		fire_4_greyed		//Inferno
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"885"
+			"y"		"1773"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		water_1_greyed		//Eye
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"885"
+			"y"		"1835"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		water_2_greyed
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"57"
+			"y"		"147"
+			"width"		"57"
+			"height"	"49"
+		}
+
+		water_3_greyed		//Freeze
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"885"
+			"y"		"1897"
+			"width"		"60"
+			"height"	"60"
+		}
+
+		water_4_greyed		//Charm
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"947"
+			"y"		"1773"
+			"width"		"60"
+			"height"	"60"
+		}
+
+
+//__________________________________________________________________________________________________
+//HUD PLAYER_______________________________________________________________________________
+		
+		
+		Stealth_00		//empty
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1213"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_01		//TL
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1283"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+		
+		Stealth_01_add
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1283"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+		Stealth_02		//TR
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1353"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_02_add
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1353"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_03		//BR
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1423"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_03_add
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1423"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_04		//BL
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1493"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+
+		Stealth_04_add
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"1493"
+			"y"		"137"
+			"width"		"70"
+			"height"	"71"
+		}
+		
+		hud_Leanna_Base				 //NEW
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"612"
+			"y"		"162"
+			"width"		"130"
+			"height"	"148"
+		}
+		
+		hud_Leanna_Life_Full				//NEW
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"567"
+			"y"		"182"
+			"width"		"43"
+			"height"	"110"
+		}
+		
+		hud_Crystal_Base				//NEW
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"450"
+			"y"		"183"
+			"width"		"115"
+			"height"	"115"
+		}
+		
+		hud_Crystal_Full				//NEW
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"626"
+			"y"		"11"
+			"width"		"64"
+			"height"	"64"
+		}
+		
+		hud_Life_Adrenaline_Empty				//NEW life + adrenaline jauges 
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0" 
+			"y"		"0"
+			"width"		"102"
+			"height"	"340"
+		}
+
+		hud_Life_Adrenaline_Plus_Empty				//NEW
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"388"
+			"y"		"51"
+			"width"		"23"
+			"height"	"208"
+		}
+		hud_Mana_Empty						//NEW Mana Jauge
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"172"
+			"y"		"0"
+			"width"		"102"
+			"height"	"340"
+		}
+		Mana_Not_Enough
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"311"
+			"y"		"0"
+			"width"		"34"
+			"height"	"252"
+		}
+		
+		Mana_base					
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"275"
+			"y"		"0"
+			"width"		"34"
+			"height"	"252"
+		}
+
+		Spell_indicator						//OBSOLETE
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"174"
+			"y"		"213"
+			"width"		"82"
+			"height"	"67"
+		}
+		
+		Weapon_indicator					//OBSOLETE
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"0"
+			"y"		"213"
+			"width"		"82"
+			"height"	"67"
+		}
+				
+		life_base						
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"137"
+			"y"		"0"
+			"width"		"35"
+			"height"	"252"
+		}
+		Life_poisoned_base					
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"102"
+			"y"		"1"
+			"width"		"35"
+			"height"	"251"
+		}
+		adrenaline_base
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"346"
+			"y"		"51"
+			"width"		"18"
+			"height"	"200"
+		}
+
+		adrenaline_plus_base
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"364"
+			"y"		"51"
+			"width"		"23"
+			"height"	"201"
+		}
+		adrenaline_max					
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"346"
+			"y"		"51"
+			"width"		"18"
+			"height"	"200"
+		}
+
+		adrenaline_plus_base_max
+		{
+			"file"		"hud/GUI_001_1280_960_ADD"
+			"x"		"364"
+			"y"		"51"
+			"width"		"24"
+			"height"	"200"
+		}
+
+		Stamina_bar_greyed
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"353"
+			"y"		"424"
+			"width"		"404" 
+			"height"	"26"
+		}
+		
+		Stamina_bar_red
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"353"
+			"y"		"478"
+			"width"		"404" 
+			"height"	"26"
+		}
+		
+		Stamina_bar_highlighted
+		{
+			"file"		"hud/GUI_002_1280_960"
+			"x"		"353"
+			"y"		"451"
+			"width"		"404" 
+			"height"	"26"
+		}
+		
+		Weapon_charge_background		// ?
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"287"
+			"y"		"1562"
+			"width"		"219"
+			"height"	"44"
+		}
+		
+		Weapon_charge_gem_ON		// ?
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"547"
+			"y"		"759"
+			"width"		"26"
+			"height"	"27"
+		}
+		
+		Weapon_charge_gem_OFF		// ?
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"547"
+			"y"		"732"
+			"width"		"26"
+			"height"	"27"
+		}
+		
+		arrows							//UNUSED_At_The_MOMENT					
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"183"
+			"y"		"81"
+			"width"		"27"
+			"height"	"175"
+		}
+		
+		hud_base						//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"0"
+			"y"		"67"
+			"width"		"64"
+			"height"	"189"
+		}
+
+
+
+		Life_poisoned_base_halo					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"67"
+			"y"		"84"
+			"width"		"23"
+			"height"	"168"
+		}
+
+		Life_poisoned_base_FX					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"67"
+			"y"		"84"
+			"width"		"23"
+			"height"	"168"
+		}
+		
+		mana_base_FX						//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"105"
+			"y"		"84"
+			"width"		"26"
+			"height"	"168"
+		}
+
+
+		Life_base_FX						//UNUSED_At_The_MOMENT						
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"0"
+			"y"		"0"
+			"width"		"26"
+			"height"	"172"
+		}
+		
+		adrenaline_base_FX					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"93"
+			"y"		"84"
+			"width"		"12"
+			"height"	"154"
+		}
+
+		stealth_visible						//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"36"
+		}
+
+		stealth_above_average					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"64"
+			"y"		"0"
+			"width"		"64"
+			"height"	"36"
+		}
+
+		stealth_average						//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"128"
+			"y"		"0"
+			"width"		"64"
+			"height"	"36"
+		}
+
+		stealth_below_average					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"64"
+			"y"		"36"
+			"width"		"64"
+			"height"	"36"
+		}
+
+		stealth_invisible					//UNUSED_At_The_MOMENT
+		{
+			"file"		"hud/HUD_1024_720"
+			"x"		"128"
+			"y"		"36"
+			"width"		"64"
+			"height"	"36"
+		}
+		panel_exit
+		{
+ 			"file"		"hud/GUI_002_1280_960"
+ 			"x"   		"622"
+			"y"   		"0"
+			"width"  	"130"
+			"height" 	"101"
+		} 
+		skillpoints_counter
+		{
+ 			"file"		"hud/GUI_002_1280_960"
+ 			"x"   		"553"
+			"y"   		"102"
+			"width"  	"143"
+			"height" 	"98"
+		} 
+		
+
+//______________________________________________________________________________________
+//TUTORIAL__________________________________________________________________________
+
+
+		tutorial_bg
+ 		{
+ 			"file"		"hud/GUI_001_1280_960"
+ 			"x"   		"1248"
+			"y"   		"1475"
+			"width"  	"1"
+			"height" 	"1"
+		} 
+		
+//__________________________________________________________________________________________
+//DIALOG BOX__________________________________________________________________________
+		
+		   
+		corner_framer_tl // TR
+		{
+ 			"file"		"hud/GUI_001_1280_960"
+ 			"x"   		"493"
+ 			"y"   		"80"
+ 			"width"  	"84"
+ 			"height" 	"82"
+		}
+		corner_framer_tr // TL
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"   		"411"
+			"y"   		"80"
+			"width"  	"84"
+			"height" 	"82"
+		}
+		corner_framer_br
+		{
+  			"file"		"hud/GUI_001_1280_960"
+			 "x"   		"575"
+			"y"   		"80"
+			"width"  	"82"
+			"height" 	"83"
+		}
+		corner_framer_bl
+		{
+ 			"file"		"hud/GUI_001_1280_960"
+			"x"   		"657"
+			"y"   		"80"
+			"width"  	"82"
+			"height" 	"83"
+		}
+
+//_________________________________________________________________________________________________________		
+//OLDIES_______________________________________________________________________________________________
+
+
+		mm_scrollbarslider
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1018"
+			"y"		"1692"
+			"width"		"7"
+			"height"	"178"
+		}
+
+		cs_upgrade
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"0"
+			"y"		"728"
+			"width"		"177"
+			"height"	"118"
+		}
+
+		cs_upgrade_additive
+		{
+			"file"		"hud/GUI_001_1024_720"
+			"x"		"314"
+			"y"		"600"
+			"width"		"89"
+			"height"	"89"
+		}
+
+
+		"progress_bar"
+		{
+				"file"		"hud/GUI_001_1024_720"
+				"x"		"238"
+				"y"		"0"
+				"width"		"10"
+				"height"	"28"
+		}
+
+	}
+}
