@@ -4,10 +4,9 @@
 	{
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 		sword_guard					// MDL Name
 		{
-			"file"		"hud/guicustom"	
+			"file"		"hud/gui_restoration"	
 			"x"		"5" 
 			"y"		"82"
 			"width"		"88"
@@ -16,7 +15,7 @@
 
 		sword_orc_chief					// MDL Name
 		{
-			"file"		"hud/guicustom"	
+			"file"		"hud/gui_restoration"	
 			"x"		"93" 
 			"y"		"82"
 			"width"		"88"
@@ -25,7 +24,7 @@
 
 		daggers_dest				// MDL Name
 		{
-			"file"		"hud/guicustom"	
+			"file"		"hud/gui_restoration"	
 			"x"		"179" 
 			"y"		"82"
 			"width"		"88"
@@ -34,7 +33,7 @@
 
 		axe_orc				// MDL Name
 		{
-			"file"		"hud/guicustom"	
+			"file"		"hud/gui_restoration"	
 			"x"		"272" 
 			"y"		"82"
 			"width"		"88"
@@ -43,19 +42,12 @@
 
 		staff_shock				// MDL Name
 		{
-			"file"		"hud/guicustom"	
+			"file"		"hud/gui_restoration"	
 			"x"		"262" 
 			"y"		"158"
 			"width"		"88"
 			"height"	"76"
 		}
-
-
-
-
-
-
-
-										
+					
 	}	
 }

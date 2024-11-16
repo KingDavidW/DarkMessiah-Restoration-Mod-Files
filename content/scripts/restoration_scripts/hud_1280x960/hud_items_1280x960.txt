@@ -1,0 +1,140 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//_______________________________________________________________________________
+		//____________________________________RESTORED_____________________________________
+		//_______________________________________________________________________________
+
+		naga_bar					// MDL Name
+		{
+			"file"		"hud/GUI_800_600"	// TEXTURE NAME
+			"x"		"712"
+			"y"		"430"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		Relic
+		{
+			"file"		"hud/gui_restoration"
+			"x"		"89"
+			"y"		"0"
+			"width"		"69"
+			"height"	"60"
+		}
+
+
+		sword_guard					// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"64"
+			"width"		"69"
+			"height"	"60"
+		}
+		
+		sword_misery				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"64"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		sword_orc_chief					// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"256"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		daggers_dest				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"190"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		daggers_silver				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"130"
+			"width"		"69"
+			"height"	"60"
+		}
+		
+		axe_orc				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"384"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		staff_shock				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"574"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		specter_knife				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"84"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		staff_necromancer 				// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"508"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		staff_wizard			// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"445"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		bow_living			// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"637"
+			"width"		"69"
+			"height"	"60"
+		}
+
+		sword_orc_p		// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"89" 
+			"y"		"320"
+			"width"		"69"
+			"height"	"60"
+		}	
+	}
+}
