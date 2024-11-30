@@ -121,6 +121,26 @@
 		"Command"		"Prev"
 		"default"		"0"
 	}
+	"LoadMapAdds"
+	{
+		"ControlName"		"CheckButton"
+		"fieldName"		"LoadMapAdds"
+		"xpos"		"18"
+		"ypos"		"252"
+		"wide"		"200"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"labelText"		"#GameUI_EnableMapAdds"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"default"		"1"
+	}
 	"Play"
 	{
 		"ControlName"		"Button"

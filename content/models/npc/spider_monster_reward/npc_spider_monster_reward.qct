@@ -70,8 +70,8 @@ $keyvalues
 
 //		"life_tohurt"			"0.3"		// When NPC life percentage goes below this value, NPC is hurt and plays hurt animations.
 				
-		"Yellow_zone"			"290"		// Max close combat distance
-		"Green_zone"			"130"		// Ideal close combat distance
+		"Yellow_zone"			"150"		// Max close combat distance
+		"Green_zone"			"100"		// Ideal close combat distance
 		"Red_zone"				"0"		// min close combat distance		
 		"PercGrunt"				"0.5"		//Percentage to grunt after an attack
 		
@@ -155,6 +155,7 @@ $keyvalues
 		"breakparade"	"0"		// 1: Breaks oponent's parry
 		"alwayspush"	"150" 		// 0: no push on the target. 1: the more the damage are high, the more the target is pushed. 2: Force huge push.
 		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+		"range"				"150"
 	}
 	
 	"Attack_2"//"attack_left" 
@@ -166,6 +167,7 @@ $keyvalues
 		"breakparade"	"0" 
 		"alwayspush"	"150" 
 		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+		"range"				"150"
 	}
 	
 	"Attack_3"//"attack_rightlong" 
@@ -177,6 +179,7 @@ $keyvalues
 		"breakparade"	"0"
 		"alwayspush"	"150" 
 		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+		"range"				"150"
 	}
 	
 	"Attack_4"//"attack_leftlong" 
@@ -188,6 +191,7 @@ $keyvalues
 		"breakparade"	"0" 
 		"alwayspush"	"150" 
 		"Attack Length Force"	"150"		// Strength aplied to player when hit.
+		"range"				"150"
 	}
 }
 
