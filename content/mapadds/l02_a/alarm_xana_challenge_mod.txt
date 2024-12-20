@@ -1,0 +1,79 @@
+"mapadd_keyvalues"
+{
+	"Config"
+	{
+		"Name"	"Repel Onslaught"
+		"ManualLoad"	"1"
+	}
+	"PreInitialize"
+	{	
+		"execute:command"
+		{
+			"set_start_mode"	"mm_start_as_class 1"
+		}
+
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"targetname"	"alarm_auto"
+			}
+
+			"add:key"
+			{
+				"OnMapSpawn" "first_objective,AddPrimaryObjective,obj_alarmchal_xana00,0.1,1,1,"
+				"OnMapSpawn" "first_objective,AddSecondaryObjective,obj_alarmchal_xana01,0.1,1,1,"
+				"OnMapSpawn" "first_objective,GiveXanaPower,,0,-1,1,"
+				"OnMapSpawn" "door02.lever.button,lock,,0.3,1,1,"
+				"OnMapSpawn" "sprite_portbutton,hidesprite,,0.3,1,1,"
+			}
+		}
+
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"targetname"	"first_objective"
+			}
+
+			"add:key"
+			{
+				"OnXanaEnter" "door02.lever.button,unlock,,0,1,1,"
+				"OnXanaEnter" "sprite_portbutton,showsprite,,0,1,1,"
+				"OnXanaEnter" "first_objective,ObjectiveDone,obj_alarmchal_xana00,0,1,1,"
+				"OnXanaEnter" "logic_autosave,Save,,0,1,1,"
+				"OnXanaExit" "challenge_failed,Reload,,0,-1,1,"
+			}
+		}
+
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"targetname"	"chest3"
+			}
+
+			"add:key"
+			{
+				"OnOpen" "first_objective,GiveItem,tower_key,0.1,1,1,"
+			}
+		}
+
+		"add:entity"
+		{
+			"origin" "2284 -3791 -40"
+			"message" "obj_alarmchal_xanafail"
+			"messagetime" "1"
+			"targetname" "challenge_failed"
+			"loadtime" "0"
+			"rendercolor" "0 0 0"
+			"renderamt" "255"
+			"holdtime" "-1"
+			"duration" "2"
+			"trapsecret" "0"
+			"combinability" "1"
+			"classname" "player_loadsaved"
+		}
+		
+	}
+}

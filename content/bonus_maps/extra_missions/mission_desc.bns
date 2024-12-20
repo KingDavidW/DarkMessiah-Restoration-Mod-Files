@@ -1,24 +1,20 @@
-"Sound the Horn!"
+"A Siege in Shadows"
 {
     "map"        "l02_a"
     "image"        "materials/vgui/challenges/extra_missions/l02_a.tga"
-    "comment"    "Sareth arrives at Stonehelm earlier than expected, and is called to help defend the city from within!"
-    "mapadds"    
+    "comment"    "Sareth awakens earlier than expected, finding the city under a stealthy Necromancer attack. Defend Stonehelm and protect the Shantiri Crystal!"
+    "mapadds"
     {
         "l02_a"
         {
-            "load"      "alarm_repel_onslaught.txt"
-        }
-        "l02_b1"
-        {
-            "load"      "alarm_repel_onslaught.txt"
+            "load"      "alarm_standard_challenge.txt"
         }
     }
     "challenges"
     {
         "Standard"
         {
-            "comment"   "Phenrig taught you how to fight, now use your skills"
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
             "bronze"    "360"
             "silver"    "180"
             "gold"      "120"
@@ -31,7 +27,7 @@
             "gold"      "120"
             "mapadds"    
             {
-                "load"      "alarm_xana_challenger.txt"
+                "load"      "alarm_xana_challenge_mod.txt"
             }
         }
     }
