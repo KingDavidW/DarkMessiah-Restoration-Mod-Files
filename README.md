@@ -21,5 +21,7 @@ The best way to install this mod is by actually doing a git checkout to that **r
 
 ## Credits
 Ubisoft for granting us the original sources
+
 King David for doing the programming and bug fixing
+
 QWERTY, StickyFingaz, and Granto for restoring the levels
