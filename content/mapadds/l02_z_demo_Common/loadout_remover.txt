@@ -44,5 +44,23 @@
 			"OnMapSpawn" "default_auto_save,Save,,0,1,1,"
 		}
 
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"targetname"	"boss.maker"
+			}
+			"remove:key"
+			{
+				"OnSpawnNPC" "bossgen,AddOutput,mins -32,0,1"
+				"OnSpawnNPC" "bossgen,AddOutput,maxs 32,0,1"
+			}
+			"add:key"
+			{
+				"OnSpawnNPC" "bossgen,AddOutput,mins -32 -32 0,10,1,-1"
+				"OnSpawnNPC" "bossgen,AddOutput,maxs 32 32 64,10,1,-1"
+			}
+		}
+
 	}
 }

@@ -73,5 +73,16 @@
 			"OnMapSpawn" "default_auto_save,Save,,0,1,1,"
 		}
 
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"spawnflags" "1"
+			"classname" "logic_auto"
+			"OnMapSpawn" "servercmd,Command,give weapon_arxcrossbow,1,1,-1"
+			"OnMapSpawn" "servercmd,Command,give weapon_arxdaggers,1,1,-1"
+			"OnMapSpawn" "servercmd,Command,give weapon_arx_short_sword,1,1,-1"
+			"OnMapSpawn" "servercmd,Command,give weapon_arxcrossbowrope,1,1,-1"
+		}
+
 	}
 }
