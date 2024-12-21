@@ -1,17 +1,24 @@
 # Dark Messiah Restoration Mod Files
 The mod files for the DM Restoration Mod. This is the final set of files, not compliable code.
 
-# Dependencies
-wiltOS Dark Messiah Mod Launcher
-wiltOS Dark Messiah Advanced SDK Release
+## Dependencies
+wiltOS Dark Messiah Mod Launcher [Download](https://www.moddb.com/games/dark-messiah-of-might-magic/downloads)
+wiltOS Dark Messiah Advanced SDK Base Module [Download](https://github.com/KingDavidW/DarkMessiah-AdvancedSDK-Mod-Files)
 
-# How to Install
+## How to Install
 Make sure you have the wiltOS Dark Messiah Mod Launcher installed!
 
-Go to the releases section and choose the release you'd like (Module only, Content only). If you are first starting out, you need **BOTH**. You can also just download this repository for the latest at any time.
+Go to the **_mods** folder in your Dark Messiah game, and create a new folder titled **restoration_mod**
 
-Once you download, open the rar file and extract the **restoration_mod** folders into your **_mods** folder
+Take the files from this repository and extract them into that folder.
 
-# Mod Order Requirement
+## Mod Order Requirement
 Make the Advanced SDK the first mod in your list, above everything else.
 
+## Recommended Installation
+The best way to install this mod is by actually doing a git checkout to that **restoration_mod** folder. That way, as this mod updates, you can just download the changes instead of redownloading the whole repository. I recommend [Github Desktop](https://desktop.github.com/download/) to make it easier, but it is entirely up to you.
+
+## Credits
+Ubisoft for granting us the original sources
+King David for doing the programming and bug fixing
+QWERTY, StickyFingaz, and Granto for restoring the levels
