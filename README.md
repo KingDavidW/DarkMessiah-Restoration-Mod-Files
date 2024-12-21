@@ -3,6 +3,7 @@ The mod files for the DM Restoration Mod. This is the final set of files, not co
 
 ## Dependencies
 wiltOS Dark Messiah Mod Launcher [Download](https://www.moddb.com/games/dark-messiah-of-might-magic/downloads)
+
 wiltOS Dark Messiah Advanced SDK Base Module [Download](https://github.com/KingDavidW/DarkMessiah-AdvancedSDK-Mod-Files)
 
 ## How to Install
