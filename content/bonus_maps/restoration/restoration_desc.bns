@@ -3,28 +3,137 @@
     "map"        "l02_z_demo_Common"
     "image"        "materials/vgui/restoration_thumbs/l02_z.tga"
     "comment"    "Sareth embarks on his journey to obtain the shantiri crystal. This is the alternate prologue to the game in Dark Messiah: Elements."
+    "challenges"
+    {
+        "Standard"
+        {
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "load"      "map_change_remover.txt"
+            }
+        }
+    }
 }
 "The Temple"
 {
     "map"        "l07_z"
     "image"        "materials/vgui/restoration_thumbs/l07_z.tga"
     "comment"    "As Sareth progresses deeper into the island, he arrives at a sacred temple. This is a bonus level that existed in Dark Messiah: Elements."
+    "challenges"
+    {
+        "Standard"
+        {
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "load"      "map_change_remover.txt"
+            }
+        }
+    }
 }
 "The Caves"
 {
     "map"        "l09_c"
     "image"        "materials/vgui/restoration_thumbs/l09_c.tga"
     "comment"    "After being revived by the skull and powered by Xana, Sareth must figure out how to get off the island. This was a cut level from the original Dark Messiah, restored!"
+    "challenges"
+    {
+        "Standard"
+        {
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "load"      "map_change_remover.txt"
+            }
+        }
+    }
 }
 "Rubby's Arena"
 {
     "map"        "l09_z"
     "image"        "materials/vgui/restoration_thumbs/l09_z.tga"
     "comment"    "Deeper in the island, Sareth fights the goblin king Rubby to progress through the stronghold. This is a bonus level that existed in Dark Messiah: Elements."
+    "challenges"
+    {
+        "Standard"
+        {
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "load"      "map_change_remover.txt"
+            }
+        }
+    }
 }
 "Arantir's Kingdom"
 {
     "map"        "l10_z"
     "image"        "materials/vgui/restoration_thumbs/l10_z.tga"
-    "comment"    "With a sacred code, and the power of the Relics, Sareth enters a secret portal by Arantir. This is a bonus level that existed in Dark Messiah: Elements, only obtainable with a specific code you would input from the box of specific versions of Dark Messiah, at a specific location in the Necropalace."
+    "comment"    "With a sacred code and the power of the Relics, Sareth enters a secret portal by Arantir. This is a bonus level that in Dark Messiah: Elements, only obtainable with a box code you would input in the Necropolis from specific versions of Dark Messiah."
+    "challenges"
+    {
+        "Standard"
+        {
+            "comment"   "Phenrig taught you how to fight. Think, adapt, survive!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "load"      "map_change_remover.txt"
+            }
+        }
+    }
+}
+"Hub of Reflections"
+{
+    "map"        "l00hub"
+    "image"        "materials/vgui/restoration_thumbs/elements.tga"
+    "comment"    "With your experience in every area, play through all the restoration levels with your own loadout and plan of attack."
+    "challenges"
+    {
+        "Gauntlet"
+        {
+            "comment"   "Get through every map in one shot!"
+            "bronze"    "360"
+            "silver"    "180"
+            "gold"      "120"
+            "mapadds"
+            {
+                "l02_z_demo_Common"
+                {
+                    "load"      "loadout_remover.txt"
+                }
+                "l07_z"
+                {
+                    "load"      "loadout_remover.txt"
+                }
+                "l09_c"
+                {
+                    "load"      "loadout_remover.txt"
+                }
+                "l09_z"
+                {
+                    "load"      "loadout_remover.txt"
+                }
+                "l10_z"
+                {
+                    "load"      "loadout_remover.txt"
+                }                
+            }
+        }
+    }
 }

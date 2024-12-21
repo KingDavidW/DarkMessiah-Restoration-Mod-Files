@@ -1,0 +1,49 @@
+"mapadd_keyvalues"
+{
+	"Config"
+	{
+		"Name"	"Remove Loadouts"
+		"ManualLoad"	"1"
+	}
+
+	"PreInitialize"
+	{	
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"origin" "-25.1898 72.9814 -381.862"
+			}
+			"remove:key"
+			{
+				"OnMapSpawn" "point_clientcommand,Command,give weapon_arx_short_sword,1,-1"
+			}
+			"add:key"
+			{
+				"OnMapSpawn" "objectifs_joueur,RemoveWeaponFromInventory,weapon_arxcrossbowrope,0.5,1,-1"
+			}
+		}
+
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"trapsecret" "0"
+			"targetname" "default_auto_save"
+			"NewLevelUnit" "0"
+			"combinability" "1"
+			"classname" "logic_autosave"
+		}
+		
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"spawnflags" "1"
+			"StartDisabled" "0"
+			"trapsecret" "0"
+			"combinability" "1"
+			"classname" "logic_auto"
+			"OnMapSpawn" "default_auto_save,Save,,0,1,1,"
+		}
+
+	}
+}

@@ -1080,49 +1080,8 @@
 
 		"add:entity"
 		{
-			"origin" "-2505.15 -13071.3 447"
-			"target" "bullseye*"
-			"spawnflags" "2"
-			"subject" "archer*"
-			"StartActive" "1"
-			"disposition" "1"
-			"trapsecret" "0"
-			"combinability" "1"
-			"classname" "ai_relationship"
-			"targetname"	"angry_window"
-		}
-
-		"add:entity"
-		{
-			"origin" "1765.278687 -1572.440918 -27.20432"
-			"spawnflags" "131072"
-			"targetname"	"bullseye01"
-			"classname" "npc_bullseye"
-		}
-
-		"add:entity"
-		{
-			"origin" "1785.883545 -1667.935669 -6.04059"
-			"spawnflags" "131072"
-			"targetname"	"bullseye02"
-			"classname" "npc_bullseye"
-		}
-
-		"add:entity"
-		{
-			"origin" "1788.520630 -1479.575073 -6.0404"
-			"spawnflags" "131072"
-			"targetname"	"bullseye03"
-			"classname" "npc_bullseye"
-		}
-
-		"add:entity"
-		{
 			"origin" "3176.314697 -1522.253174 -490.870483"
 			"spawnflags" "2"
-			"Template06" "bullseye03"
-			"Template05" "bullseye02"
-			"Template04" "bullseye01"
 			"Template03" "archer01"
 			"Template02" "archer02"
 			"Template01" "archer03"
