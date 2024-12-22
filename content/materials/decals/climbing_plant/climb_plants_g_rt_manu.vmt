@@ -1,7 +1,9 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "decals/climbing_plant/climb_plants_g_rt_manu"
-		"$translucent" 1
+	"$translucent" 1
 	"$decal" 1
+	//"$decalscale" 0.5
+	
 	//"$decalscale" "0.25"
 }

@@ -3,10 +3,10 @@ actor "!target1"
 {
   channel "Speak"
   {
-    event speak "l00_phenrig_climb_rope"
+    event speak "Elem_l00_phenrig_climb_rope"
     {
       time 0.080000 5.290295
-      param "l00_phenrig_climb_rope"
+      param "Elem_l00_phenrig_climb_rope"
       fixedlength
       cctype "cc_master"
       cctoken ""

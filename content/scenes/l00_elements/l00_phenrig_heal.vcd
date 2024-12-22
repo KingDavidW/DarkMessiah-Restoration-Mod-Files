@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_heal"
     {
       time 0.080000 4.096009
-      param "l00_phenrig_heal"
+      param "Elem_l00_phenrig_heal"
       fixedlength
       cctype "cc_master"
       cctoken ""

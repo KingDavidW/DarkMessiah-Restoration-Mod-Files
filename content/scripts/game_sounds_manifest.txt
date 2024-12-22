@@ -1,0 +1,88 @@
+game_sounds_manifest
+{
+	"precache_file"		"scripts/game_sounds_player.txt"
+//	"precache_file"		"scripts/game_sounds_physics.txt"
+	"precache_file"		"scripts/game_sounds_footsteps.txt"
+	"precache_file"		"scripts/game_sounds_inventory.txt"
+	"precache_file"		"scripts/game_sounds_fix_inter.txt"
+	"precache_file"		"scripts/game_sounds_magic.txt"
+	"precache_file"		"scripts/game_sounds_collisions.txt"
+	"precache_file"		"scripts/game_sounds_scrapes.txt"
+	"precache_file"		"scripts/game_sounds_breaks.txt"
+
+
+	// Level Sounds
+	"precache_file"		"scripts/level_sounds_L01.txt"
+	"precache_file"		"scripts/level_sounds_L02.txt"
+	"precache_file"		"scripts/level_sounds_L03.txt"
+	"precache_file"		"scripts/level_sounds_L04.txt"
+	"precache_file"		"scripts/level_sounds_L05.txt"
+	"precache_file"		"scripts/level_sounds_L06.txt"
+	"precache_file"		"scripts/level_sounds_L07.txt"
+	"precache_file"		"scripts/level_sounds_L08.txt"
+	"precache_file"		"scripts/level_sounds_L09.txt"
+	"precache_file"		"scripts/level_sounds_L10.txt"
+	"precache_file"		"scripts/level_sounds_L11.txt"
+	"precache_file"		"scripts/level_sounds_L12.txt"
+//	"precache_file"		"scripts/level_sounds_FPP.txt"
+
+
+	// Weapon Sounds
+	"precache_file"		"scripts/game_sounds_sword.txt"
+	"precache_file"		"scripts/game_sounds_bow.txt"
+	"precache_file"		"scripts/game_sounds_daggers.txt"
+	"precache_file"		"scripts/game_sounds_staff.txt"
+	"precache_file"		"scripts/game_sounds_impacts_weapons.txt"
+	"precache_file"		"scripts/game_sounds_balista.txt"
+
+
+	// Music Tracks
+	"precache_file"		"scripts/level_sounds_musics.txt"
+
+
+	// NPC Sounds [LOCALIZED]
+	"precache_file"		"scripts/npc_sounds_arantir.txt"
+	"precache_file"		"scripts/npc_sounds_deathknight.txt"
+	"precache_file"		"scripts/npc_sounds_goblin.txt"
+	"precache_file"		"scripts/npc_sounds_guard.txt"
+	"precache_file"		"scripts/npc_sounds_leanna.txt"
+	"precache_file"		"scripts/npc_sounds_lich.txt"
+	"precache_file"		"scripts/npc_sounds_necroguard.txt"
+	"precache_file"		"scripts/npc_sounds_necromancer.txt"
+	"precache_file"		"scripts/npc_sounds_phenrig.txt"
+	"precache_file"		"scripts/npc_sounds_orc.txt"
+	"precache_file"		"scripts/npc_sounds_villager_female.txt"
+	"precache_file"		"scripts/npc_sounds_villager_male.txt"
+//	"precache_file"		"scripts/npc_sounds_spectertemple.txt"
+	"precache_file"		"scripts/npc_sounds_wizard.txt"
+//	"precache_file"		"scripts/npc_sounds_xana.txt"
+	"precache_file"		"scripts/npc_sounds_L00.txt"
+	"precache_file"		"scripts/npc_sounds_L01.txt"
+	"precache_file"		"scripts/npc_sounds_L02.txt"
+	"precache_file"		"scripts/npc_sounds_L03.txt"
+	"precache_file"		"scripts/npc_sounds_L04.txt"
+	"precache_file"		"scripts/npc_sounds_L05.txt"
+	"precache_file"		"scripts/npc_sounds_L06.txt"
+	"precache_file"		"scripts/npc_sounds_L07.txt"
+	"precache_file"		"scripts/npc_sounds_L08.txt"
+	"precache_file"		"scripts/npc_sounds_L09.txt"
+	"precache_file"		"scripts/npc_sounds_L10.txt"
+	"precache_file"		"scripts/npc_sounds_L11.txt"
+	"precache_file"		"scripts/npc_sounds_L12.txt"
+//	"precache_file"		"scripts/npc_sounds_FPP.txt"
+
+	"precache_file"		"scripts/npc_sounds_Elements.txt"
+	
+	// NPC Sounds [NOT LOCALIZED]
+	"precache_file"		"scripts/npc_sounds_animals.txt"
+	"precache_file"		"scripts/npc_sounds_common.txt"
+	"precache_file"		"scripts/npc_sounds_cyclope.txt"
+	"precache_file"		"scripts/npc_sounds_facehugger.txt"
+	"precache_file"		"scripts/npc_sounds_ghoul.txt"
+	"precache_file"		"scripts/npc_sounds_minispider.txt"
+	"precache_file"		"scripts/npc_sounds_paokai.txt"
+	"precache_file"		"scripts/npc_sounds_spider.txt"
+	"precache_file"		"scripts/npc_sounds_spidermonster.txt"
+	"precache_file"		"scripts/npc_sounds_undead.txt"
+	"precache_file"		"scripts/npc_sounds_worm.txt"
+}

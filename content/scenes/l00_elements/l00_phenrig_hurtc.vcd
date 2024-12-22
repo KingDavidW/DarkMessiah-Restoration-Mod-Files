@@ -6,7 +6,7 @@ actor "!target1"
     event speak "phenrig_attackedbyplayer2"
     {
       time 0.086667 6.289343
-      param "phenrig_attackedbyplayer2"
+      param "Elem_phenrig_attackedbyplayer2"
       fixedlength
       cctype "cc_master"
       cctoken ""

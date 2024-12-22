@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_pillar_break"
     {
       time 0.073333 5.059999
-      param "l00_phenrig_pillar_break"
+      param "Elem_l00_phenrig_pillar_break"
       fixedlength
       cctype "cc_master"
       cctoken ""

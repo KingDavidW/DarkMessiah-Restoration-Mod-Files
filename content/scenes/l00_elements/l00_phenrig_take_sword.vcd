@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_take_sword"
     {
       time 0.080000 2.040000
-      param "l00_phenrig_take_sword"
+      param "Elem_l00_phenrig_take_sword"
       fixedlength
       cctype "cc_master"
       cctoken ""

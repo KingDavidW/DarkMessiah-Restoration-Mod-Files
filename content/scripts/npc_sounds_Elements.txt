@@ -1,0 +1,795 @@
+//		***PROLOGUE***
+//# Sareth and Menelag are searching for the soulstone crystal which can be used to unlock the Skull
+
+"Elem_l00_player_start"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/player/Elem_l00_player_start.wav"
+}
+
+"Elem_l00_phenrig_start"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_start.wav"
+}
+
+"Elem_l00_phenrig_org"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_org.wav"
+}
+
+"Elem_l00_player_org"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*#~arkane/%language%/player/Elem_l00_player_org.wav"
+}
+
+
+//# Portcullis opens
+
+"Elem_l00_phenrig_run"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_run.wav"
+}
+
+"Elem_l00_phenrig_run_fail"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_run_fail.wav"
+}
+
+"Elem_l00_phenrig_physics"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_physics.wav"
+}
+
+"Elem_l00_phenrig_physics_quick"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_physics_quick.wav"
+}
+
+"Elem_l00_player_combine"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/player/Elem_l00_player_combine.wav"
+}
+
+"Elem_l00_phenrig_combine1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_combine1.wav"
+}
+
+"Elem_l00_phenrig_combine_hint"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_combine_hint.wav"
+}
+
+"Elem_l00_phenrig_combine2a"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_combine2a.wav"
+}
+
+"Elem_l00_phenrig_combine2b"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_combine2b.wav"
+}
+
+"Elem_l00_phenrig_combine2c"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_combine2c.wav"
+}
+
+"Elem_l00_phenrig_crystal"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_crystal.wav"
+}
+
+"Elem_l00_phenrig_we2"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_we2.wav"
+}
+
+"Elem_l00_phenrig_chest"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_chest.wav"
+}
+
+"Elem_l00_phenrig_take_sword"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_take_sword.wav"
+}
+
+"Elem_l00_phenrig_pillar_break"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_pillar_break.wav"
+}
+
+"Elem_l00_phenrig_pillar_fall"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_pillar_fall.wav"
+}
+
+"Elem_l00_phenrig_climb_rope"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_climb_rope.wav"
+}
+
+"Elem_l00_phenrig_goblin_kick"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_goblin_kick.wav"
+}
+
+"Elem_l00_phenrig_goblin_fall"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_goblin_fall.wav"
+}
+
+"Elem_l00_phenrig_impale"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_impale.wav"
+}
+
+"Elem_l00_phenrig_mind_ctl"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_mind_ctl.wav"
+}
+
+"Elem_l00_phenrig_open_door"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_open_door.wav"
+}
+
+"Elem_l00_phenrig_training"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_training.wav"
+}
+
+"Elem_l00_phenrig_necroguards1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_necroguards1.wav"
+}
+
+"Elem_l00_phenrig_necroguards2"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_necroguards2.wav"
+}
+
+"Elem_l00_phenrig_necroguards3"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_necroguards3.wav"
+}
+
+"Elem_l00_phenrig_stronger"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_stronger.wav"
+}
+
+"Elem_l00_phenrig_weaken"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_weaken.wav"
+}
+
+"Elem_l00_phenrig_healhelp"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_healhelp.wav"
+}
+
+"Elem_l00_phenrig_heal"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_heal.wav"
+}
+
+"Elem_l00_phenrig_parry01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_parry01.wav"
+}
+
+"Elem_l00_phenrig_parry02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_parry02.wav"
+}
+
+"Elem_l00_phenrig_parry03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_parry03.wav"
+}
+
+"Elem_l00_phenrig_spikes00"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_spikes00.wav"
+}
+
+"Elem_l00_phenrig_spikes01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_spikes01.wav"
+}
+
+"Elem_l00_phenrig_spikes02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_spikes02.wav"
+}
+
+"Elem_l00_phenrig_spikes03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_spikes03.wav"
+}
+
+"Elem_l00_phenrig_rope01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_rope01.wav"
+}
+
+"Elem_l00_phenrig_rope02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_rope02.wav"
+}
+
+"Elem_l00_phenrig_rope03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_rope03.wav"
+}
+
+"Elem_l00_phenrig_fysics02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_fysics02.wav"
+}
+
+"Elem_l00_phenrig_planks01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_planks01.wav"
+}
+
+"Elem_l00_phenrig_planks02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_planks02.wav"
+}
+
+"Elem_l00_phenrig_bigstrike01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_bigstrike01.wav"
+}
+
+"Elem_l00_phenrig_bigstrike02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_bigstrike02.wav"
+}
+
+"Elem_l00_phenrig_bigstrike03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_bigstrike03.wav"
+}
+
+"Elem_l00_phenrig_impale01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_impale01.wav"
+}
+
+"Elem_l00_phenrig_impale02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_impale02.wav"
+}
+
+"Elem_l00_phenrig_gap01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_gap01.wav"
+}
+
+"Elem_l00_phenrig_gap02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_gap02.wav"
+}
+
+"Elem_l00_phenrig_fire01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_fire01.wav"
+}
+
+"Elem_l00_phenrig_fire02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_fire02.wav"
+}
+
+"Elem_l00_phenrig_fire03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_fire03.wav"
+}
+
+"Elem_l00_phenrig_crate01"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_crate01.wav"
+}
+
+"Elem_l00_phenrig_crate02"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_crate02.wav"
+}
+
+"Elem_l00_phenrig_crate03"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_crate03.wav"
+}
+
+"Elem_l00_phenrig_study"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_study.wav"
+}
+
+
+//		***CUTSCENE : MEETING XANA***
+//# Phenrig summons Xana and "fuses" her to Sareth's soul
+
+//~ Phenrig
+//"Phenrig_briefing_demonic_1"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_demonic_1.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_02"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_02.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_03"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_03.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_04"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_04.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_05"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_05.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_06"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_06.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_07"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_07.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_08"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_08.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_09"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_09.wav"
+//}
+
+//~ Xana
+//"Xana_briefing_a"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/Xana_briefing_a.wav"
+//}
+
+//~ Xana
+//"Xana_briefing_b"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/Xana_briefing_b.wav"
+//}
+
+//~ Phenrig
+//"Phenrig_briefing_10"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/phenrig_elements/phenrig_elements_briefing_10.wav"
+//}
+
+//~ Xana
+//"Xana_briefing2"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/Xana_briefing2.wav"
+//}
+
+//~ Xana
+//"Xana_briefing_mmm"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/Xana_briefing_mmm.wav"
+//}
+
+//~ Xana
+//"Xana_briefing_shh"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/Xana_briefing_shh.wav"
+//}
+
+//~ Xana
+//"Phenrig_briefing_6"
+//{
+//	"channel"			"CHAN_VOICE"
+//	"volume"			"VOL_NORM"
+//	"pitch"				"PITCH_NORM"
+//	"soundlevel"	"0"
+//	
+//	"wave"				"*arkane/%language%/xana/phenrig_elements_briefing_6.wav"
+//}

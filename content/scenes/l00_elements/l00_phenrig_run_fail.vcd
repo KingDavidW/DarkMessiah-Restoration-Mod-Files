@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_run_fail"
     {
       time 0.080000 3.081224
-      param "l00_phenrig_run_fail"
+      param "Elem_l00_phenrig_run_fail"
       fixedlength
       cctype "cc_master"
       cctoken ""

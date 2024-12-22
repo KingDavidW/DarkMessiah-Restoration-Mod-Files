@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_combine2b"
     {
       time 0.273333 3.442766
-      param "l00_phenrig_combine2b"
+      param "Elem_l00_phenrig_combine2b"
       fixedlength
       cctype "cc_master"
       cctoken ""

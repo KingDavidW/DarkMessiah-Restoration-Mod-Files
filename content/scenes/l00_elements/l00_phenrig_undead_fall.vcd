@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_goblin_fall"
     {
       time 0.080000 6.874694
-      param "l00_phenrig_goblin_fall"
+      param "Elem_l00_phenrig_goblin_fall"
       fixedlength
       cctype "cc_master"
       cctoken ""

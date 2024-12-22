@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_necroguards1"
     {
       time 0.053333 14.683039
-      param "l00_phenrig_necroguards1"
+      param "Elem_l00_phenrig_necroguards1"
       fixedlength
       cctype "cc_master"
       cctoken ""

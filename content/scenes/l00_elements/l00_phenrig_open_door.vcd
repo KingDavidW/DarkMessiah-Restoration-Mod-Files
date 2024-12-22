@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_open_door"
     {
       time 0.080000 4.096009
-      param "l00_phenrig_open_door"
+      param "Elem_l00_phenrig_open_door"
       fixedlength
       cctype "cc_master"
       cctoken ""

@@ -6,7 +6,7 @@ actor "!target1"
     event speak "l00_phenrig_combat0"
     {
       time 0.380000 1.948027
-      param "l00_phenrig_combat0"
+      param "Elem_l00_phenrig_combat0"
       fixedlength
       cctype "cc_master"
       cctoken ""
