@@ -614,6 +614,227 @@
 	"wave"				"*arkane/%language%/phenrig_elements/Elem_l00_phenrig_study.wav"
 }
 
+"Elem_00_Phenrig_tuto_bridge1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_bridge1.wav"
+}
+
+"Elem_00_Phenrig_tuto_care1
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_care1.wav"
+}
+
+"Elem_00_Phenrig_tuto_crystal1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_crystal1.wav"
+}
+
+"Elem_00_Phenrig_tuto_crystal2"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_crystal2.wav"
+}
+
+"Elem_00_Phenrig_tuto_find1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_find1.wav"
+}
+
+"Elem_00_Phenrig_tuto_impress1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_impress1.wav"
+}
+
+"Elem_00_Phenrig_tuto_nocare1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_nocare1.wav"
+}
+
+"Elem_00_Phenrig_tuto_nocare2"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_nocare2.wav"
+}
+
+"Elem_00_Phenrig_tuto_nocare3"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto_nocare3.wav"
+}
+
+"Elem_00_Phenrig_tuto1"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto1.wav"
+}
+
+"Elem_00_Phenrig_tuto2"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto2.wav"
+}
+
+
+"Elem_00_Phenrig_tuto3"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto3.wav"
+}
+
+"Elem_00_Phenrig_tuto4"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto4.wav"
+}
+
+"Elem_00_Phenrig_tuto5"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto5.wav"
+}
+
+"Elem_00_Phenrig_tuto6"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto6.wav"
+}
+
+"Elem_00_Phenrig_tuto7"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto7.wav"
+}
+
+"Elem_00_Phenrig_tuto8"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto8.wav"
+}
+
+"Elem_00_Phenrig_tuto9"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto9.wav"
+}
+
+"Elem_00_Phenrig_tuto10"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto10.wav"
+}
+
+"Elem_00_Phenrig_tuto11"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto11.wav"
+}
+
+"Elem_00_Phenrig_tuto12"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto12.wav"
+}
+
+"Elem_00_Phenrig_tuto13"
+{
+	"channel"			"CHAN_VOICE"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"	"0"
+	
+	"wave"				"*arkane/%language%/phenrig_elements/Elem_00_Phenrig_tuto13.wav"
+}
+
+
 
 //		***CUTSCENE : MEETING XANA***
 //# Phenrig summons Xana and "fuses" her to Sareth's soul
