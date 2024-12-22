@@ -71,7 +71,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_L12.txt"
 //	"precache_file"		"scripts/npc_sounds_FPP.txt"
 
-	"precache_file"		"scripts/npc_sounds_Elements.txt"
+	"precache_file"		"scripts/npc_sounds_elements.txt"
 	
 	// NPC Sounds [NOT LOCALIZED]
 	"precache_file"		"scripts/npc_sounds_animals.txt"
