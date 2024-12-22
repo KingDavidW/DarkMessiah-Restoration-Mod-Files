@@ -20,10 +20,6 @@
 				"OnMapSpawn" "srvcmds,Command,give weapon_arxdaggers,1,-1"
 				"OnMapSpawn" "srvcmds,Command,give weapon_arx_short_sword,0.05,-1"
 			}
-			"add:key"
-			{
-				"OnMapSpawn" "Input.Begin,RemoveWeaponFromInventory,weapon_arxcrossbowrope,0.5,1,-1"
-			}
 		}
 
 		"add:entity"

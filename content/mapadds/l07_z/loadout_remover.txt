@@ -18,10 +18,6 @@
 			{
 				"OnMapSpawn" "point_clientcommand,Command,give weapon_arx_short_sword,1,-1"
 			}
-			"add:key"
-			{
-				"OnMapSpawn" "objectifs_joueur,RemoveWeaponFromInventory,weapon_arxcrossbowrope,0.5,1,-1"
-			}
 		}
 
 		"add:entity"

@@ -8,6 +8,7 @@
 
 	"PreInitialize"
 	{	
+
 		"modify:entity"
 		{
 			TargetMarkers
@@ -16,13 +17,9 @@
 			}
 			"remove:key"
 			{
-				"OnMapSpawn" "srvcmds,Command,give weapon_arxcrossbow,1,-1"
-				"OnMapSpawn" "srvcmds,Command,give weapon_arxdaggers,1,-1"
-				"OnMapSpawn" "srvcmds,Command,give weapon_arx_short_sword,0.05,-1"
-			}
-			"add:key"
-			{
-				"OnMapSpawn" "Player.inputs,RemoveWeaponFromInventory,weapon_arxcrossbowrope,0.5,1,-1"
+				"OnMapSpawn" "servercmds,Command,give weapon_arx_short_sword,0.05,-1"
+				"OnMapSpawn" "servercmds,Command,give weapon_arxdaggers,1,-1"
+				"OnMapSpawn" "servercmds,Command,give weapon_arxcrossbow,1,-1"
 			}
 		}
 

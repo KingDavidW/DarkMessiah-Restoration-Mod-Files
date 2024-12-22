@@ -12,6 +12,21 @@
 		{
 			TargetMarkers
 			{
+				"origin" "-5351.5 -6466 -3825.19"
+			}
+			"remove:key"
+			{
+				"OnMapSpawn" "point_servercommand,Command,give weapon_arxdaggers,1,-1"
+				"OnMapSpawn" "point_servercommand,Command,give weapon_arxcrossbow,1,-1"
+				"OnMapSpawn" "point_servercommand,Command,give weapon_arx_short_sword,0.05,-1"
+			}
+		}
+
+
+		"modify:entity"
+		{
+			TargetMarkers
+			{
 				"targetname"	"Portal_button_2"
 			}
 			"modify:key"
