@@ -135,7 +135,14 @@
 			"height"	"60"
 		}	
 		
-		
+		rubby_axe		// MDL Name
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1151"
+			"y"		"269"
+			"width"		"69"
+			"height"	"60"
+		}			
 		
 		
 		
