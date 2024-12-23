@@ -13,18 +13,14 @@
 		{
 			TargetMarkers
 			{
-				"classname"	"trigger_changelevel"
+				"origin"	"-6967 -6691 -2716.73"
 			}
 
 			"modify:key"
 			{
-				"target_key" "classname"
-				"new_value"	"trigger_once"
-			}
-
-			"add:key"
-			{
-				"OnStartTouch" "challenge_completed,Reload,,0,-1,1,"
+				"target_key" "OnPressed"
+				"target_value"	"servercmd,Command,changelevel2 l00hub landmark_ac,0.01,-1"
+				"new_value" "challenge_completed,Reload,,0,-1,1,"
 			}
 		}
 
@@ -48,7 +44,7 @@
 		{
 			TargetMarkers
 			{
-				"targetname"	"Portal_button_2"
+				"origin"	"-5422.04 -6482.69 -3761.14"
 			}
 		}
 

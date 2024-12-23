@@ -12,18 +12,12 @@
 		{
 			TargetMarkers
 			{
-				"classname"	"trigger_changelevel"
-			}
-
-			"modify:key"
-			{
-				"target_key" "classname"
-				"new_value"	"trigger_once"
+				"targetname"	"staff_fire"
 			}
 
 			"add:key"
 			{
-				"OnStartTouch" "challenge_completed,Reload,,0,-1,1,"
+				"OnAddedToInventory" "challenge_completed,Reload,,0,-1,1,"
 			}
 		}
 

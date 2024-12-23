@@ -12,13 +12,7 @@
 		{
 			TargetMarkers
 			{
-				"classname"	"trigger_changelevel"
-			}
-
-			"modify:key"
-			{
-				"target_key" "classname"
-				"new_value"	"trigger_once"
+				"targetname"	"trig_endmap"
 			}
 
 			"add:key"

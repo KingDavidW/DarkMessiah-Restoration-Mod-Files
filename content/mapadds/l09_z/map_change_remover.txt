@@ -12,18 +12,11 @@
 		{
 			TargetMarkers
 			{
-				"classname"	"trigger_changelevel"
+				"classname"	"rubby.go_away.vcd"
 			}
-
-			"modify:key"
-			{
-				"target_key" "classname"
-				"new_value"	"trigger_once"
-			}
-
 			"add:key"
 			{
-				"OnStartTouch" "challenge_completed,Reload,,0,-1,1,"
+				"OnCompletion" "challenge_completed,Reload,,0,-1,1,"
 			}
 		}
 
@@ -70,6 +63,7 @@
 			"combinability" "1"
 			"classname" "logic_auto"
 			"OnMapSpawn" "default_auto_save,Save,,0,1,1,"
+			"OnMapSpawn" "loadoutrelay,trigger,,0.1,1,1,"
 		}
 
 	}
