@@ -5,7 +5,8 @@
 	"website"			    : 	"www.wiltostech.com",
 	"launch_parameters"		:	[],
     "modules"               :   ["dmmm_restoration.dll"],
-	"version"				: 	"R0-12.20",
+	"version"				: 	"R0-11.16",
 	"localization_manifests":	["resource/restoration/main_manifest.txt"],
-	"hud_directory"			:	"scripts/restoration_scripts"
+	"hud_directory"			:	"scripts/restoration_scripts",
+	"game_configs"			:	["restoration_graphics_fixes.cfg"]
 }
