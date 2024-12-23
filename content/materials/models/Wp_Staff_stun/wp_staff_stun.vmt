@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Wp_Staff_stun/wp_staff_stun"
+	"$bumpmap" "models/Wp_Staff_stun/wp_staff_stun_normal"
+	"$surfaceprop" "metal"
+		"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.6
+	"$envmapsaturation" 1
+	"$envmaptint" "[1 1 .8]"
+
+	"$envmap" "env_cubemap"
+
+	"vertexlitgeneric_HDR_dx9"
+
+	{
+
+               "$envmaptint" "[.5 .5 .5]"
+
+	}
+}

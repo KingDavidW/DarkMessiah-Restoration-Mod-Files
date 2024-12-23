@@ -116,7 +116,16 @@
 			"width"		"88"
 			"height"	"76"
 		}
-
+		
+		staff_stun			// MDL Name
+		{
+			"file"		"hud/gui_restoration"	
+			"x"		"0" 
+			"y"		"700"
+			"width"		"88"
+			"height"	"76"
+		}
+		
 		bow_living			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
