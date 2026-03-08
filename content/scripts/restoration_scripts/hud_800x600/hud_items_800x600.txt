@@ -46,8 +46,8 @@
 		sword_orc_chief					// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"218" 
-			"y"		"254"
+			"x"		"44" 
+			"y"		"211"
 			"width"		"43"
 			"height"	"38"
 		}
@@ -91,8 +91,8 @@
 		staff_necromancer 				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"219" 
-			"y"		"511"
+			"x"		"319" 
+			"y"		"211"
 			"width"		"44"
 			"height"	"38"
 		}
@@ -100,17 +100,8 @@
 		staff_wizard			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"214" 
-			"y"		"448"
-			"width"		"44"
-			"height"	"38"
-		}
-		
-		staff_stun			// MDL Name
-		{
-			"file"		"hud/gui_restoration"	
-			"x"		"216"" 
-			"y"		"700"
+			"x"		"160" 
+			"y"		"211"
 			"width"		"44"
 			"height"	"38"
 		}
@@ -118,8 +109,8 @@
 		bow_living			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"218" 
-			"y"		"638"
+			"x"		"256" 
+			"y"		"211"
 			"width"		"44"
 			"height"	"38"
 		}
@@ -132,16 +123,5 @@
 			"width"		"44"
 			"height"	"38"
 		}		
-		
-		rubby_axe		// MDL Name
-		{
-			"file"		"hud/GUI_800_600"
-			"x"		"932"
-			"y"		"772"
-			"width"		"44"
-			"height"	"38"
-		}	
-		
-		
 	}	
 }

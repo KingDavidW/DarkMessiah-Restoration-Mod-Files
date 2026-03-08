@@ -1,0 +1,33 @@
+"mapadd_keyvalues"
+{
+	"PreInitialize"
+	{	
+		"add:entity"
+		{
+			"classname"	"dmsdk_rune_relic"
+			"origin"	"-2430.117432 -4722.387207 433.89590"
+			"angles"	"0 -180 0"
+			"rune_name"	"relic_l00_1"
+			"rune_unlock_immediate"		"0"
+			"spawnflags"			"1"
+		}
+		"add:entity"
+		{
+			"classname"	"dmsdk_rune_relic"
+			"origin"	"1036.398071 -1533.056641 339.15182"
+			"angles"	"0 -180 0"
+			"rune_name"	"relic_l00_2"
+			"rune_unlock_immediate"		"0"
+			"spawnflags"			"1"
+		}
+		"add:entity"
+		{
+			"classname"	"dmsdk_rune_relic"
+			"origin"	"1539.00, 2423.90, 285.49"
+			"angles"	"0 -180 0"
+			"rune_name"	"relic_l00_3"
+			"rune_unlock_immediate"		"0"
+			"spawnflags"			"1"
+		}
+	}
+}

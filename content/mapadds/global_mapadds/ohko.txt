@@ -1,0 +1,32 @@
+"mapadd_keyvalues"
+{
+	"PreInitialize"
+	{
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"message" "ohko_challenge_failed"
+			"messagetime" "1"
+			"targetname" "ohko_failed"
+			"loadtime" "0"
+			"rendercolor" "0 0 0"
+			"renderamt" "255"
+			"holdtime" "-1"
+			"duration" "2"
+			"trapsecret" "0"
+			"combinability" "1"
+			"classname" "player_loadsaved"
+		}
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"classname"	"mm_player_inputs"
+			}
+			"add:key"
+			{
+				"OnPlayerTakeDmgFromNpcAttack" "ohko_failed,Reload,,0,-1,1,"
+			}
+		}
+	}
+}

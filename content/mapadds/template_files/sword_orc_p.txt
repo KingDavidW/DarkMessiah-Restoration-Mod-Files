@@ -1,0 +1,26 @@
+"template_file"
+{
+    "sword_orc_p"
+    {
+        "trapsecret" "0"
+        "targetname" "orcpsw"
+        "skin" "0"
+        "removefrominventoryonlongload" "0"
+        "model" "models/items/weapons/sword_orc/sword_orc_p.mdl"
+        "disableshadows" "0"
+        "combinetarget9enable" "1"
+        "combinetarget8enable" "1"
+        "combinetarget7enable" "1"
+        "combinetarget6enable" "1"
+        "combinetarget5enable" "1"
+        "combinetarget4enable" "1"
+        "combinetarget3enable" "1"
+        "combinetarget2enable" "1"
+        "combinetarget1enable" "1"
+        "combinetarget10enable" "1"
+        "combinability" "1"
+        "angles" "0 0 0"
+        "classname" "weapon_mm_weapon_generic"
+        "id" "514"
+    }
+}

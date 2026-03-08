@@ -1,0 +1,12 @@
+"Rune"
+{
+    "name"      "Corpse Eater"
+    "description"   "Drain the life from the necks of corpses!"
+    "icon"          "materials/wos/vgui/runes/rune_b.tga"
+    "hint"          "In the Prologue, find those that rest above the chains.."
+    "requires"      "relic_l00_3"
+    "mapadds"
+    {
+        "global_mapadds/corpse_eater.txt"   "1"
+    }
+}

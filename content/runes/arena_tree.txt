@@ -1,0 +1,12 @@
+"Rune"
+{
+    "name"      "Gladiator"
+    "description"   "Makes the Arena Skill Tree your default tree"
+    "icon"          "materials/wos/vgui/runes/rune_a.tga"
+    "hint"          "In the arena challenge, the first champion must fall.."
+    "requires"      "relic_arena1"
+    "mapadds"
+    {
+        "global_mapadds/arena_skilltree.txt"   "1"
+    }
+}

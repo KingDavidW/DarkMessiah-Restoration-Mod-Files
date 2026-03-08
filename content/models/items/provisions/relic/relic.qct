@@ -55,4 +55,5 @@ $keyvalues
 		"glinting"	 "1"
 		"give_health"      "0"
 //		"use_replace_by"  	"models\items\provisions\potions\potion_empty.mdl"
+	}
 }

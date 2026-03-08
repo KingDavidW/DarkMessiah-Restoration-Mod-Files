@@ -1,0 +1,39 @@
+"mapadd_keyvalues"
+{
+	"PreInitialize"
+	{
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"targetname" "evildarkvision_trigger"
+			"classname"	"dmrest_radius_spawner"
+			"mins"		"-32 -32 16"
+			"maxs"		"32 32 40"
+			"npc_class"	"npc_facehugger"
+			"npc_count"	"5"
+			"min_radius" "128"
+			"max_radius" "400"
+		}
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"spawnflags" "1"
+			"classname" "logic_auto"
+			"OnMapSpawn" "evildarkvision_trigger,SetParentWithOrigin,!player"
+		}
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"classname"	"mm_player_inputs"
+			}
+			"add:key"
+			{		
+				"on_cast_spell_wizardeye"   "evildarkvision_trigger,Start,,0,-1,1,"
+				"on_equip_spell_wizardeye"   "evildarkvision_trigger,Start,,0,-1,1,"
+				"on_unequip_spell_wizardeye" "evildarkvision_trigger,Stop,,0,-1,1,"
+				"OnWizardEyeTimeOut" "evildarkvision_trigger,Stop,,0,-1,1,"
+			}
+		}
+	}
+}

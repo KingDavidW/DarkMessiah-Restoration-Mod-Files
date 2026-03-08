@@ -4,8 +4,8 @@
 	"author"			    :	"wiltOS Technologies",
 	"website"			    : 	"www.wiltostech.com",
 	"launch_parameters"		:	[],
-    "modules"               :   ["dmmm_restoration.dll"],
-	"version"				: 	"R1-08.16",
+    "modules"               :   ["dmrestoration_client.dll", "dmrestoration_server.dll"],
+	"version"				: 	"R2-03.08",
 	"localization_manifests":	["resource/restoration/main_manifest.txt"],
 	"hud_directory"			:	"scripts/restoration_scripts",
 	"game_configs"			:	["restoration_graphics_fixes.cfg"]

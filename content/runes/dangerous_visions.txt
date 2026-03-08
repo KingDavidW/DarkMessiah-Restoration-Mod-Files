@@ -1,0 +1,12 @@
+"Rune"
+{
+    "name"      "Dangerous Visions"
+    "description"   "Creatures attack whenever you enter dark vision!"
+    "icon"          "materials/wos/vgui/runes/rune_d.tga"
+    "hint"          "In the Prologue, pay close attention to the statue.."
+    "requires"      "relic_l00_2"
+    "mapadds"
+    {
+        "global_mapadds/evil_dark_vision.txt"   "1"
+    }
+}

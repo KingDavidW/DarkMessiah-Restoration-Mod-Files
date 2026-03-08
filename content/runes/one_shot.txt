@@ -1,0 +1,12 @@
+"Rune"
+{
+    "name"      "The Dodge Messiah"
+    "description"   "If you take any damage from NPCs, you lose!"
+    "icon"          "materials/wos/vgui/runes/rune_w.tga"
+    "hint"          "In the Prologue, look to where you came.."
+    "requires"      "relic_l00_1"
+    "mapadds"
+    {
+        "global_mapadds/ohko.txt"   "1"
+    }
+}

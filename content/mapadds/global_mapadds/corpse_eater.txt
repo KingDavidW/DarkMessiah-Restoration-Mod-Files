@@ -1,0 +1,88 @@
+"mapadd_keyvalues"
+{
+	"PreInitialize"
+	{
+		"add:entity"
+		{
+			"classname" "logic_timer"
+			"targetname" "corpseeater_autoheal"
+			"StartDisabled" "1"
+			"RefireTime" "2.0"
+			"UseRandomTime" "0"
+			"OnTimer"   "corpseeater_heal,Trigger,,0,-1,1,"		
+			"OnTimer" "corpseeater_heal_sound,PlaySound,,0,-1"
+		}
+		"add:entity"
+		{
+			"classname" "dmsdk_point_takehealth"
+			"targetname" "corpseeater_heal"
+			"Health" "5"
+			"Delay" "1.0"
+			"Type" "0"
+			"Target" "!player"
+			"StartDisabled" "1"
+		}
+		"add:entity"
+		{
+			"classname"   "dmsdk_filter_activator_class"
+			"targetname"  "corpseeater_filter"
+			"filterclass" "prop_ragdoll"
+		}
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"single_use"	"1"
+			"targetname" "corpseeater_trigger"
+			"filtername" "corpseeater_filter"
+			"classname"	"dmsdk_trigger_modular"
+			"mins"		"-32 -32 16"
+			"maxs"		"32 32 40"
+			"StartDisabled" "0"
+			"spawnflags"	"64"
+			"OnStartTouch" "!activator,AddOutput,targetname corpseeater_target,0,-1"
+		}
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"targetname" "corpseeater_heal_sound"
+			"message" "Player_Drink"
+			"spawnflags" "48"
+			"radius" "100"
+			"classname" "ambient_generic"
+		}
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"targetname" "corpseeater_explode_sound"
+			"message" "Arrow_Hit2.Arx"
+			"spawnflags" "48"
+			"radius" "100"
+			"classname" "ambient_generic"
+			"volstart" "120"
+		}
+		"add:entity"
+		{
+			"origin" "0 0 0"
+			"spawnflags" "1"
+			"classname" "logic_auto"
+			"OnMapSpawn" "corpseeater_trigger,SetParentWithOrigin,!player"
+			"OnMapSpawn" "corpseeater_heal_sound,SetParent,corpseeater_trigger"
+			"OnMapSpawn" "corpseeater_explode_sound,SetParent,corpseeater_trigger"
+		}
+		"modify:entity"
+		{
+			TargetMarkers
+			{
+				"classname"	"mm_player_inputs"
+			}
+			"add:key"
+			{		
+				"OnGrabRagdoll"   "corpseeater_autoheal,Enable,,0,-1,1,"
+				"OnReleaseRagdoll" "corpseeater_autoheal,Disable,,0,-1,1,"
+				"OnReleaseRagdoll" "corpseeater_target,Crush,,0,-1,1,"	
+				"OnReleaseRagdoll" "corpseeater_target,Kill,,0.8,-1,1,"	
+				"OnReleaseRagdoll" "corpseeater_explode_sound,PlaySound,,0,-1"
+			}
+		}
+	}
+}

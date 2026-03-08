@@ -116,16 +116,7 @@
 			"width"		"88"
 			"height"	"76"
 		}
-		
-		staff_stun			// MDL Name
-		{
-			"file"		"hud/gui_restoration"	
-			"x"		"0" 
-			"y"		"700"
-			"width"		"88"
-			"height"	"76"
-		}
-		
+
 		bow_living			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
@@ -143,15 +134,10 @@
 			"width"		"88"
 			"height"	"76"
 		}
-		rubby_axe		// MDL Name
-		{
-			"file"		"hud/GUI_1600_1200"
-			"x"		"264"
-			"y"		"1084"
-			"width"		"88"
-			"height"	"76"	
-		}	
+
 
 		
+		
+																																			
 	}	
 }

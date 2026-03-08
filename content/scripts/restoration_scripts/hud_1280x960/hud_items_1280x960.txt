@@ -48,7 +48,7 @@
 		sword_orc_chief					// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"91" 
+			"x"		"89" 
 			"y"		"256"
 			"width"		"69"
 			"height"	"60"
@@ -57,7 +57,7 @@
 		daggers_dest				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"190"
 			"width"		"69"
 			"height"	"60"
@@ -66,7 +66,7 @@
 		daggers_silver				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"130"
 			"width"		"69"
 			"height"	"60"
@@ -75,7 +75,7 @@
 		axe_orc				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"384"
 			"width"		"69"
 			"height"	"60"
@@ -84,7 +84,7 @@
 		staff_shock				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"574"
 			"width"		"69"
 			"height"	"60"
@@ -102,7 +102,7 @@
 		staff_necromancer 				// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"508"
 			"width"		"69"
 			"height"	"60"
@@ -111,17 +111,8 @@
 		staff_wizard			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"445"
-			"width"		"69"
-			"height"	"60"
-		}
-		
-		staff_stun			// MDL Name
-		{
-			"file"		"hud/gui_restoration"	
-			"x"		"90" 
-			"y"		"700"
 			"width"		"69"
 			"height"	"60"
 		}
@@ -129,7 +120,7 @@
 		bow_living			// MDL Name
 		{
 			"file"		"hud/gui_restoration"	
-			"x"		"90" 
+			"x"		"89" 
 			"y"		"637"
 			"width"		"69"
 			"height"	"60"
@@ -144,12 +135,285 @@
 			"height"	"60"
 		}	
 		
-		rubby_axe		// MDL Name
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//_________________________________________________________________________________________
+		//_________________________________________UNUSED__________________________________________
+		//_________________________________________________________________________________________
+
+
+
+
+
+						
+		
+		
+		mushroom_medium //UNUSED
 		{
 			"file"		"hud/GUI_001_1280_960"
-			"x"		"1151"
-			"y"		"269"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		mushroom_small //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		
+		
+		garlic_b1 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		garlic_b2 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		garlic_b3 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		leeks //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		leek02 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		leek03 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		leek04 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		fish02 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1350"
+			"y"		"1430"
 			"width"		"69"
 			"height"	"60"
-		}			
+		}
+		fish03 //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1350"
+			"y"		"1430"
+			"width"		"69"
+			"height"	"60"
+		}
+		hanged_fishes //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1350"
+			"y"		"1430"
+			"width"		"69"
+			"height"	"60"
+		}
+		saucisson01 // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		sword_orc_chief	// UNUSED				
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		banana02 // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1833"
+			"y"		"1430"
+			"width"		"69"
+			"height"	"60"
+		}
+		banana03 // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1833"
+			"y"		"1430"
+			"width"		"69"
+			"height"	"60"
+		}
+		banana04 // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1833"
+			"y"		"1430"
+			"width"		"69"
+			"height"	"60"
+		}
+		green_apple // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+		
+		bread02_cooked //UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+				bread01_raw //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1557"
+			"y"		"1430"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		egg // UNUSED
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"0"
+			"y"		"0"
+			"width"		"1"
+			"height"	"1"
+		}
+		
+				ham_dry //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1419"
+			"y"		"1370"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+				banana01 //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1833"
+			"y"		"1430"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+				pie //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1695"
+			"y"		"1370"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+				roasted_chicken //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1488"
+			"y"		"1430"
+			"width"		"0"
+			"height"	"0"
+		}
+				cuisse_G //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"1419"
+			"y"		"1430"
+			"width"		"0"
+			"height"	"0"
+		}
+		fishpiece01 //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"	// TEXTURE NAME
+			"x"		"0"
+			"y"		"1281"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+				bottel_01 //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1764"
+			"y"		"1729"
+			"width"		"0"
+			"height"	"0"
+		}
+
+		bottel_02  //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1764"
+			"y"		"1729"
+			"width"		"0"
+			"height"	"0"
+		}
+		
+		bottel_03 //OBSOLETE
+		{
+			"file"		"hud/GUI_001_1280_960"
+			"x"		"1764"
+			"y"		"1729"
+			"width"		"0"
+			"height"	"0"
+		}																																						
+	}	
 }
